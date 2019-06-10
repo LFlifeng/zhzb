@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>供应商</title>
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/supplier.css">
+    <style>
+        .head_nav .nav ul li:nth-child(5) a {
+            background-color: #d0d0d0;
+            color: #646464;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 公共头部 -->
+    <div class="header">
+
+    </div>
+    <!-- 头部导航 -->
+    <div class="head_nav">
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="list.html">招标信息</a></li>
+                <li><a href="list.html">采购信息</a></li>
+                <li><a href="list.html">项目中心</a></li>
+                <li><a href="supplier.html">供应商</a></li>
+                <li><a href="news.html">行业资讯</a></li>
+                <li><a href="servicehall.html">服务大厅</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 招标主要分类 -->
+    <div class="main">
+        <div class="main_content clearfix">
+            <div class="main_box fl">
+                <h3>招标</h3>
+                <div class="main_list">
+                    <ul>
+                        <li><a href="html/list.html">招标公告</a></li>
+                        <li><a href="html/list.html">招标预告</a></li>
+                        <li><a href="html/list.html">变更公告</a></li>
+                        <li><a href="html/list.html">中标结果</a></li>
+                        <li><a href="html/list.html">变更公告</a></li>
+                        <li><a href="html/list.html">政府招标</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>采购</h3>
+                <div class="main_list">
+                    <ul>
+                        <li><a href="html/list.html">中标采购</a></li>
+                        <li><a href="html/list.html">政府采购</a></li>
+                        <li><a href="html/list.html">名企采购</a></li>
+                        <li><a href="html/list.html">业主采购</a></li>
+                        <li><a href="html/list.html">在线询价</a></li>
+                        <li><a href="html/list.html">海外采购</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>项目</h3>
+                <div class="main_list">
+                    <ul>
+                        <li><a href="html/list.html">VIP项目</a></li>
+                        <li><a href="html/list.html">拟建项目</a></li>
+                        <li><a href="html/list.html">审批项目</a></li>
+                        <li><a href="html/list.html">政府项目</a></li>
+                        <li><a href="html/list.html">商业项目</a></li>
+                        <li><a href="html/list.html">业主项目</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>资讯</h3>
+                <div class="main_list">
+                    <ul>
+                        <li><a href="html/news.html">行业资讯</a></li>
+                        <li><a href="html/news.html">新规解读</a></li>
+                        <li><a href="html/news.html">近期展会</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>服务</h3>
+                <div class="main_list" style="border:none;">
+                    <ul>
+                        <li><a href="#">信息定制</a></li>
+                        <li><a href="#">代理招标</a></li>
+                        <li><a href="#">服务介绍</a></li>
+                        <li><a href="#">标书代写</a></li>
+                        <li><a href="#">实地考察</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <div><img src="../img/gys.jpg" alt=""></div>
+        <a href="#"><img src="../img/gysbtn.png" alt=""></a href="#">
+    </div>
+    <div class="advantage">
+        <div class="w">
+            <h3>我们的服务优势</h3>
+            <hr>
+            <div class="advantage_content">
+                <p>中汇招标网提供最新供应商资讯，供货商信息，供应商名录，推荐优秀供应商，代理信息发布，推广和汇聚企业品牌。拥有更多的供应商
+                    资源，提供更多的产品展示曝光机会，提供供应商更全面的信息，获取专属定制化采购招标信息；提供高级采购方，提供更多商机。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="advantage">
+        <div class="w">
+            <h3>三大功能</h3>
+            <hr>
+            <div class="info_num clearfix">
+                <div class="l">
+                    <div class="num">1</div>
+                    <p>采购供应商管理，提供采购SaaS工具，海量精选供应商，寻源大数据参谋帮助企业采购降本曾</p>
+                </div>
+                <div class="l">
+                    <div class="num">2</div>
+                    <p>发布招标信息公告，修改信息，不限制发布信息次数</p>
+                </div>
+                <div class="l">
+                    <div class="num">3</div>
+                    <p>提供采购方，供应商全面的企业商品展示，商品管理等</p>
+                </div>
+            </div>
+        </div>
+        <div class="under">
+            <img src="../img/gysbg.jpg" alt="">
+        </div>
+    </div>
+    <div class="advantage">
+        <div class="w">
+            <h3>海量数据&nbsp;精准搜索</h3>
+            <hr>
+            <div class="info_img_num clearfix">
+                <div class="l">
+                    <img src="../img/gys1.jpg" alt="">
+                    <div class="img_num">
+                        <p>9824545</p>
+                        <span>注册商户</span>
+                    </div>
+                </div>
+                <div class="l">
+                    <img src="../img/gys2.jpg" alt="">
+                    <div class="img_num">
+                        <p>24545</p>
+                        <span>认证供应商</span>
+                    </div>
+                </div>
+                <div class="l">
+                    <img src="../img/gys3.jpg" alt="">
+                    <div class="img_num">
+                        <p>74545</p>
+                        <span>优质企业</span>
+                    </div>
+                </div>
+                <div class="l">
+                    <img src="../img/gys4.jpg" alt="">
+                    <div class="img_num">
+                        <p>26545</p>
+                        <span>采购商</span>
+                    </div>
+                </div>
+                <div class="l">
+                    <img src="../img/gys5.jpg" alt="">
+                    <div class="img_num">
+                        <p>324124545</p>
+                        <span>成交额</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 公共底部 -->
+    <div class="footer t10">
+
+    </div>
+    <!-- 弹出层 -->
+    <div class="mask clearfix">
+        <div class="left l">
+            <img src="../img/loginbg.jpg" alt="">
+        </div>
+        <div class="right l">
+            <div class="title">
+                <ul class="clearfix">
+                    <li class="l">
+                        <a href="#" style="color:#d03e44;">登录</a>
+                        <hr>
+                    </li>
+                    <li class="l">
+                        <a href="#">注册</a>
+                        <hr style="display:none;">
+                    </li>
+                </ul>
+                <!-- 登录部分 -->
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">用户名</label>
+                        <input type="text" name="text" lay-verify="text" autocomplete="off" placeholder="请输入用户账号"
+                            class="layui-input">
+                        <p>用户名不正确</p>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">密码</label>
+                        <input type="password" name="password" lay-verify="password" autocomplete="off"
+                            placeholder="请输入密码" class="layui-input">
+                        <p>密码不正确</p>
+                    </div>
+                    <p><a href="#">忘记密码？</a></p>
+                    <!-- 保存上传 -->
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit lay-filter="formDemo">登录</button>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <input type="radio" name="" value="" title="我已阅读并遵守" checked=""><a href="#">《用户协议》</a>
+                        </div>
+                    </div>
+                </form>
+                <!-- 注册部分 -->
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">联系人</label>
+                        <input type="text" name="text" lay-verify="text" autocomplete="off" placeholder="请输入联系人"
+                            class="layui-input">
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">公司名称</label>
+                        <input type="text" name="text" lay-verify="text" autocomplete="off" placeholder="请输入公司名称"
+                            class="layui-input">
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">密码</label>
+                        <input type="password" name="password" lay-verify="password" autocomplete="off"
+                            placeholder="请输入密码" class="layui-input">
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">手机号</label>
+                        <input type="tel" name="tel" lay-verify="tel" autocomplete="off"
+                            placeholder="请输入手机号" class="layui-input">
+                        <span>获取验证</span>
+                    </div>
+                    <div class="layui-form-item">
+                            <label class="layui-form-label">验证码</label>
+                            <input type="text" name="text" lay-verify="text" autocomplete="off"
+                                placeholder="请输入验证码" class="layui-input">
+                        </div>
+                    <!-- 保存上传 -->
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit lay-filter="formDemo">注册</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script>
+
+        $(function () {
+            // 引入公共头部和底部
+            $.get('../slide/header.html', function (result) {
+                $result = $(result);
+                $result.find('.top').appendTo('.header');
+                $result.find('.logo').appendTo('.header');
+            }, 'html');
+            $.get('../slide/footer.html', function (result) {
+                $result = $(result);
+                $result.find('.footer_content').appendTo('.footer');
+            }, 'html');
+            // 弹出层-----登陆注册
+            $('.banner>a>img').click(function () {
+                layui.use('layer', function () {
+                    var layer = layui.layer;
+                    layer.open({
+                        title: false,
+                        type: 1,
+                        content: $(".mask"),
+                        offset: 'auto',
+                        area: ['600px', '412px'],
+                        closeBtn: false,
+                        shade: 0.5,
+                        shadeClose: false, //开启遮罩关闭
+                        end: function () {
+                            $(".mask").hide();
+                        },
+                    });
+                });
+            });
+            // 点击登录注册事件
+            $(".title ul li:first-child").click(function(){
+                $(this).children('a').css({
+                    'color':'#d03e44'
+                }).end().siblings().children('a').css({
+                    'color':''
+                });
+                $(this).children('hr').show()
+                .end().siblings().children('hr').hide();
+                $(".title form:nth-child(2)").show()
+                .siblings(".title form:nth-child(3)").hide();
+            });
+            $(".title ul li:last-child").click(function(){
+                $(this).children('a').css({
+                    'color':'#d03e44'
+                }).end().siblings().children('a').css({
+                    'color':''
+                });
+                $(this).children('hr').show()
+                .end().siblings().children('hr').hide();
+                $(".title form:nth-child(3)").show()
+                .siblings(".title form:nth-child(2)").hide();
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+.position_nav {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.position_nav p {
+    text-align: left;
+    font-size: 14px;
+    color: #505050;
+}
+
+.position_nav a {
+    padding: 1px 8px;
+
+}
+
+.arc_content {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.arc {
+    width: 886px;
+    border: 1px solid #e6e6e6;
+}
+
+.sidebar_right {
+    width: 300px;
+}
+
+.arc_title {
+    margin: 40px 0px 50px;
+    font-size: 24px;
+    color: #505050;
+    text-align: center;
+    font-weight: bold;
+}
+
+.arc_info {
+    background: #f4f4f4;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 20px;
+    color: #888888;
+}
+
+.arc_info a {
+    float: right;
+    padding-right: 40px;
+    color: #646464;
+    position: relative;
+}
+.arc_info a::after {
+    display: block;
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: -25px;
+    top: 10px;
+}
+.arc_info a:nth-child(3)::after {
+    background: url('../img/icon_defail_sc.png') no-repeat center;
+}
+.arc_info a:nth-child(2)::after {
+    background: url('../img/icon_defail_zd.png') no-repeat center;
+}
+.arc_arc {
+    padding: 0px 30px;
+}
+
+.arc_arc p {
+    line-height: 34px;
+    color: #323232;
+}
+
+.t_table {
+    padding: 20px;
+}
+
+.t_table table {
+    width: 100%;
+}
+
+.t_table table {
+    border-collapse: collapse;
+
+}
+
+.t_table tr {
+
+    height: 34px;
+    line-height: 34px;
+
+}
+
+.t_table tr td {
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+
+.new_did {
+    height: 460px;
+    width: 300px;
+    border: 1px solid #e6e6e6;
+}
+
+.new_did_title {
+    font-size: 14px;
+    height: 40px;
+    background: #f4f4f4;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 40px;
+    color: #646464;
+}
+
+.new_did_title_more {
+    text-align: right;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+    padding-right: 8px;
+}
+
+.did_city {
+
+    border: 1px solid #e6e6e6;
+}
+
+.new_did_l {
+    padding: 10px;
+}
+
+.new_did_l li {
+    height: 40px;
+    line-height: 40px;
+    color: #323232;
+    border-bottom: 1px dashed #e6e6e6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.new_did_l li:last-child {
+    border-bottom: none;
+}
+
+.arc_vip {
+    margin: 20px auto;
+
+}
+
+.blue {
+    color: #008FED;
+}
+
+.blue a {
+    color: #008FED;
+}

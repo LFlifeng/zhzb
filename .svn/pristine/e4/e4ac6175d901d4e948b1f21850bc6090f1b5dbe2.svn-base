@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户中心</title>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<style type="text/css">
+			body {
+				background: #fcfcfc;
+			}
+
+			.user_nav {
+				width: 100%;
+				height: 80px;
+				border-bottom: 1px solid #ececec;
+				background: #ffffff;
+			}
+
+			.user_nav_center {
+				width: 1200px;
+				margin: 0 auto;
+				display: flex;
+			}
+
+			.user_logo {
+				padding: 10px 0px;
+			}
+
+			.user_menu {
+				width: 700px;
+				height: 80px;
+				margin-left: 50px;
+			}
+
+			.user_menu li {
+				width: 120px;
+				height: 80px;
+				line-height: 80px;
+				float: left;
+				text-align: center;
+			}
+
+			.user_menu li a {
+				width: 120px;
+				height: 80px;
+				display: block;
+				font-size: 16px;
+			}
+
+			.user_menu li a:hover {
+				width: 120px;
+				height: 80px;
+				background: #f2f2f2;
+
+			}
+
+			.user_center {
+				width: 1200px;
+				margin: 30px auto;
+			}
+
+			.user_l {
+				width: 180px;
+				background: #ffffff;
+				border: 1px solid #ececec;
+				text-align: center;
+			}
+
+			.user_l ul li {
+				height: 40px;
+				line-height: 40px;
+				position: relative;
+				display: block;
+				cursor: pointer;
+			}
+
+			.user_r {
+				width: 1000px;
+				height: 550px;
+				background: #ffffff;
+				border: 1px solid #ececec;
+				overflow-y: scroll;
+				overflow: -moz-scrollbars-none;
+			}
+
+			.user_r::-webkit-scrollbar {
+				display: none;
+			}
+
+
+			.fix_bottom {
+				position: fixed;
+				bottom: 0;
+			}
+
+			.user_content_info {
+				margin: 30px;
+			}
+
+			.user_l img {
+				margin-top: 30px;
+				border-radius: 50%;
+				height: 100px;
+				width: 100px;
+			}
+
+			.username {
+				margin: 12px auto;
+				font-size: 20px;
+				color: #323232;
+				font-weight: 600;
+			}
+
+			.user_l ul li a i {
+				left: 50px;
+				top: 12px;
+				margin-right: 8px;
+				position: absolute;
+				background: url(../img/user_menu.png) no-repeat;
+				height: 20px;
+				width: 20px;
+			}
+
+			.user_l ul li .u1 {
+				background-position: -0px -0px;
+			}
+
+			.user_l ul li .u2 {
+				background-position: -0px -18px;
+			}
+
+			.user_l ul li .u3 {
+				background-position: -0px -37px;
+			}
+
+			.user_l ul li .u4 {
+				background-position: -0px -54px;
+			}
+
+			.user_l ul li .u5 {
+				background-position: -0px -74px;
+			}
+
+			.user_l ul li .u5 {
+				background-position: -0px -74px;
+			}
+
+			#mobile_dowload {
+				width: 150px;
+				height: 150px;
+				border: 1px solid #e4e4e4;
+				border-radius: 5px;
+				background: #ffffff;
+				display: none;
+				position: absolute;
+				top: 40px;
+				left: 72%;
+			}
+
+			#wechat_box {
+				width: 150px;
+				height: 150px;
+				border: 1px solid #e4e4e4;
+				border-radius: 5px;
+				background: #ffffff;
+				display: none;
+				position: absolute;
+				top: 40px;
+				left: 75%;
+			}
+
+			.user_l ul li.cur {
+				background: #008FED;
+				color: #ffffff;
+				display: block;
+			}
+
+			/*二维码 */
+
+			.fixed_qrcode {
+				position: fixed;
+				right: 50px;
+				top: 30%;
+				background: #ffffff;
+				width: 140px;
+				height: 300px;
+				border: 1px solid #E5E5E5;
+				border-radius: 5px;
+			}
+
+			/* 右边栏 */
+			.personal_info {
+				width: 240px;
+				margin: 30px auto;
+			}
+
+			.user_pic {
+				text-align: center;
+				padding-top: 50px;
+				padding-bottom: 30px;
+			}
+
+			.user_pic img {
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+				border: 1px solid #e4e4e4;
+			}
+
+			.user_name,
+			.user_nickname,
+			.user_phone,
+			.user_location {
+				width: 100%;
+				border: 1px solid #e2e2e2;
+				border-radius: 4px;
+				padding: 5px;
+				height: 24px;
+				line-height: 24px;
+			}
+
+			.lb {
+				height: 38px;
+				line-height: 38px;
+			}
+
+			.userinfo_btn {
+				margin-top: 50px;
+				height: 40px;
+				line-height: 40px;
+				color: #ffffff;
+				font-size: 14px;
+				background: #008FED;
+				border-radius: 5px;
+				width: 250px;
+				border: none;
+				display: block;
+				cursor: pointer;
+			}
+
+			.user_msg {
+				padding: 30px;
+				overflow: hidden;
+			}
+
+			.user_msg ul li {
+				line-height: 38px;
+				color: #505050;
+				border-bottom: 1px dashed #e6e6e6;
+			}
+
+			.user_renzheng {
+				padding: 30px;
+				display: flex;
+			}
+
+			.user_renzheng li {
+
+				padding: 0px 15px;
+
+				float: left;
+
+			}
+
+			.user_renzheng li span {
+				color: #505050;
+				margin-right: 6px;
+
+			}
+
+			.user_renzheng li input {
+
+				vertical-align: middle;
+				height: 20px;
+
+
+			}
+
+			.user_renzheng li input .checkbox {
+				border: 1px solid #e3e3e3;
+
+			}
+
+			.company_type {
+				display: flex;
+			}
+
+			.company_info {
+				padding: 10px 40px;
+			}
+
+			.l_label {
+				margin-right: 20px;
+				color: #747474;
+			}
+
+			.row {
+				margin-top: 15px;
+			}
+
+			.form-label {
+				cursor: text;
+				text-align: right;
+				line-height: 28px;
+				width: 33%;
+			}
+
+			.row::after {
+				clear: both;
+				visibility: hidden;
+				font-size: 0;
+				height: 0;
+			}
+
+			.col-xs-1,
+			.col-xs-2,
+			.col-xs-3,
+			.col-xs-4,
+			.col-xs-5,
+			.col-xs-6,
+			.col-xs-7,
+			.col-xs-8,
+			.col-xs-9,
+			.col-xs-10,
+			.col-xs-11,
+			.col-xs-12 {
+				float: left;
+			}
+
+			.col-xs-8 {
+				width: 66.66666667%;
+			}
+
+			::placeholder {
+				color: #b3b3b3;
+				padding-left: 5px;
+			}
+
+			.input-text {
+				border: 1px solid #e6e6e6;
+				border-radius: 3px;
+				height: 28px;
+				padding: 2px 5px;
+				width: 50%;
+			}
+
+			.row::after {
+
+				clear: both;
+				visibility: hidden;
+				font-size: 0;
+				height: 0;
+
+			}
+
+			.row::before,
+			.row::after {
+
+				content: " ";
+				display: table;
+
+			}
+
+			.cl::after,
+			.clearfix::after {
+
+				content: "\20";
+				display: block;
+				height: 0;
+				clear: both;
+				visibility: hidden;
+
+			}
+
+			.select-box {
+
+				box-sizing: border-box;
+				vertical-align: middle;
+				width: 100%;
+				margin-right: 20px;
+				display: inline-block;
+			}
+
+			.select {
+				border: solid 1px #ddd;
+				box-sizing: border-box;
+				cursor: pointer;
+				height: 30px;
+				width: 240px;
+				line-height: normal;
+				font-weight: normal;
+				width: 100%;
+				white-space: nowrap;
+			}
+
+			.col-xs-6 {
+				width: 30%;
+				display: flex;
+			}
+
+			.upload {
+				padding: 0px 20px;
+			}
+
+			.upload input {
+				padding: 6px 12px;
+				border-radius: 3px;
+				background: #008FED;
+				color: #ffffff;
+				border: none;
+				cursor: pointer;
+
+			}
+			.upload_pic {
+				background: #e8e8e8;
+				margin:20px auto;
+				width: 150px;
+				height: 150px;
+			}
+			#upload_btn {
+				
+				
+				
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="top">
+			<div class="top_content">
+				<span>欢迎来到中汇招标网站</span>
+				<div class="city top_info">[切换城市：<a href="#" class="oBtn_link">北京</a>&nbsp;] </div> 
+				<div class="top_info r">
+					<span class="r10 p12">客服电话：400-888-1234</span>
+					<span class="web_map r10"><a id="mobile" href="#" class="p12">手机客户端</a>
+						<div id="mobile_dowload" class="triangle_border_up"></div>
+					</span>
+					<span><a id="wechat" href="#" class="p12">微信客户端</a>
+						<div id="wechat_box"></div>
+					</span>
+				</div>
+			</div>
+		</div> -->
+
+		<div class="user_nav">
+			<div class="user_nav_center">
+				<a class="user_logo" href="#"><img src="../../src/assets/logo.png" width="200px" height="50px"></a>
+				<ul class="user_menu">
+					<li><a href="#">首页</a></li>
+					<li><a href="#">标书服务</a></li>
+					<li><a href="#">会员服务</a></li>
+					<li><a href="#">发票申请</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="user_center">
+			<div id="user" class="user_l fl">
+				<img src="../img/userpic.png" width="80px" height="80px">
+				<div class="username">
+					<a href="../html/p-basicInformation.html">张三</a>
+				</div>
+				<ul>
+					<li class="cur">基本信息</li>
+					<li>招投标服务</li>
+					<li>消息中心</li>
+					<li>我的收藏</li>
+					<li>我的认证</li>
+					<li>个人信息</li>
+					<li>我的发布</li>
+				</ul>
+			</div>
+
+			<div class="user_r fl fl10">
+				<div class="user_content_info">
+					<div class="on">
+						<p style="font-size: 16px;color:#747474;height: 40px;line-height: 40px;border-bottom: 1px solid #e6e6e6;">我的订单</p>
+					</div>
+					<div>
+						<p style="font-size: 16px;color:#747474;height: 40px;line-height: 40px;border-bottom: 1px solid #e6e6e6;">消息中心</p>
+						<div class="user_msg">
+							<ul>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<p style="font-size: 16px;color:#747474;height: 40px;line-height: 40px;border-bottom: 1px solid #e6e6e6;">我的收藏</p>
+						<div class="user_msg">
+							<ul>
+								<li><a href="#">氧化铁皮、切头切尾等运输作业招标公告</a></li>
+								<li><a href="#">生产综合楼及象山县宝海商务楼人防设备招标变更</a></li>
+								<li><a href="#">浙江杭金衢、黄衢南高速公路2019年和2020年养护专项工程施工监理服务招标公告</a></li>
+								<li><a href="#">水泥招标公告</a></li>
+								<li><a href="#">烟气脱白格栅板招标预告</a></li>
+								<li><a href="#">尊敬的用户您好感谢您注册中汇招标网</a></li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<p style="font-size: 16px;color:#747474;height: 40px;line-height: 40px;border-bottom: 1px solid #e6e6e6;">单位类型</p>
+						<form action="" method="post">
+							<div class="user_renzheng">
+								<label class="l_label">选择单位类型:</label>
+								<div class="company_type">
+									<li><span>企业</span><input type="radio" name="" id="" value="1" /> </li>
+									<li><span>事业单位</span><input type="radio" name="" id="" value="2" /> </li>
+									<li><span>民办非企业单位</span><input type="radio" name="" id="" value="3" /> </li>
+									<li><span>个体工商户</span><input type="radio" name="" id="" value="4" /> </li>
+									<li><span>社会团体</span><input type="radio" name="" id="" value="5" /> </li>
+									<li><span>党政及国家机关</span><input type="radio" name="" id="" value="6" /> </li>
+								</div>
+							</div>
+							<p style="font-size: 16px;color:#747474;height: 40px;line-height: 40px;border-bottom: 1px solid #e6e6e6;">企业信息</p>
+							<div class="company_info">
+								<div class="row cl">
+									<label class="form-label col-xs-3">企业名称：</label>
+									<div class="formControls col-xs-8">
+										<input type="text" class="input-text" placeholder="输入企业名称" name="" autocomplete="off">
+									</div>
+								</div>
+								<div class="row cl">
+									<label class="form-label col-xs-3">单位所在地：</label>
+									<div class="col-xs-6">
+										<span class="select-box">
+											<select class="select" size="0" name="city">
+												<option value="" selected="">选择省份</option>
+												<option value="1">北京</option>
+												<option value="2">上海</option>
+												<option value="3">广州</option>
+											</select>
+										</span>
+										<span class="select-box">
+											<select class="select" size="0" name="city">
+												<option value="" selected="">选择地区</option>
+												<option value="1">北京</option>
+												<option value="2">上海</option>
+												<option value="3">广州</option>
+											</select>
+										</span>
+									</div>
+								</div>
+								<div class="row cl">
+									<label class="form-label col-xs-3">详细地址：</label>
+									<div class="formControls col-xs-8">
+										<input type="text" class="input-text" placeholder="详细位置具体到门牌号" name="" autocomplete="off">
+									</div>
+								</div>
+								<div class="row cl">
+									<label class="form-label col-xs-3">组织机构代码：</label>
+									<div class="formControls col-xs-8">
+										<input type="text" class="input-text" placeholder="请在此处填写" name="" autocomplete="off">
+									</div>
+								</div>
+								<div class="row cl">
+									<label class="form-label col-xs-3">上传营业执照：</label>
+									<div class="upload">
+										<input id="upload_btn" type="button" name="" id="" value="点击上传" />
+									</div>
+									<div class="upload_pic">
+										
+									</div>
+      
+
+								</div>
+							</div>
+
+
+
+					</div>
+					</form>
+					<div>
+						<p style="font-size: 16px;color:#747474;height: 40px;line-height: 40px;border-bottom: 1px solid #e6e6e6;">个人资料</p>
+						<div class="personal_info">
+							<div class="user_pic">
+								<img src="../../src/assets/logo.png" width="120px" height="120px" />
+							</div>
+							<label class="lb">昵 称:</label>
+							<input class="user_nickname" type="text" name="usernickname" id="" value="小旋风" />
+							<label class="lb">姓 名:</label>
+							<input class="user_name" type="text" name="username" id="" value="张三" />
+							<label class="lb">电 话:</label>
+							<input class="user_phone" type="text" name="userphone" id="" value="18650502365" />
+							<label class="lb">邮 箱：</label>
+							<input class="user_phone" type="text" name="useremail" id="" value="genwei@126.com" />
+							<input class="userinfo_btn" type="button" name="" id="" value="保  存" />
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="fixed_qrcode">
+			二维码
+		</div>
+		<div class="cl">
+
+		</div>
+		<div class="footer t10 fix_bottom">
+			
+		</div>
+
+		<script type="text/javascript">
+		
+			// 引入公共头部和底部
+			// $(document).ready(function(){
+			// 	$('.header').load('../slide/header.html');
+			// 	$('.footer').load('../slide/footer.html');
+			// });
+			//
+			$(document).ready(function() {
+				//div
+				$(".user_content_info > div").hide();
+				$(".user_content_info > .on").show();
+
+				$(".user_l ul li").click(function() {
+					$(".user_l ul li").eq($(this).index()).addClass("cur").siblings().removeClass('cur');
+					$(".user_content_info>div").hide().eq($(this).index()).show();
+				});
+				//上传图片
+				$("#upload_btn").click(function(){
+					
+					
+					
+					
+
+				});
+
+			});
+		</script>
+		<script type="text/javascript">
+
+ 			$(document).ready(function() {
+ 				$("#mobile","#wechat").hover(function() {
+					$("#mobile_dowload","wechat_box").css("display", "block");
+ 				});
+ 				$("#mobile","#wechat").mouseout(function() {
+ 					$("#mobile_dowload","wechat_box").css("display", "none");
+ 				});
+ 			});
+		</script>
+	</body>
+
+</html>

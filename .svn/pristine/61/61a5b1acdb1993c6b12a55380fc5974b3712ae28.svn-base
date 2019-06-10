@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style>
+			li,
+			ul {
+
+				list-style: none;
+			}
+
+			/*菜单样式*/
+
+			.index_title {
+				padding: 14px 10px;
+				height: 50px;
+				color: #323232;
+				font-size: 17px;
+				text-align: left;
+				font-weight: 600;
+				border-bottom: 1px solid #eeeeee;
+				margin-top: 10px;
+			}
+
+			.fl_r {
+				color: #b1b1b1;
+				float: right;
+			}
+
+			.flex {
+				height: 50px;
+				line-height: 50px;
+			}
+
+			.flex img {
+				height: 18px;
+			}
+
+			.flex_content {
+				flex: 1;
+				text-align: center;
+			}
+
+			.index_menu {
+				justify-content: space-around;
+				display: flex;
+				background: #ffffff;
+				height: 100px;
+			}
+
+			.index_menu li img {
+				width: 34px;
+				height: 34px;
+			}
+
+			.index_menu li {
+				font-size: 14px;
+				display: block;
+				padding: 20px 0px;
+				text-align: center;
+			}
+
+			.item_flex {
+				display: flex;
+				color: #c9c9c9;
+				align-items: center;
+
+			}
+
+			.item_flex>.flex {
+				height: 30px;
+				font-size: 15px;
+				line-height: 30px;
+			}
+
+			.item_flex img {
+				height: 14px;
+				width: 14px;
+				margin: 0px 3px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav" style="display: flex;">
+			<div class="flex"><img src="img/msg.png"></div>
+			<div class="flex flex_content">
+				中汇招标网
+			</div>
+			<div class="flex"><img src="img/search.png"></div>
+		</header>
+		<div class="mui-content">
+			<div class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!--支持循环，需要重复图片节点-->
+					<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="4.jpg" /></a></div>
+					<div class="mui-slider-item"><a href="#"><img src="img/b1.jpg" /></a></div>
+					<div class="mui-slider-item"><a href="#"><img src="img/b1.jpg" /></a></div>
+
+					<!--支持循环，需要重复图片节点-->
+					<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="img/b1.jpg" /></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="index_menu">
+			<li><img src="img/icon1.png" /><br>
+				招标信息</li>
+			<li><img src="img/icon2.png" /><br>采购信息</li>
+			<li><img src="img/icon3.png" /><br>项目信息</li>
+			<li><img src="img/icon4.png" /><br>产品服务</li>
+		</div>
+		<ul class="mui-table-view">
+			<div class="index_title">
+				热门推荐 <span class="fl_r">筛选</span>
+			</div>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+
+					<div class="mui-media-body">
+						自动封点银胶机固化塔 国际招标公告(1)
+						<div class="item_flex">
+							<div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+							<div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+							<div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+
+
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-icon mui-icon-home"></span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item" href="html/rss.html">
+				<span class="mui-icon mui-icon-email"></span>
+				<span class="mui-tab-label">订阅</span>
+			</a>
+			<a class="mui-tab-item" href="friends.html">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">我的</span>
+			</a>
+			<script>
+				var gallery = mui('.mui-slider');
+				gallery.slider({
+					interval: 5000 //自动轮播周期，若为0则不自动播放，默认为0；
+				});
+			</script>
+	</body>
+</html>

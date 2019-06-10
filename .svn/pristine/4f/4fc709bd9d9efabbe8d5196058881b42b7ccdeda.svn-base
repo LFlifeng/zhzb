@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>中汇招标----供应商</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/supplier.css">
+</head>
+
+<body>
+    <!-- 公共头部 -->
+    <div class="header">
+
+    </div>
+    <!-- 头部导航 -->
+    <div class="head_nav">
+        <div class="nav">
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="list.html">招标信息</a></li>
+                <li><a href="purchasing.html">采购信息</a></li>
+                <li><a href="center.html">项目中心</a></li>
+                <li><a href="supplier.html">供应商</a></li>
+                <li><a href="news.html">行业资讯</a></li>
+                <li><a href="servicehall.html">服务大厅</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 招标主要分类 -->
+    <div class="main">
+        <div class="main_content w clearfix">
+            <div class="main_box fl">
+                <h3>招标</h3>
+                <div class="main_list">
+                    <ul class="clearfix">
+                        <li class="l"><a href="html/list.html">招标公告</a></li>
+                        <li class="l"><a href="html/list.html">招标预告</a></li>
+                        <li class="l"><a href="html/list.html">变更公告</a></li>
+                        <li class="l"><a href="html/list.html">中标结果</a></li>
+                        <li class="l"><a href="html/list.html">变更公告</a></li>
+                        <li class="l"><a href="html/list.html">政府招标</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>采购</h3>
+                <div class="main_list">
+                    <ul class="clearfix">
+                        <li class="l"><a href="html/list.html">中标采购</a></li>
+                        <li class="l"><a href="html/list.html">政府采购</a></li>
+                        <li class="l"><a href="html/list.html">名企采购</a></li>
+                        <li class="l"><a href="html/list.html">业主采购</a></li>
+                        <li class="l"><a href="html/list.html">在线询价</a></li>
+                        <li class="l"><a href="html/list.html">海外采购</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>项目</h3>
+                <div class="main_list">
+                    <ul class="clearfix">
+                        <li class="l"><a href="html/list.html">VIP项目</a></li>
+                        <li class="l"><a href="html/list.html">拟建项目</a></li>
+                        <li class="l"><a href="html/list.html">审批项目</a></li>
+                        <li class="l"><a href="html/list.html">政府项目</a></li>
+                        <li class="l"><a href="html/list.html">商业项目</a></li>
+                        <li class="l"><a href="html/list.html">业主项目</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>资讯</h3>
+                <div class="main_list">
+                    <ul class="clearfix">
+                        <li class="l"><a href="html/news.html">行业资讯</a></li>
+                        <li class="l"><a href="html/news.html">新规解读</a></li>
+                        <li class="l"><a href="html/news.html">近期展会</a></li>
+                        <li class="l"><a href="html/news.html">曝光台</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_box fl">
+                <h3>服务</h3>
+                <div class="main_list" style="border:none;">
+                    <ul class="clearfix">
+                        <li class="l"><a href="#">广告服务</a></li>
+                        <li class="l"><a href="html/service.html">服务介绍</a></li>
+                        <li class="l"><a href="#">免费招标</a></li>
+                        <li class="l"><a href="#">发布招标</a></li>
+                        <li class="l"><a href="#">会员购买</a></li>
+                        <li class="l"><a href="#">项目专盯</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最新消息 -->
+    <div class="new_infos">
+        <div class="w clearfix">
+            <div class="release l">
+                <div class="release_title">最新发布</div>
+                <ul class="release_title_content">
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                    <li><a href="#">石家庄市汇博化工有限公司</a></li>
+                </ul>
+            </div>
+            <div class="img l">
+                <img src="../img/sup_banner.jpg" alt="">
+            </div>
+            <div class="sub_menu l">
+                <div class="sub_menu_more">
+                    <span>热门招标分类</span>
+                    <a class="" href="industry.html">更多</a>
+                </div>
+                <ul>
+                    <li>
+                        <h3>工程机械</h3>
+                        <p class="lb"><a href="#">过滤设备</a></p>
+                        <p class="lb"><a href="#">化工设备</a></p>
+                        <p class="lb"><a href="#">净水设备</a></p>
+                    </li>
+                    <li>
+                        <h3>交通运输</h3>
+                        <p class="lb"><a href="#">铁路货运</a></p>
+                        <p class="lb"><a href="#">轨道车辆</a></p>
+                        <p class="lb"><a href="#">路灯</a></p>
+                    </li>
+                    <li>
+                        <h3>园林绿化</h3>
+                        <p class="lb"><a href="#">园林</a></p>
+                        <p class="lb"><a href="#">景观</a></p>
+                        <p class="lb"><a href="#">绿化</a></p>
+                        <p class="lb"><a href="#">公厕</a></p>
+                    </li>
+                    <li>
+                        <h3>医疗卫生</h3>
+                        <p class="lb"><a href="#">检测仪</a></p>
+                        <p class="lb"><a href="#">病床</a></p>
+                        <p class="lb"><a href="#">分析仪</a></p>
+                        <p class="lb"><a href="#">注射器</a></p>
+                    </li>
+                    <li>
+                        <h3>仪器仪表</h3>
+                        <p class="lb"><a href="#">色谱仪</a></p>
+                        <p class="lb"><a href="#">光谱仪</a></p>
+                        <p class="lb"><a href="#">分析仪器</a></p>
+                    </li>
+                    <li>
+                        <h3>水利水电</h3>
+                        <p class="lb"><a href="#">给水</a></p>
+                        <p class="lb"><a href="#">节水</a></p>
+                        <p class="lb"><a href="#">水库</a></p>
+                    </li>
+                    <li>
+                        <h3>弱点安防</h3>
+                        <p class="lb"><a href="#">监控安防</a></p>
+                        <p class="lb"><a href="#">楼宇对讲</a></p>
+                        <p class="lb"><a href="#">消防设备</a></p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- 优秀供应商 -->
+    <div class="supplier">
+        <div class="w clearfix">
+            <!-- 优秀供应商推荐 -->
+            <div class="l supplier_info">
+                <div class="supplier_info_title">优秀供应商推荐</div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="../html/companyShow.html">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+                <div class="supplier_info_list clearfix">
+                    <div class="supplier_img l">
+                        <img src="../img/pczw.png" alt="">
+                    </div>
+                    <div class="supplier_info_business l">
+                        <h3>北京中汇恒生互联网服务有限公司</h3>
+                        <div class="supplier_address">
+                            <span>地区：</span>
+                            <span>湖南长沙市11</span>
+                            <span>所属行业：</span>
+                            <span>化工设备</span>
+                        </div>
+                        <div class="business">
+                            <span>主营业务：</span>
+                            <span>
+                                数控车床、车削中心、立式加工中心、数控车床、车削中心数控车床、车削中心、立式加工中心、
+                            </span>
+                        </div>
+                    </div>
+                    <div class="r">
+                        <a href="#">进入主页</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 中标排行 -->
+            <!-- <div class="l mc">
+                <div class="ranking">
+                    <div class="ranking_title">中标排行榜</div>
+                    <ul class="ranking_mc">
+                        <li>
+                            <div>1</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>2</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>3</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>4</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>5</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>6</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>7</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>8</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+
+                        <li>
+                            <div>9</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>10</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                        <li>
+                            <div>11</div>
+                            <a>山西四建集团有限公司</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c1">
+                    <img src="../img/supplier_c1.jpg" alt="">
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+    <!-- 公共底部 -->
+    <div class="footer t10">
+
+    </div>
+    <!-- 弹出层 -->
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/search.js"></script>
+    <script>
+
+        $(function () {
+            // 引入公共头部和底部
+            $('.header').load('../slide/header.html');
+            $('.footer').load('../slide/footer.html');
+
+        });
+    </script>
+</body>
+
+</html>

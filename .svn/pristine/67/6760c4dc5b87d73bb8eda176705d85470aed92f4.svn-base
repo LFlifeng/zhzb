@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>中汇招标</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+	<link rel="stylesheet" href="./js/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./js/layui-v2.4.5/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/header.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+	<style>
+		.head_nav .nav ul li:first-child a {
+			background-color: #d0d0d0;
+			color: #646464;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 头部 -->
+	<div class="header">
+		<div class="top">
+			<div class="top_content clearfix">
+				<span class="l">欢迎来到中汇招标网站</span>
+				<!-- <div class="city top_info">[切换城市：<a href="#" class="oBtn_link">北京</a>&nbsp;] </div> -->
+				<div class="top_info r">
+					<span class="r10 p12">客服电话：400-888-1234</span>
+					<span class="web_map r10"><a href="#" class="p12">地图导航</a>
+						<div class="top_nav_submenu">asdf</div>
+					</span>
+					<span><a href="#" class="p12">帮助中心</a></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="logo">
+			<div class="logo_icon fl">
+				<img src="img/logo.png" alt="">
+			</div>
+			<div class="search fl">
+				<div class="search_box">
+					<div id="search_box">
+						<select name="" id="">
+							<option value="">招标信息</option>
+							<option value="">招标信息</option>
+							<option value="">招标信息</option>
+							<option value="">招标信息</option>
+						</select>
+						<div></div>
+					</div>
+					<input class="search-border" type="text" name="search_name" placeholder="请输入项目名称、产品或者企业名称" />
+					<input class="search_btn" type="button" value="搜索" />
+				</div>
+				<div class="hot"><label style="color:#ccc;">热门项目：</label><label class="r10"><a
+							href="#">医疗</a></label><label class="r10"><a href="#">建筑</a></label><label class="r10"><a
+							href="#">绿化</a></label></div>
+			</div>
+			<div class="wachat fl">
+				<div class="app fl">二维码</div>
+				<div class="weixin fl">APP小程序</div>
+			</div>
+		</div>
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="html/list.html">招标信息</a></li>
+				<li><a href="html/list.html">采购信息</a></li>
+				<li><a href="html/list.html">项目中心</a></li>
+				<li><a href="html/news.html">行业资讯</a></li>
+				<li><a href="html/servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 招标主要分类 -->
+	<div class="main">
+		<div class="main_content clearfix">
+			<div class="main_box fl">
+				<h3>招标</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="html/list.html">招标公告</a></li>
+						<li><a href="html/list.html">招标预告</a></li>
+						<li><a href="html/list.html">变更公告</a></li>
+						<li><a href="html/list.html">中标结果</a></li>
+						<li><a href="html/list.html">变更公告</a></li>
+						<li><a href="html/list.html">政府招标</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>采购</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="html/list.html">中标采购</a></li>
+						<li><a href="html/list.html">政府采购</a></li>
+						<li><a href="html/list.html">名企采购</a></li>
+						<li><a href="html/list.html">业主采购</a></li>
+						<li><a href="html/list.html">在线询价</a></li>
+						<li><a href="html/list.html">海外采购</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>项目</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="html/list.html">VIP项目</a></li>
+						<li><a href="html/list.html">拟建项目</a></li>
+						<li><a href="html/list.html">审批项目</a></li>
+						<li><a href="html/list.html">政府项目</a></li>
+						<li><a href="html/list.html">商业项目</a></li>
+						<li><a href="html/list.html">业主项目</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>资讯</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="html/news.html">行业资讯</a></li>
+						<li><a href="html/news.html">新规解读</a></li>
+						<li><a href="html/news.html">近期展会</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>服务</h3>
+				<div class="main_list" style="border:none;">
+					<ul>
+						<li><a href="#">信息定制</a></li>
+						<li><a href="#">代理招标</a></li>
+						<li><a href="#">服务介绍</a></li>
+						<li><a href="#">标书代写</a></li>
+						<li><a href="#">实地考察</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容 -->
+	<div class="content clearfix">
+		<!-- 招标分类 -->
+		<div class="sub_menu fl">
+			<div class="sub_menu_more">
+				<span>招标分类</span>
+				<a class="" href="html/industry.html">更多</a>
+			</div>
+			<ul>
+				<li>
+					<h3>工程机械</h3>
+					<p class="lb"><a href="#">过滤设备</a></p>
+					<p class="lb"><a href="#">化工设备</a></p>
+					<p class="lb"><a href="#">净水设备</a></p>
+				</li>
+				<li>
+					<h3>交通运输</h3>
+					<p class="lb"><a href="#">铁路货运</a></p>
+					<p class="lb"><a href="#">轨道车辆</a></p>
+					<p class="lb"><a href="#">路灯</a></p>
+				</li>
+				<li>
+					<h3>园林绿化</h3>
+					<p class="lb"><a href="#">园林</a></p>
+					<p class="lb"><a href="#">景观</a></p>
+					<p class="lb"><a href="#">绿化</a></p>
+					<p class="lb"><a href="#">公厕</a></p>
+				</li>
+				<li>
+					<h3>医疗卫生</h3>
+					<p class="lb"><a href="#">检测仪</a></p>
+					<p class="lb"><a href="#">病床</a></p>
+					<p class="lb"><a href="#">分析仪</a></p>
+					<p class="lb"><a href="#">注射器</a></p>
+				</li>
+				<li>
+					<h3>仪器仪表</h3>
+					<p class="lb"><a href="#">色谱仪</a></p>
+					<p class="lb"><a href="#">光谱仪</a></p>
+					<p class="lb"><a href="#">分析仪器</a></p>
+				</li>
+				<li>
+					<h3>水利水电</h3>
+					<p class="lb"><a href="#">给水</a></p>
+					<p class="lb"><a href="#">节水</a></p>
+					<p class="lb"><a href="#">水库</a></p>
+				</li>
+				<li>
+					<h3>弱点安防</h3>
+					<p class="lb"><a href="#">监控安防</a></p>
+					<p class="lb"><a href="#">楼宇对讲</a></p>
+					<p class="lb"><a href="#">消防设备</a></p>
+				</li>
+			</ul>
+		</div>
+		<!-- 轮播图新闻部分 -->
+		<div class="did_new fl fl10">
+			<div class="layui-carousel" id="test1" style="height: 210px;width:100%;">
+				<div carousel-item>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+					<div><img src="./img/banner_01.jpg" alt=""></div>
+				</div>
+			</div>
+			<div class="app">
+				<div id="app">
+					<ul class="tab-tilte">
+						<li @click="cur=0" :class="{active:cur==0}">今日招标</li>
+						<li @click="cur=1" :class="{active:cur==1}">实时新闻</li>
+						<li @click="cur=2" :class="{active:cur==2}">推荐公告</li>
+						<li @click="cur=3" :class="{active:cur==3}">优秀供应商</li>
+					</ul>
+					<div class="tab-content">
+						<div v-show="cur==0">
+							<ul class="did_news_list">
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="html/detail.html"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目(...1111111111111111111
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="html/detail.html"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目(...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="html/detail.html"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目(...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="html/detail.html"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目(...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="html/detail.html"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目(...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div v-show="cur==1">
+							<ul class="did_news_list">
+								<li><a href="#">三亚市天涯区新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+						<div v-show="cur==2">
+							<ul class="did_notice_list">
+								<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+						<div v-show="cur==3">
+							<ul class="did_business_list">
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 用户登陆注册部分 -->
+		<div class="user_center fl fl10">
+			<div style="display:block">
+				<div class="user clearfix">
+					<div class="user_login l"><a href="./html/login.html">登录</a></div>
+					<div class="user_res r"><a href="./html/registe.html">注册</a></div>
+				</div>
+				<div class="supplier"><a href="#"><i class="fa fa-home"></i>供应商登陆</a></div>
+				<div class="buyer"><a href="#"><i class="fa fa-shopping-cart"></i>采购商登陆</a></div>
+			</div>
+			<div style="display: none">
+				<div class="user_info">
+					<div class="user_info_head clearfix">
+						<img src="./img/per.jpg" class="l">
+						<div class="user_jj l">
+							<div class="user_name"><a href="html/personal/p-basicInformation.html">张三222222222222222222222222</a></div>
+							<div class="user_level">会员级别：<span>普通会员</span></div>
+						</div>
+					</div>
+					<div class="user_fun">
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<span>我的定制</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>我的收藏</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>我的专盯</span>
+								</a>
+							</li>
+							<li>
+								<a href="html/personal/p-basicInformation.html">
+									<span>个人中心</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bidding_info">
+				<div>
+					<p>今日招标</p>
+					<span>158238492</span>
+					<span>次</span>
+				</div>
+				<div>
+					<p>今日发布</p>
+					<span>56384</span>
+					<span>次</span>
+				</div>
+				<div>
+					<p>已中标</p>
+					<span>16982</span>
+					<span>次</span>
+				</div>
+			</div>
+			<div class="send">
+				<i class="fa fa-pencil"></i>
+				<input class="send_btn" type="button" value="发布信息">
+			</div>
+		</div>
+		<div class="cl"></div>
+		<div class="index_AD01"></div>
+		<div class="didding">
+			<div class="did_L">
+				<div class="didding_news">
+					<div class="didding_news_title">招标资讯<a class="fr fr10" href="#">更多</a></div>
+					<ul class="didding_news_con">
+						<li><a href="#">福清市侨乡建设投资有限公司东阁华侨农场棚户区改造项目</a></li>
+						<li><a href="#">福清市侨乡建设投资有限公司东阁华侨农场棚户区改造项目</a></li>
+						<li><a href="#">福清市侨乡建设投资有限公司东阁华侨农场棚户区改造项目</a></li>
+						<li><a href="#">福清市侨乡建设投资有限公司东阁华侨农场棚户区改造项目</a></li>
+						<li><a href="#">福清市侨乡建设投资有限公司东阁华侨农场棚户区改造项目</a></li>
+						<li><a href="#">福清市侨乡建设投资有限公司东阁华侨农场棚户区改造项目</a></li>
+					</ul>
+				</div>
+				<div class="logo_ad">
+					<li class="r10"><a href="#"><img src="../src/assets/logo.png"></a> </li>
+					<li><a href="#"><img src="../src/assets/logo.png"></a></li>
+					<li class="r10 t10"><a href="#"><img src="../src/assets/logo.png"></a> </li>
+					<li class="t10"><a href="#"><img src="../src/assets/logo.png"></a> </li>
+				</div>
+			</div>
+			<div class="didding_content fl fl10">
+				<div id="did">
+					<ul class="did-tab-title">
+						<li @click="cur1=0" :class="{active:cur1==0}">招标公告</li>
+						<li @click="cur1=1" :class="{active:cur1==1}">招标预告</li>
+						<li @click="cur1=2" :class="{active:cur1==2}">招标变更</li>
+						<li @click="cur1=3" :class="{active:cur1==3}">中标结果</li>
+					</ul>
+					<div class="did-tab-content">
+						<div v-show="cur1==0">
+							<ul class="did_project_list">
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div v-show="cur1==1">
+							<ul class="did_project_list">
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div v-show="cur1==2">
+							<ul class="did_project_list">
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ul>
+						</div>
+						<div v-show="cur1==3">
+							<ul class="did_project_list">
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+								<li>
+									<table>
+										<tbody>
+											<tr>
+												<td style="width: 50%;">
+													<a href="https://www.bibenet.com/bid/detail/34887308"
+														title="重庆两江新区机关事务管理中心老干部活动中心设施设备采购项目（分包二）（第二次）(18A0193)采购公告-比比招标采购网"
+														target="_blank">
+														重庆两江新区机关事务管理中心老干部活动中心设施设备采...
+													</a>
+												</td>
+												<td class="text-center" style="width: 15%;">重庆市</td>
+												<td style="width: 15%;">2019-02-12</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="didding_right fl fl10">
+				<div class="did_free">
+					<div class="did_free_tit">免费公告<a class="fr fr10" href="#">更多</a></div>
+					<ul class="did_free_tit_li">
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公11111111111111111111111111111111111111111</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+					</ul>
+				</div>
+				<div class="did_free">
+					<div class="did_free_tit">中标企业<a class="fr fr10" href="#">更多</a></div>
+					<ul class="did_free_tit_li">
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公22222222222222222222222222</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+						<li><a href="#">[石景山]北京市石景山区园林绿化局老山公</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="cl"></div>
+		<div class="index_AD01"></div>
+		<div class="did_buy">
+			<div class="did_reg fl">
+				<div class="did_reg_title">
+					地区选择
+				</div>
+				<div class="reg">
+					<h3>华北地区</h3>
+					<span><a href="#">北京</a></span><span><a href="#">天津</a></span><span><a
+							href="#">河北</a></span><span><a href="#">山西</a></span><span><a href="#">内蒙古</a></span>
+				</div>
+				<div class="reg">
+					<h3>华东地区</h3>
+					<span><a href="#">上海</a></span><span><a href="#">江苏</a></span><span><a
+							href="#">浙江</a></span><span><a href="#">安徽</a></span><span><a href="#">江西</a></span><span><a
+							href="#">山东</a></span><span><a href="#">福建</a></span>
+				</div>
+				<div class="reg">
+					<h3>华南地区</h3>
+					<span><a href="#">广东</a></span><span><a href="#">广西</a></span><span><a href="#">海南</a></span>
+				</div>
+				<div class="reg">
+					<h3>华中地区</h3>
+					<span><a href="#">湖南</a></span><span><a href="#">湖北</a></span><span><a href="#">河南</a></span>
+				</div>
+				<div class="reg">
+					<h3>东北地区</h3>
+					<span><a href="#">辽宁</a></span><span><a href="#">吉林</a></span><span><a href="#">黑龙江</a></span>
+				</div>
+				<div class="reg">
+					<h3>西北地区</h3>
+					<span><a href="#">陕西</a></span><span><a href="#">甘肃</a></span><span><a
+							href="#">青海</a></span><span><a href="#">宁夏</a></span><span><a href="#">新疆</a></span>
+				</div>
+				<div class="border_bottom_none reg">
+					<h3>西南地区</h3>
+					<span><a href="#">重庆</a></span><span><a href="#">四川</a></span><span><a
+							href="#">贵州</a></span><span><a href="#">云南</a></span><span><a href="#">西藏</a></span>
+				</div>
+			</div>
+			<div class="did_buy_news_content fl">
+				<div class="did_buy_news">
+					<div id="buy">
+						<ul class="buy-tab-title">
+							<li @click="cur=0" :class="{active:cur==0}">企业采购</li>
+							<li @click="cur=1" :class="{active:cur==1}">政府采购</li>
+							<li @click="cur=2" :class="{active:cur==2}">中标采购</li>
+							<li @click="cur=3" :class="{active:cur==3}">业主采购</li>
+						</ul>
+						<div class="buy-tab-content">
+							<div v-show="cur==0">
+								<ul class="did_company_list">
+									<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								</ul>
+							</div>
+							<div v-show="cur==1">
+								<ul class="did_company_list">
+									<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								</ul>
+							</div>
+							<div v-show="cur==2">
+								<ul class="did_company_list">
+									<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								</ul>
+							</div>
+							<div v-show="cur==3">
+								<ul class="did_company_list">
+									<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+									<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+									<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+									<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+									<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="mingqi">
+					<div class="mingqi_title">
+						名企采购
+						<a class="fr fr10" href="#">更多</a>
+					</div>
+					<ul class="mingqi_icon">
+						<li>
+							<img src="../src/assets/logo.png" />
+							<p>北京中汇恒升互联网</p>
+						</li>
+						<li>
+							<img src="img/icon1.jpg" />
+							<p>厦门航空</p>
+						</li>
+						<li>
+							<img src="../src/assets/logo.png" />
+							<p>北京中汇恒升互联网</p>
+						</li>
+						<li>
+							<img src="../src/assets/logo.png" />
+							<p>北京中汇恒升互联网</p>
+						</li>
+						<li>
+							<img src="../src/assets/logo.png" />
+							<p>北京中汇恒升互联网</p>
+						</li>
+						<li>
+							<img src="../src/assets/logo.png" />
+							<p>北京中汇恒升互联网</p>
+						</li>
+						<li>
+							<img src="../src/assets/logo.png" />
+							<p>北京中汇恒升互联网</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="did_buy_show fl10">
+				<div class="did_buy_mingqishow">
+					名企采购展示墙
+					<a class="fr fr10" href="#">更多</a>
+				</div>
+				<ul class="mingqishow">
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+					<li><img src="../src/assets/logo.png" />
+						<p>北京中汇恒生</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="cl"></div>
+	<div class="index_AD01"></div>
+	<div class="did_pm">
+		<div class="pm_cate fl">
+			<div class="pm_cate_title">项目类别</div>
+			<ul class="cate">
+				<li><a href="#">航站楼</a><a href="#">隧道</a><a href="#">国道</a><a href="#">桥梁</a><a href="#">服务器</a></li>
+				<li><a href="#">住宅楼</a><a href="#">公租房</a><a href="#">别墅</a><a href="#">廉租房</a></li>
+				<li><a href="#">实验基地</a><a href="#">疗养院</a><a href="#">实验基地</a></li>
+				<li><a href="#">沼气工程</a><a href="#">管网工程</a></li>
+				<li><a href="#">食堂</a><a href="#">旅游</a></li>
+				<li><a href="#">实验基地</a></li>
+				<li><a href="#">影视基地</a><a href="#">教堂</a><a href="#">实验楼</a><a href="#">实验室</a></li>
+				<li class="border_bottom_none"><a href="#">食堂</a><a href="#">旅游</a></li>
+			</ul>
+		</div>
+		<div class="pm_content fl fl10">
+			<div class="pm_news">
+				<div id="pm">
+					<ul class="pm-tab-title">
+						<li @click="cur=0" :class="{active:cur==0}">VIP项目</li>
+						<li @click="cur=1" :class="{active:cur==1}">审批项目</li>
+						<li @click="cur=2" :class="{active:cur==2}">政府项目</li>
+						<li @click="cur=3" :class="{active:cur==3}">商业项目</li>
+						<li @click="cur=4" :class="{active:cur==4}">业主项目</li>
+					</ul>
+					<div class="pm-tab-content">
+						<div v-show="cur==0">
+							<ul class="did_pm_list">
+								<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+						<div v-show="cur==1">
+							<ul class="did_pm_list">
+								<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+						<div v-show="cur==2">
+							<ul class="did_pm_list">
+								<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+						<div v-show="cur==3">
+							<ul class="did_pm_list">
+								<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+						</div>
+						<div v-show="cur==4">
+							<ul class="did_pm_list">
+								<li><a href="#">新民南片区升级改造工程项目（代建管理）</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">[瑞昌市]瑞昌市肇陈镇水磨桥危桥改造工程（二次）招标招标公告期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+								<li><a href="#">福建省泉州市安溪县蓝田乡蓝一小学教学楼建设工程</a></li>
+								<li><a href="#">承德承钢钒钛冷轧薄板有限公司钒钛高强冷轧板项目一期</a></li>
+								<li><a href="#">中国共产党光泽县委员会党校异地新建项目</a></li>
+								<li><a href="#">江苏省苏州市张家港市南丰中学风雨操场建设工程</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pm_did_doc fl fl10">
+			<div class="pm_did_doc_title">标书下载<a class="fr fr10" href="#">更多</a></div>
+			<ul class="doc">
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">2017-2018年数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+				<li><a href="#">数据应用工程造价咨询项目(二次采购)采购公告</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="cl"></div>
+	<div class="index_AD01"></div>
+	<div class="did_news">
+		<div class="did_news_content fl">
+			<div class="hy_news fl">
+				<div class="hy_news_title">
+					行业资讯<a class="fr fr10" href="#">更多</a>
+				</div>
+				<ul class="did_news_l">
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+				</ul>
+			</div>
+			<div class="jiedu fl fl10">
+				<div class="jiedu_title">
+					政策解读<a class="fr fr10" href="#">更多</a>
+				</div>
+				<ul class="did_news_l">
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+				</ul>
+
+			</div>
+			<div class="zhanhui fl t10">
+				<div class="zhanhui_title">
+					近期展会<a class="fr fr10" href="#">更多</a>
+				</div>
+				<ul class="did_news_l">
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+				</ul>
+			</div>
+			<div class="baoguang fl fl10 t10">
+				<div class="baoguang_title">
+					曝光台<a class="fr fr10" href="#">更多</a>
+				</div>
+				<ul class="did_news_l">
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+					<li><a href="html/arc_detail.html">羊场乡中心幼儿园建设施工中标结果</a> </li>
+				</ul>
+			</div>
+		</div>
+		<div class="did_news_AD fl fl10">
+			<div class="ad03">
+				<img src="img/ad03.jpg" />
+			</div>
+			<div class="ad04 t10">
+				<img src="img/ad04.jpg" />
+			</div>
+		</div>
+	</div>
+	<div class="cl"></div>
+	<div class="index_AD01"></div>
+	<div class="brother">
+		<div class="brother_title">
+			合作伙伴
+		</div>
+		<ul class="brother_list">
+			<li><img src="img/b1.jpg" /></li>
+			<li><img src="img/b2.jpg" /></li>
+			<li><img src="img/b3.jpg" /></li>
+			<li><img src="img/b1.jpg" /></li>
+			<li><img src="img/b1.jpg" /></li>
+			<li><img src="img/b2.jpg" /></li>
+			<li><img src="img/b3.jpg" /></li>
+			<li><img src="img/b1.jpg" /></li>
+		</ul>
+	</div>
+	<div class="link">
+		<div class="link_title">友情链接</div>
+		<ul class="link_link">
+			<a href="#">中国招标网</a><a href="#">中国招标网</a><a href="#">中国招标网</a><a href="#">中国招标网</a><a href="#">中国招标网</a>
+		</ul>
+	</div>
+	<!-- 底部 -->
+	<div class="footer">
+
+	</div>
+	<!-- 侧边服务 -->
+	<div class="suspension">
+		<a href="#" class="conslut" target="_blank" title="在线客服">
+			<div class="suspension-list" style="display: none;">
+				<div class="suspension-list-content">
+					<ul>
+						<li>
+							<div class="service-phone" href="javascript:;">
+								<p class="info-name">客服热线</p>
+								<p class="info-value">400-888-xxxx</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-qq" href="javascript:;">
+								<p class="info-name">在线客服</p>
+								<p class="info-value">8054424xxx</p>
+							</div>
+						</li>
+						<li>
+							<div class="service-list-bottom" href="javascript:;">
+								<p class="info-name">投诉与建议</p>
+								<p class="info-value">最快10分钟内回应</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</a>
+		<a href="" class="cart" title="关注微信公众号">
+			<div class="pic" style="display:none;">
+				<div class="pic-content">
+					<img src="./img/t_code.jpg" alt="">
+				</div>
+			</div>
+		</a>
+		<a href="javascript:;" class="back-top" title="返回顶部" style="display:none;"></a>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/layui-v2.4.5/layui/layui.all.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		// 入口函数
+		$(function () {
+			// 引入公共头部和底部（存在IE兼容问题）
+			$.get('slide/footer.html', function (result) {
+				$result = $(result);
+				$result.find('.footer_content').appendTo('.footer');
+			}, 'html');
+			// 轮播效果
+			layui.use('carousel', function () {
+				var carousel = layui.carousel;
+				//建造实例
+				carousel.render({
+					elem: '#test1',
+					width: '100%', //设置容器宽度
+					height: '210px',
+					arrow: 'always', //始终显示箭头
+
+					//,anim: 'updown' //切换动画方式
+				});
+			});
+		});
+			//
+			// $(document).ready(function() {
+			// 	$(".top_nav_submenu").css('display', 'none');
+			// 	$("#map").hover(function() {
+			// 		$(".top_nav_submenu").css('display', 'block');
+			// 		$(this).addClass("map_select");
+			// 	})
+			// 	$(".top_nav_submenu").hover(function() {}, function() {
+			// 		$(".top_nav_submenu").css('display', 'none');
+			// 		$("#map").removeClass("map_select");
+			// 	});
+			// });
+	</script>
+	<script type="text/javascript">
+		var app = new Vue({
+			el: "#app",
+			data: {
+				cur: 0, //默认选中第一个tab
+				industrys: [{ name: '工程机械', list: [{ name: '过滤设备' }, { name: '化工设备' }, { name: '过净水设备' }] }],
+			},
+		});
+		var did = new Vue({
+			el: "#did",
+			data: {
+				cur1: 0, //默认选中第一个tab
+			}
+		});
+		var buy = new Vue({
+			el: "#buy",
+			data: {
+				cur: 0 //默认选中第一个tab
+			}
+		});
+		var pm = new Vue({
+			el: "#pm",
+			data: {
+				cur: 0 //默认选中第一个tab
+			}
+		});
+	</script>
+
+</body>
+
+</html>

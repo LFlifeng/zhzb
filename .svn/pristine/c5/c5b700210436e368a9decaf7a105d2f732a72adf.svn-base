@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-trackInformation.css">
+</head>
+
+<body>
+    <form class="layui-form" action="">
+        <div class="layui-form-item">
+            <label class="layui-form-label ">新建跟踪器</label>
+        </div>
+        <!-- 跟踪器名称 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label">跟踪器名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" required lay-verify="required" placeholder="输入跟踪器名称" autocomplete="off"
+                    class="layui-input">
+            </div>
+        </div>
+        <!-- 设置关键词 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label">设置关键字</label>
+            <div class="layui-form-mid layui-word-aux">输入您关注的行业关键字，至少填写一个</div>
+        </div>
+        <!-- 关键词 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label"></label>
+            <div class="layui-input-block clearfix">
+                <input type="text" name="title" required lay-verify="required" placeholder="关键词一" autocomplete="off"
+                    class="layui-input l">
+                <input type="text" name="title" required lay-verify="required" placeholder="关键词二" autocomplete="off"
+                    class="layui-input l">
+                <input type="text" name="title" required lay-verify="required" placeholder="关键词三" autocomplete="off"
+                    class="layui-input l">
+                <input type="text" name="title" required lay-verify="required" placeholder="关键词四" autocomplete="off"
+                    class="layui-input l">
+                <input type="text" name="title" required lay-verify="required" placeholder="关键词五" autocomplete="off"
+                    class="layui-input l">
+                <input type="text" name="title" required lay-verify="required" placeholder="关键词六" autocomplete="off"
+                    class="layui-input l">
+            </div>
+        </div>
+        <!-- 地区选择 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label">地区选择</label>
+            <div class="layui-input-block">
+                <span><a href="#">北京<img src="../../img/close.png" alt=""></a></span>
+                <span><a href="#">吉林<img src="../../img/close.png" alt=""></a></span>
+                <span><a href="#">湖北<img src="../../img/close.png" alt=""></a></span>
+            </div>
+        </div>
+        <!-- 地区分类 -->
+        <div class="layui-form-item">
+            <label for="" class="layui-form-label"></label>
+            <div class="layui-input-block clearfix" id="citys">
+                <dl class="l" v-for="area in citys">
+                    <dt>
+                        <a href="#">{{area.name}}</a>
+                        <input type="checkbox" lay-skin="primary">
+                    </dt>
+                    <dd v-for="p in area.list">
+                        <a href="#">{{p.name}}</a>
+                        <input type="checkbox" lay-skin="primary">
+                        <div class="city" style="display: none;">
+                            <div v-for="c in p.list">
+                                <a href="#">{{c.name}}</a>
+                                <input type="checkbox" lay-skin="primary">
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        </div>
+        <!-- 信息类型 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label">信息类型</label>
+            <div class="layui-input-block">
+                <div class="clearfix">
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">招标公告</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">招标预告</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">招标变更</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">中标结果</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">拟在建项目</a>
+                    </div>
+                </div>
+                <div class="cleafix">
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">VIP独家项目</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">政府采购</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">企业采购</a>
+                    </div>
+                    <div class="l">
+                        <input type="checkbox" lay-skin="primary">
+                        <a href="#">业主委托项目</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索模式 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label">搜索模式</label>
+            <div class="layui-input-block">
+                <input type="radio" name="name" title="模糊搜索" lay-skin="primary">
+                <input type="radio" name="name" title="精准搜索" lay-skin="primary">
+            </div>
+        </div>
+        <!-- 订阅方式 -->
+        <div class="layui-form-item">
+            <label class="layui-form-label">订阅方式</label>
+            <div class="layui-input-block clearfix">
+                <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">邮件订阅</a>
+                </div>
+                <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">短信订阅</a>
+                </div>
+                <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">公众号</a>
+                </div>
+            </div>
+        </div>
+        <!-- 保存 -->
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo">保存完成</button>
+            </div>
+        </div>
+    </form>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+    <script>
+        $(function () {
+
+        });
+        var citys = new Vue({
+            el: "#citys",
+            data:
+            {
+                citys: []
+            },
+            created: function () {
+                var self = this;
+                var res = localStorage.getItem("areaCityKey");
+                if (res) {
+                    self.citys = JSON.parse(res);
+                }
+                else {
+                    $.ajax({
+                        url: 'http://192.168.7.103:8080//sysCity.areaCity.do',
+                        type: 'post'
+                    }).then(function (res) {
+                        //  console.log(res);
+                        self.citys = JSON.parse(res);
+                        localStorage.setItem("areaCityKey", res)
+                    }).fail(function () { });
+                }
+                this.$nextTick(function () {
+                    window.layui.use(['jquery', 'form'], function () {
+                        var $ = layui.$, form = layui.form;
+                        form.on("checkbox", function (obj) {
+                            console.log(obj.elem.checked);
+                        });
+                        form.render('checkbox');
+                        // 城市显示
+                        // 鼠标进入时
+                        $('.layui-input-block dl dd>a').mouseenter(function () {
+                            $(this).siblings('.city').show();
+                            $(this).css({
+                                "border": "1px solid #ccc",
+                                "border-right": "none"
+                            });
+                            $(this).siblings('.city').children('div:eq(2)').css({
+                                "border-left": "none"
+                            })
+                        });
+                        $('.layui-input-block dl dd>.city').mouseenter(function () {
+                            $(this).show();
+                            $(this).siblings('a').css({
+                                "border": "1px solid #ccc",
+                                "border-right": "none"
+                            });
+                            $(this).children('div:eq(2)').css({
+                                "border-left": "none"
+                            })
+                        });
+                        $('.layui-input-block dl dd>a').mouseleave(function () {
+                            $(this).siblings('.city').hide();
+                            $(this).css({
+                                "border": "none"
+                            });
+                        });
+                        $('.layui-input-block dl dd>.city').mouseleave(function () {
+                            $(this).hide();
+                            $(this).siblings('a').css({
+                                "border": "none"
+                            });
+                        });
+                        $('.layui-input-block dl:first-child dd:nth-child(2)>a,.layui-input-block dl:first-child dd:nth-child(3)>a').mouseenter(function () {
+                            $(this).css({
+                                "border": "none"
+                            });
+                        });
+                        $('.layui-input-block dl:nth-child(3) dd:nth-child(2)>a,.layui-input-block dl:last-child dd:nth-child(2)>a').mouseenter(function () {
+                            $(this).css({
+                                "border": "none"
+                            });
+                        });
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

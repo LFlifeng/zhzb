@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>中汇招标----注册页面</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/registe.css">
+</head>
+
+<body>
+	<div class="registe_top">
+		<div class="registe_logo">
+			<a href="../index.html"><img src="../img/logo.png" alt=""></a>
+		</div>
+	</div>
+	<div class="registe_content">
+		<div class="content l">
+			<div class="title clearfix">
+				<h1 class="l">及时</h1>
+				<h1 class="l">高效</h1>
+				<h1 class="l">服务</h1>
+			</div>
+			<div class="text clearfix">
+				<p class="l">
+					<span>海量信息数据库</span>
+					<span>订阅后及时推送信息</span>
+					<span>微信公众号、pc、邮件三端展示</span>
+					<span>免费发布招标信息</span>
+				</p>
+				<p class="l">
+					<span>近千家供应商、采购商库</span>
+					<span>随时随地&nbsp;私人定制查询</span>
+					<span>一对一资深客服对接</span>
+					<span>智能检测企业招标动态</span>
+				</p>
+			</div>
+		</div>
+		<div class="registe_center">
+			<div class="registe_registe">
+				<h2>注册</h2>
+				<form action="#" method="post">
+					<div class="who">
+						<span>我是</span>
+						<div id="search">
+							<div id="search_box" class="l">
+								<span class="select_txt">请选择</span>
+								<span class="select-icon"></span>
+								<ul class="option">
+									<li>投标人</li>
+									<li>招标人</li>
+									<li>供应商</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="contacts">
+						<span>联系人</span>
+						<input type="text">
+					</div>
+					<div class="company">
+						<span>公司名称</span>
+						<input type="text">
+					</div>
+					<div class="pwd">
+						<span>密码</span>
+						<input type="password" name="" id="">
+					</div>
+					<div class="phone">
+						<span>手机号</span>
+						<input type="text" name="" id="">
+						<span>获取验证码</span>
+					</div>
+					<div class="i_code">
+						<span>验证码</span>
+						<input type="text">
+					</div>
+					<div class="clause">
+						<input type="checkbox" checked name="" id="">我已阅读并接受<a href="#">《中汇招标网用户服务条款》</a>
+					</div>
+					<div class="registe">注册</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_content">
+			<div class="footer_info">
+				<ul>
+					<li><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">免责声明</a>|<a href="#">隐私政策</a>|<a
+							href="#">友情链接</a>|<a href="#">法律声明</a>|<a href="#">广告服务</a></li>
+				</ul>
+			</div>
+			<p class="footer_p"> 版权所有 北京中汇恒升互联网有限公司 Powered by LingJiang tech 京ICP备18005946号-7</p>
+		</div>
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script>
+		(function () {
+			$("body").on('click', '#search_box', function (event) {
+				event.stopPropagation();
+				$(this).find(".option").toggle();
+				$(this).parent().siblings().find(".option").hide();
+			});
+			$(document).click(function (event) {
+				var eo = $(event.target);
+				if ($("#select_box").is(":visible") && eo.attr("class") != "option" && !eo.parent(".option").length)
+					$('.option').hide();
+			});
+			$("body").on('click', '.option li', function () {
+				var check_value = $(this).text();
+				var zlValue = $('.option li:eq(0)').html();
+				var bqValue = $('.option li:eq(1)').html();
+				$(this).parent().siblings(".select_txt").text(check_value);
+				$("#select_value").val(check_value);
+				if (check_value == zlValue) {
+					$('.search-border').prop('placeholder', '投标人');
+				} else if (check_value == bqValue) {
+					$('.search-border').prop('placeholder', '招标人');
+				} else {
+					$('.search-border').prop('placeholder', '供应商');
+				}
+			});
+		})()
+	</script>
+</body>
+
+</html>

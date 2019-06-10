@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>文章内容</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<style type="text/css">
+		.position_nav {
+			width: 1200px;
+			height: 50px;
+			line-height: 50px;
+			margin: 0 auto;
+		}
+
+		.position_nav p {
+			text-align: left;
+			font-size: 14px;
+			color: #505050;
+		}
+
+		.position_nav a {
+			padding: 1px 8px;
+
+		}
+
+		.arc_content {
+			width: 1200px;
+			margin: 0 auto;
+
+		}
+
+		.arc {
+			width: 886px;
+			border: 1px solid #e6e6e6;
+		}
+
+		.sidebar_right {
+			width: 300px;
+		}
+
+		.arc_title {
+			margin: 40px 0px 50px;
+			font-size: 24px;
+			color: #008FED;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.arc_info_time {
+			background: #f4f4f4;
+			height: 40px;
+			line-height: 40px;
+			font-size: 14px;
+			margin: 0px 20px;
+			color: #888888;
+			padding-left: 20px;
+		}
+
+		.arc_info_source {
+			margin-left: 20px;
+
+
+		}
+
+		.arc_info a {
+			float: right;
+			padding-right: 40px;
+			color: red;
+		}
+
+		.arc_arc {
+			padding: 0px 30px;
+		}
+
+		.arc_arc p {
+			line-height: 34px;
+			color: #323232;
+		}
+
+		.t_table {
+			padding: 20px;
+		}
+
+		.t_table table {
+			width: 100%;
+		}
+
+		.t_table table {
+			border-collapse: collapse;
+
+		}
+
+		.t_table tr {
+
+			height: 34px;
+			line-height: 34px;
+
+		}
+
+		.t_table tr td {
+			text-align: center;
+			border: 1px solid #e6e6e6;
+		}
+
+		.new_did {
+			height: 460px;
+			width: 300px;
+			border: 1px solid #e6e6e6;
+		}
+
+		.new_did_title {
+			font-size: 14px;
+			height: 40px;
+			background: #f4f4f4;
+			text-align: left;
+			padding-left: 10px;
+			line-height: 40px;
+			color: #646464;
+		}
+
+		.new_did_title_more {
+			text-align: right;
+			font-size: 14px;
+			display: inline-block;
+			float: right;
+			padding-right: 8px;
+		}
+
+		.did_city {
+
+			border: 1px solid #e6e6e6;
+		}
+
+		.new_did_l {
+			padding: 10px;
+		}
+
+		.new_did_l li {
+			height: 40px;
+			line-height: 40px;
+			color: #323232;
+			border-bottom: 1px dashed #e6e6e6;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.new_did_l li a {
+			display: inline-block;
+			width: 400px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.new_did_l li:last-child {
+			border-bottom: none;
+		}
+
+		.arc_vip {
+			margin: 20px auto;
+
+		}
+
+		.blue {
+			color: #008FED;
+		}
+
+		.blue a {
+			color: #008FED;
+		}
+
+		.p_indet {
+			margin-top: 20px;
+			text-indent: 2em;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="list.html">采购信息</a></li>
+				<li><a href="list.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<div class="main">
+		<div class="main_content">
+			<div class="main_box fl">
+				<h3>招标</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">招标公告</a></li>
+						<li><a href="#">招标预告</a></li>
+						<li><a href="#">变更公告</a></li>
+						<li><a href="#">中标结果</a></li>
+						<li><a href="#">变更公告</a></li>
+						<li><a href="#">政府招标</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>采购</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">中标采购</a></li>
+						<li><a href="#">政府采购</a></li>
+						<li><a href="#">名企采购</a></li>
+						<li><a href="#">业主采购</a></li>
+						<li><a href="#">在线询价</a></li>
+						<li><a href="#">海外采购</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>项目</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">VIP项目</a></li>
+						<li><a href="#">拟建项目</a></li>
+						<li><a href="#">审批项目</a></li>
+						<li><a href="#">政府项目</a></li>
+						<li><a href="#">商业项目</a></li>
+						<li><a href="#">业主项目</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>资讯</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">行业资讯</a></li>
+						<li><a href="#">新规解读</a></li>
+						<li><a href="#">近期展会</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>服务</h3>
+				<div class="main_list" style="border:none;">
+					<ul>
+						<li><a href="#">信息定制</a></li>
+						<li><a href="#">代理招标</a></li>
+						<li><a href="#">服务介绍</a></li>
+						<li><a href="#">标书代写</a></li>
+						<li><a href="#">实地考察</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="#">首页</a>><a href="#">行业导航</a>><a href="#">新能源车补未来大变脸 资金将向使用环节倾斜</a>
+	</div>
+	<div class="arc_content">
+		<div class="arc fl">
+			<div class="arc_title">
+				新能源车补未来大变脸 资金将向使用环节倾斜
+			</div>
+			<div class="arc_info_time">
+				<span>发布时间：2019-02-05</span> <span class="arc_info_source">来源：互联网</span><a class="fr fr10"
+					href="#">收藏</a>
+			</div>
+			<div class="arc_arc">
+				<p class="p_indet">“今年国内新能源车补贴政策很可能发生较大改变，补贴资金向使用环节倾斜。”近日，中国汽车工业协会常务副会长董扬在中国充电联盟2019年度工作会议上发布了这样一则消息。
+					这则简短消息背后却蕴含着重要变化。
+					每年的岁末年初，关系着众多消费者实际利益的新能源车补贴政策都成为人们热议的话题。补贴政策究竟变不变，如何变，不仅关系着行业发展前景，更牵动着广大消费者的敏感神经。记者从多位业内人士了解到，已实施多年的新能源车补贴政策很有可能在今年迎来大“变脸”。
+					变化
+					说到时下消费者购买一辆新能源车的优势，真金白银补贴政策来得最为实在。这也是不少新能源车“小白”毫不犹豫晋升为新能源车主的最重要因素。
+					中国汽车工业协会最新数据显示，1月，国内新能源车市场延续此前高速增长态势，销量达到9.6万辆，同比增长138%。
+					近十年来，国内新能源车连续增长，新能源车补贴政策的激励作用功不可没。</p>
+				<p class="p_indet">
+					一辆价格不菲的新能源车在补贴之后价格更为贴近需求。以2018年北京市场补贴政策为例，吉利帝豪EV450补贴前售价为19.33万元-23.83万元。这对于进入市场不久的一辆A级新能源车而言未免显得有些过于昂贵。然而，在拿到7万元左右综合补贴后，价格直降为13.58万元-15.58万元后，就显得容易接受多了。
+
+				</p>
+
+
+				<div class="arc_vip">
+					<img src="../img/arc_vip.jpg" />
+				</div>
+			</div>
+		</div>
+		<div class="sidebar_right fl fl10">
+			<div class="new_did">
+				<div class="new_did_title">
+					独家招标信息
+					<a class="new_did_title_more">更多</a>
+				</div>
+				<ul class="new_did_l">
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+				</ul>
+			</div>
+			<div class="did_city t10">
+				<div class="list_city">
+					<div class="did_reg_title ">
+						地区选择
+					</div>
+					<div class="reg">
+						<h3>华北地区</h3>
+						<span><a href="#">北京</a></span><span><a href="#">天津</a></span><span><a
+								href="#">河北</a></span><span><a href="#">山西</a></span><span><a href="#">内蒙古</a></span>
+					</div>
+					<div class="reg">
+						<h3>华东地区</h3>
+						<span><a href="#">上海</a></span><span><a href="#">江苏</a></span><span><a
+								href="#">浙江</a></span><span><a href="#">安徽</a></span><span><a
+								href="#">江西</a></span><span><a href="#">山东</a></span><span><a href="#">福建</a></span>
+					</div>
+					<div class="reg">
+						<h3>华南地区</h3>
+						<span><a href="#">广东</a></span><span><a href="#">广西</a></span><span><a href="#">海南</a></span>
+					</div>
+					<div class="reg">
+						<h3>华中地区</h3>
+						<span><a href="#">湖南</a></span><span><a href="#">湖北</a></span><span><a href="#">河南</a></span>
+					</div>
+					<div class="reg">
+						<h3>东北地区</h3>
+						<span><a href="#">辽宁</a></span><span><a href="#">吉林</a></span><span><a href="#">黑龙江</a></span>
+					</div>
+					<div class="reg">
+						<h3>西北地区</h3>
+						<span><a href="#">陕西</a></span><span><a href="#">甘肃</a></span><span><a
+								href="#">青海</a></span><span><a href="#">宁夏</a></span><span><a href="#">新疆</a></span>
+					</div>
+					<div class="border_bottom_none reg">
+						<h3>西南地区</h3>
+						<span><a href="#">重庆</a></span><span><a href="#">四川</a></span><span><a
+								href="#">贵州</a></span><span><a href="#">云南</a></span><span><a href="#">西藏</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cl"></div>
+	</div>
+	<div class="footer t10">
+
+	</div>
+
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/search.js"></script>
+	<script>
+
+		$(function () {
+			// 引入公共头部和底部
+			$.get('../slide/header.html', function (result) {
+				$result = $(result);
+				$result.find('.top').appendTo('.header');
+				$result.find('.logo').appendTo('.header');
+			}, 'html');
+			$.get('../slide/footer.html', function (result) {
+				$result = $(result);
+				$result.find('.footer_content').appendTo('.footer');
+			}, 'html');
+		})
+	</script>
+</body>
+
+</html>

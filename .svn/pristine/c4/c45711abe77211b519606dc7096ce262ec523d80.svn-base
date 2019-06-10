@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>中汇招标----服务大厅</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/servicehall.css">
+</head>
+
+<body>
+    <!-- 公共头部 -->
+    <div class="header">
+
+    </div>
+    <!-- 头部导航 -->
+    <div class="head_nav">
+        <div class="nav">
+            <ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <img src="../img/serverbanner.jpg" alt="">
+    </div>
+    <div class="advantage">
+        <div class="w">
+            <h3>产品核心优势</h3>
+            <hr>
+            <div class="advantage_content clearfix">
+                <div class="l">
+                    <div class="l">
+                        <img src="../img/servericon1.jpg" alt="">
+                    </div>
+                    <div class="r">
+                        <h4>优质的数据信息</h4>
+                        <p>海量信息下载随时查看</p>
+                        <p>覆盖全国983个市、2857个县、473家国家企业事业单位</p>
+                        <p>2345所学校</p>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="l">
+                        <img src="../img/servericon2.jpg" alt="">
+                    </div>
+                    <div class="r">
+                        <h4>多渠道展现</h4>
+                        <p>PC版、APP、公众号、邮箱多渠道展现</p>
+                        <p>让您随时掌控信息动态</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="l">
+                        <img src="../img/servericon3.jpg" alt="">
+                    </div>
+                    <div class="r">
+                        <h4>智能定时&nbsp;同步提醒</h4>
+                        <p>关键词定制消息&nbsp;每天定时向您推送定制信息</p>
+                        <p>随时修改您的定制需求</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="l">
+                        <img src="../img/servericon4.jpg" alt="">
+                    </div>
+                    <div class="r">
+                        <h4>客服一对一为您服务</h4>
+                        <p>全程为您投标流程协助服务，为您解决</p>
+                        <p>项目跟踪中问题</p>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 公共底部 -->
+    <div class="footer t10">
+
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/search.js"></script>
+    <script>
+
+        $(function () {
+            // 引入公共头部和底部
+            $('.header').load('../slide/header.html');
+			$('.footer').load('../slide/footer.html');
+        });
+    </script>
+</body>
+
+</html>

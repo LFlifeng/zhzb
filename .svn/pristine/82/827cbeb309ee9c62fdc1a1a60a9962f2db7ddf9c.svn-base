@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----绑定邮箱</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-email.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <!-- 手风琴效果 -->
+                <h4><a href="./p-accountinformation.html">账号信息</a></h4>
+                <!-- 手风琴效果 -->
+                <ul class="parentWrap">
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">安全设置</a></span>
+                        <div><a href="./p-pwd.html">密码修改</a></div>
+                        <div><a href="./p-phone.html">更改手机</a></div>
+                        <div><a href="./p-email.html">绑定邮箱</a></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <div class="title">绑定邮箱</div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">当前绑定邮箱</label>
+                            <input type="text" name="title" lay-verify="title" autocomplete="off"
+                                placeholder="zhaobiao@126.com" class="layui-input" disabled>
+                            <span><a href="#">修改</a></span>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">绑定新邮箱</label>
+                            <input type="email" name="eamil" lay-verify="email" autocomplete="off" placeholder="请输入新邮箱"
+                                class="layui-input">
+                            <span class="layui-badge-dot layui-bg-orange"></span>
+                            <span>已和其他用户同名请更换昵称</span>
+                        </div>
+                        <!-- 保存上传 -->
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn layui-btn-normal" lay-submit
+                                    lay-filter="formDemo">完成修改</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../../js/include.js"></script>
+    <script>
+
+        //入口函数
+        $(function () {
+            // 引入公共底部
+            $('.footer').load('../../slide/footer.html');
+            $('.top').load('./p-top.html');
+            // 手风琴导航
+            $('.parentWrap>.menuGroup>.groupTitle').css({
+                "background-color": "#e8f5fc",
+                "color": "#0090ec",
+                "border-left": "4px solid #0090ec"
+            });
+            $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+                $(this).css({
+                    "background-color": "#e8f5fc",
+                    "color": "#0090ec",
+                    "border-left": "4px solid #0090ec"
+                });
+                $(this).siblings().show();
+                $(this).parent().siblings().children('div').hide();
+                $(this).parent().siblings().children('span').css({
+                    "background-color": "",
+                    "color": "",
+                    "border-left": ""
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

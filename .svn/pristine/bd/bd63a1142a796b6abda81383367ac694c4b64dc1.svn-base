@@ -1,0 +1,95 @@
+// 弹出层-----登陆注册   （封装）
+function Login_res() {
+    layui.use('layer', function () {
+        var layer = layui.layer;
+        layer.open({
+            title: false,
+            type: 2,
+            content: 'supplier_login.html',
+            offset: 'auto',
+            area: ['650px', '412px'],
+            closeBtn: true,
+            shade: 0.5,
+            shadeClose: false, //开启遮罩关闭
+            resize: false,
+            end: function () {
+                // $(".mask").hide();
+            },
+        });
+    });
+}
+$(function () {
+    // 右侧固定定位
+    $('.suspension .conslut,.suspension .conslut .suspension-list').mouseenter(function () {
+        $('.suspension .conslut .suspension-list').show();
+    });
+    $('.suspension .conslut,.suspension .conslut .suspension-list').mouseleave(function () {
+        $('.suspension .conslut .suspension-list').hide();
+    });
+    $('.suspension .cart,.suspension .cart .pic').mouseenter(function () {
+        $('.suspension .cart .pic').show();
+    });
+    $('.suspension .cart,.suspension .cart .pic').mouseleave(function () {
+        $('.suspension .cart .pic').hide();
+    });
+    // 返回顶部
+    $(".back-top").hide();
+    $('.back-top').on("click", function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+    $(window).bind('scroll resize', function () {
+        if ($(window).scrollTop() <= 400) {
+            $(".back-top").hide();
+        } else {
+            $(".back-top").show();
+        }
+    });
+    // 个人中心下拉菜单部分
+    // 1.鼠标进入一级菜单后，显示二级菜单
+    $('body').on('mouseover', '.top .personal .detail div:nth-child(3)', function () {
+        $(this).siblings('ul').show();
+    });
+    // 2.鼠标离开一级菜单后，隐藏二级菜单
+    $('body').on('mouseout', '.top .personal .detail div:nth-child(3)', function () {
+        $(this).next().hide();
+    });
+    // 3.鼠标进入二级菜单，显示二级菜单
+    $('body').on('mouseover', '.detail>.ul', function () {
+        $(this).show();
+    });
+    // 4.鼠标离开二级菜单，隐藏二级菜单
+    $('body').on('mouseout', '.detail>.ul', function () {
+        $(this).hide();
+    });
+    //网站首页下拉菜单
+    $('body').on('mouseenter', '.top_info span:last-child', function () {
+        $(this).children('.info').show();
+    });
+    $('body').on('mouseleave', '.top_info span:last-child', function () {
+        $(this).children('.info').hide();
+    });
+    $('body').on('mouseenter', '.top_info span:last-child .info', function () {
+        $(this).show();
+    });
+    $('body').on('mouseleave', '.top_info span:last-child .info', function () {
+        $(this).hide();
+    });
+    $.ajaxSetup({
+        //设置ajax请求结束后的执行动作  
+        complete: function (XMLHttpRequest, textStatus) {
+            // 通过XMLHttpRequest取得响应头，REDIRECT  
+            var redirect = XMLHttpRequest.getResponseHeader("REDIRECT");//若HEADER中含有REDIRECT说明后端想重定向
+            if (redirect == "REDIRECT") {
+                var win = window;
+                while (win != win.top) {
+                    win = win.top;
+                }
+                //将后端重定向的地址取出来,使用win.location.href去实现重定向的要求
+                win.location.href = XMLHttpRequest.getResponseHeader("CONTEXTPATH");
+            }
+        }
+    });
+});

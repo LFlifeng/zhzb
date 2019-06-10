@@ -1,0 +1,28 @@
+body {
+    background-color: #f7f7f7;
+}
+/* 头部 */
+.zh_topBar {
+    background-color: #0090ec;
+}
+.zh_topBar a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.zh_topBar span {
+    color: #fff;
+    margin-left: -40px;
+    font-size: 16px;
+}
+.zh_container textarea {
+    font-size: 14px;
+    height: 200px;
+}
+.mui-btn {
+    padding: 6px 35px;
+    margin-right: 10px;
+    background-color: #0090ec;
+    color: #fff
+}

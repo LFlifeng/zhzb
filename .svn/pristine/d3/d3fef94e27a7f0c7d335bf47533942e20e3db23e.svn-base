@@ -1,0 +1,100 @@
+.position_nav {
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.position_nav p {
+    text-align: left;
+    font-size: 14px;
+    color: #505050;
+}
+.position_nav a {
+    padding: 1px 8px;
+}
+.arc_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+.arc {
+    width: 886px;
+    border: 1px solid #e6e6e6;
+}
+.sidebar_right {
+    width: 300px;
+}
+/* 项目标书详细 */
+.arc_title {
+    margin: 40px 0px 30px;
+    font-size: 24px;
+    color: #505050;
+    text-align: center;
+    font-weight: bold;
+}
+.arc_time {
+    margin: 0 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 42px;
+    line-height: 42px;
+}
+.arc_cont {
+    margin: 30px 20px;
+}
+.arc_cont .download {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    color: #ba3f44;
+    border: 1px solid #ba3f44;
+    cursor: pointer;
+}
+.copyright {
+    width: 846px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+}
+.copyright p {
+    margin-bottom: 5px;
+}
+/* 独家招标信息 */
+.new_did {
+    height: 460px;
+    width: 300px;
+    border: 1px solid #e6e6e6;
+}
+.new_did_title {
+    font-size: 14px;
+    height: 40px;
+    background: #f4f4f4;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 40px;
+    color: #646464;
+}
+.new_did_title_more {
+    text-align: right;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+    padding-right: 8px;
+}
+.new_did_l {
+    padding: 10px;
+}
+.new_did_l li {
+    height: 40px;
+    line-height: 40px;
+    color: #323232;
+    border-bottom: 1px dashed #e6e6e6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.new_did_l li:last-child {
+    border-bottom: none;
+}

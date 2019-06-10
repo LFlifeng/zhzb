@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>找回密码</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../css/base.css">
+  <link rel="stylesheet" type="text/css" href="../css/header.css">
+  <link rel="stylesheet" type="text/css" href="../css/footer.css">
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link type="text/css" href="../css/foundpwd.css" rel="stylesheet" />
+</head>
+</head>
+
+<body>
+  <!-- 公共头部 -->
+  <div class="header">
+
+  </div>
+  <!-- 头部导航 -->
+  <div class="head_nav">
+    <div class="nav">
+      <ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+    </div>
+  </div>
+  <!-- 招标主要分类 -->
+  <div class="main">
+    <div class="main_content clearfix">
+      <div class="main_box fl">
+        <h3>招标</h3>
+        <div class="main_list">
+          <ul>
+            <li><a href="html/list.html">招标公告</a></li>
+            <li><a href="html/list.html">招标预告</a></li>
+            <li><a href="html/list.html">变更公告</a></li>
+            <li><a href="html/list.html">中标结果</a></li>
+            <li><a href="html/list.html">变更公告</a></li>
+            <li><a href="html/list.html">政府招标</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main_box fl">
+        <h3>采购</h3>
+        <div class="main_list">
+          <ul>
+            <li><a href="html/list.html">中标采购</a></li>
+            <li><a href="html/list.html">政府采购</a></li>
+            <li><a href="html/list.html">名企采购</a></li>
+            <li><a href="html/list.html">业主采购</a></li>
+            <li><a href="html/list.html">在线询价</a></li>
+            <li><a href="html/list.html">海外采购</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main_box fl">
+        <h3>项目</h3>
+        <div class="main_list">
+          <ul>
+            <li><a href="html/list.html">VIP项目</a></li>
+            <li><a href="html/list.html">拟建项目</a></li>
+            <li><a href="html/list.html">审批项目</a></li>
+            <li><a href="html/list.html">政府项目</a></li>
+            <li><a href="html/list.html">商业项目</a></li>
+            <li><a href="html/list.html">业主项目</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main_box fl">
+        <h3>资讯</h3>
+        <div class="main_list">
+          <ul>
+            <li><a href="html/news.html">行业资讯</a></li>
+            <li><a href="html/news.html">新规解读</a></li>
+            <li><a href="html/news.html">近期展会</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main_box fl">
+        <h3>服务</h3>
+        <div class="main_list" style="border:none;">
+          <ul>
+            <li><a href="#">信息定制</a></li>
+            <li><a href="#">代理招标</a></li>
+            <li><a href="#">服务介绍</a></li>
+            <li><a href="#">标书代写</a></li>
+            <li><a href="#">实地考察</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 找回密码 -->
+  <div class="content">
+    <div class="web-width">
+      <div class="for-liucheng">
+        <div class="liulist for-cur"></div>
+        <div class="liulist for-cur"></div>
+        <div class="liulist for-cur"></div>
+        <div class="liulist"></div>
+        <div class="liutextbox">
+          <div class="liutext for-cur"><em>1</em><br /><strong>填写账户名</strong></div>
+          <div class="liutext for-cur"><em>2</em><br /><strong>验证身份</strong></div>
+          <div class="liutext for-cur"><em>3</em><br /><strong>设置新密码</strong></div>
+          <div class="liutext"><em>4</em><br /><strong>完成</strong></div>
+        </div>
+      </div>
+      <!--for-liucheng/-->
+      <form action="forgetPwd4.html" method="get" class="forget-pwd">
+        <dl>
+          <dt>手机号：</dt>
+          <dd><input type="text" /></dd>
+          <div class="clears"></div>
+        </dl>
+        <dl>
+          <dt>新密码：</dt>
+          <dd><input type="password" /></dd>
+          <div class="clears"></div>
+        </dl>
+        <dl>
+          <dt>确认密码：</dt>
+          <dd><input type="password" /></dd>
+          <div class="clears"></div>
+        </dl>
+        <div class="subtijiao"><input type="submit" value="下一步" /></div>
+      </form>
+      <!--forget-pwd/-->
+    </div>
+    <!--web-width/-->
+  </div>
+  <!--content/-->
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="/demos/googlegg.js"></script>
+  <script>
+    $(function () {
+      // 引入公共头部和底部
+      $.get('../slide/header.html', function (result) {
+        $result = $(result);
+        $result.find('.top').appendTo('.header');
+        $result.find('.logo').appendTo('.header');
+      }, 'html');
+      $.get('../slide/footer.html', function (result) {
+        $result = $(result);
+        $result.find('.footer_content').appendTo('.footer');
+      }, 'html');
+      // 导航定位
+      // $(".nav li:eq(2) a:first").addClass("navCur")
+      //验证手机 邮箱 
+      $(".selyz").change(function () {
+        var selval = $(this).find("option:selected").val();
+        if (selval == "0") {
+          $(".sel-yzsj").show()
+          $(".sel-yzyx").hide()
+        }
+        else if (selval == "1") {
+          $(".sel-yzsj").hide()
+          $(".sel-yzyx").show()
+        }
+      })
+    });
+  </script>
+</body>
+
+</html>

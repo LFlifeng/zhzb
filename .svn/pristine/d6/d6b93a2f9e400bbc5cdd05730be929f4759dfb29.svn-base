@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>企业展示</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/companyShow.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="top_content clearfix">
+                <a href="./supplier.html">返回首页</a>
+                <div class="top_info r">
+                    <span class="r10">客服电话：400-888-1234</span>
+                    <span class="web_map r10">
+                        <a href="./service.html" class="">服务标准</a>
+                    </span>
+                    <span><a href="./personal/p-payment.html" class="">付费指导</a></span>
+                    <span style="display: none">
+                        <a href="" style="display:inline-block;width:127px; text-align:center;">北京中汇恒升互联网</a>
+                        <i class="fa fa-angle-down"></i>
+                        <div class="info" style="">
+                            <div class="user_info_head clearfix">
+                                <img src="../img/per.jpg" class="l">
+                                <div class="user_jj l">
+                                    <div class="user_level">会员级别：<span>普通会员</span></div>
+                                    <div class="user_date">有效期至2019年10月22日</div>
+                                </div>
+                            </div>
+                            <div class="user_info_footer">
+                                <a href="">个人中心</a>
+                                <a href="">退出登录</a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="company_name">
+            <h1 class="w">北京中汇恒升互联网服务有限公司</h1>
+        </div>
+    </div>
+    <div class="company_info w clearfix">
+        <div class="company_list l">
+            <div class="title">公司产品 <span>PRODUCT</span></div>
+            <ul>
+                <li class="active">供应产品<i class="fa fa-angle-right"></i></li>
+                <li>投标采购<i class="fa fa-angle-right" style="display:none;"></i></li>
+                <li>资质展示<i class="fa fa-angle-right" style="display:none;"></i></li>
+            </ul>
+            <div class="title">关于我们 <span>ABOUT US</span></div>
+            <ul>
+                <li>公司介绍<i class="fa fa-angle-right" style="display:none;"></i></li>
+                <li>联系方式<i class="fa fa-angle-right" style="display:none;"></i></li>
+            </ul>
+        </div>
+        <div class="company_content l">
+            <div class="tab_content active">
+                <div class="company_content_title">
+                    供应产品
+                </div>
+                <ul class="clearfix">
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                    <li class="l">
+                        <img src="../img/123.jpg" alt="">
+                        <p>电动润滑脂膏</p>
+                        <p>潍坊市聚德机械设备有限公司</p>
+                    </li>
+                </ul>
+                <!-- 分页 -->
+                <div id="demo1"></div>
+            </div>
+            <div class="tab_content">
+                <div class="company_content_title">
+                    投标采购
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>项目类别</th>
+                                <th>项目名称</th>
+                                <th>所在地区</th>
+                                <th>日期</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><a href="#">某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</a></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                            <tr>
+                                <td>企业采购</td>
+                                <td><span>某项目开采石油没油了项目停止邚唉唉天天天天i唉天iiii图片广告</span></td>
+                                <td>安徽省</td>
+                                <td>2019-04-25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- 分页 -->
+                <div id="demo2"></div>
+            </div>
+            <div class="tab_content">
+                <div class="company_content_title">
+                    资质展示
+                </div>
+                <div class="qualification clearfix">
+                    <div class="l">
+                        <div></div>
+                        <p>钢结构工程专业施工资质（贰级）及安全资质</p>
+                    </div>
+                    <div class="l">
+                        <div></div>
+                        <p>钢结构工程专业施工资质（贰级）及安全资质</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="company_content_title">
+                    公司介绍
+                </div>
+                <div class="company_info">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;中汇招标网是由北京中汇招标有限公司创办和运营，注册资金1000万元人民币，创办
+                        于2016年1月。北京中汇招标有限公司是根据《中华人民共和国公司法》和《中华人民共
+                        和国招标投标法》及相关现行法律法规依法组建的，公司成立得到了国务院相关主管部门和
+                        北京市财政局相关主管部门的大力支持，千里马在有关部门和各界专家的指示和指导下，积
+                        极响应《中华人民共和国招标投标法》，为优化公共招投标市场而孕育诞生！致力于为招投
+                        标中介机构（招标代理机构、咨询机构、建设单位、设计单位）、各类供应商、采购商以及
+                        海内外机构提供项目招标、采购、招商等信息的发布与查询。中汇招标网每天招投标信息、
+                        拟在建项目、VIP独家项目的更新量、时效性和准确性在同类网站中摇摇领先！</p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;我公司积极倡导和维护公开、公平、公正与诚实信用原则，在维护国家、社会和招标、
+                        投标当事人的利益方面做出卓越贡献。公司以维护客户利益为业务核心，项目前期通过资料
+                        分析、市场调查、产品定位，为客户提供详细、准确的客观资料，以便客户做出正确的选择。
+                        招标实施过程中依法为客户严格把关，择优选定施工单位、设备材料供应商、服务单位等。
+                        招标后期协助客户监督招标结果的执行情况，协助解决与招标相关的各种纠纷。</p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;公司实行董事会领导下的总经理责任制，并建立了较为完善的组织机构和严格的规章制
+                        度。拥有一批朝气蓬勃、业务水平精湛、多年从事招投标代理、工程造价咨询、项目管理、
+                        服务以及企业管理等方面的专业化人才。公司还建有自己的专家库，拥有一批各行业的评标
+                        专家，专业涉及货物招投标、服务招投标、建设工程招标、国际招标等多个领域，可根据需
+                        要随时提供方案审定、标书编制、开标评标等方面的服务及咨询。另外我公司还制订了相应
+                        的各项管理制度并且非常重视过程控制，项目全程具备完整的可追溯文件，便于客户及权威
+                        部门的审核。为公司的长远发展奠定了坚实基础。
+                    </p>
+                    <p> 
+                        &nbsp;&nbsp;&nbsp;&nbsp;我们深知良好的信誉来之不易，衷心感谢国内外各界朋友对我们的信赖与支持。我们
+                        将把公司建设成为一个紧密团结、蓬勃向上为客户提供满意服务的负责任的企业。在不断变
+                        化和发展的社会主义市场经济中，我们将继续坚持“公开、公平、公正、诚信”的招标原则，
+                        遵循“服务、效率、公正、权威”的宗旨，充分发挥专职招标机构之优势，以雄厚的实力、
+                        专业的知识、严谨的工作态度竭诚为各行各业得客户提供最优质的服务。</p>
+                </div>
+            </div>
+            <div class="tab_content">
+                <div class="company_content_title">
+                    联系我们
+                </div>
+                <div class="contact">
+                    <div>
+                        <span>地址：</span>
+                        <span>上海市闵行区红松东路1088号</span>
+                    </div>
+                    <div>
+                        <span>邮编：</span>
+                        <span>201103</span>
+                    </div>
+                    <div>
+                        <span>电话：</span>
+                        <span>021-61151111-213527</span>
+                    </div>
+                    <div>
+                        <span>传真：</span>
+                        <span>021-61151777-213527</span>
+                    </div>
+                    <div>
+                        <span>网址：</span>
+                        <span>www.want-want.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/search.js"></script>
+    <script>
+        $(function () {
+            // 引入公共头部和底部
+            $('.footer').load('../slide/footer.html');
+            // 分页
+            layui.use(['laypage', 'layer'], function () {
+                var laypage = layui.laypage, layer = layui.layer;
+                //总页数大于页码总数
+                laypage.render({
+                    elem: 'demo1',
+                    count: 70, //数据总数,
+                    jump: function (obj) {
+                        // console.log(obj)
+                    }
+                });
+                laypage.render({
+                    elem: 'demo2'
+                    , count: 100
+                    , theme: '#1E9FFF'
+                });
+            });
+            //切换栏
+            $('.company_list ul li').on('click',function(){
+                $(this).children('i').show().end().siblings('li').children('i').hide();
+                $(this).parent().siblings('ul').children('li').children('i').hide();
+            })
+            // 1. 获取一组li
+            var lis = document.querySelectorAll('.company_list li');
+            // 2. 获取一组div显示项
+            var divs = document.querySelectorAll('.company_content .tab_content');
+            // 3. for循环遍历给每一个li注册一个点击事件，给每一个li添加一个index属性，表示li的下标
+            for (var i = 0; i < lis.length; i++) {
+                // 3.1 给每一个li添加一个index属性
+                lis[i].index = i;
+                // 3.2 注册事件
+                lis[i].onclick = function () {
+                    // 4. 在事件处理程序中，① 切换li  ② 切换div
+                    // 4.1 循环遍历去掉所有li 和 所有div的类名active
+                    for (var j = 0; j < lis.length; j++) {
+                        lis[j].className = '';
+                        divs[j].className = 'tab_content';
+                    }
+                    // 4.2 给当前点击的li添加类名active
+                    this.className = 'active';
+                    // 4.3 获取当前点击的li的下标
+                    var num = this.index;
+                    // 找到对应的div项，显示
+                    divs[num].className = 'tab_content active';
+                };
+            }
+        });
+    </script>
+</body>
+
+</html>

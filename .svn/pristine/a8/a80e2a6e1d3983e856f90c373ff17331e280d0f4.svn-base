@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>内容</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+	<!-- 公共头部 -->
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main_content w clearfix">
+			<div class="main_box fl">
+				<h3>招标</h3>
+				<div class="main_list">
+					<ul class="clearfix">
+						<li class="l"><a href="html/list.html">招标公告</a></li>
+						<li class="l"><a href="html/list.html">招标预告</a></li>
+						<li class="l"><a href="html/list.html">变更公告</a></li>
+						<li class="l"><a href="html/list.html">中标结果</a></li>
+						<li class="l"><a href="html/list.html">变更公告</a></li>
+						<li class="l"><a href="html/list.html">政府招标</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>采购</h3>
+				<div class="main_list">
+					<ul class="clearfix">
+						<li class="l"><a href="html/list.html">中标采购</a></li>
+						<li class="l"><a href="html/list.html">政府采购</a></li>
+						<li class="l"><a href="html/list.html">名企采购</a></li>
+						<li class="l"><a href="html/list.html">业主采购</a></li>
+						<li class="l"><a href="html/list.html">在线询价</a></li>
+						<li class="l"><a href="html/list.html">海外采购</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>项目</h3>
+				<div class="main_list">
+					<ul class="clearfix">
+						<li class="l"><a href="html/list.html">VIP项目</a></li>
+						<li class="l"><a href="html/list.html">拟建项目</a></li>
+						<li class="l"><a href="html/list.html">审批项目</a></li>
+						<li class="l"><a href="html/list.html">政府项目</a></li>
+						<li class="l"><a href="html/list.html">商业项目</a></li>
+						<li class="l"><a href="html/list.html">业主项目</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>资讯</h3>
+				<div class="main_list">
+					<ul class="clearfix">
+						<li class=""><a href="html/news.html">行业资讯</a></li>
+						<li class=""><a href="html/news.html">新规解读</a></li>
+						<li class=""><a href="html/news.html">近期展会</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>服务</h3>
+				<div class="main_list" style="border:none;">
+					<ul class="clearfix">
+						<li class=""><a href="#">信息定制</a></li>
+						<li class=""><a href="#">代理招标</a></li>
+						<li class=""><a href="#">服务介绍</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="#">首页</a>><a href="#">行业导航</a>><a href="#">中科合资广东炼化一体化项目公用工程及辅助设施项目国际招标公告（1）</a>
+	</div>
+	<div class="arc_content">
+		<div class="arc fl">
+			<div class="arc_title">
+				中科合资广东炼化一体化项目公用工程及辅助设施项目国际招标公告（1）
+			</div>
+			<div class="arc_info">
+				<span>发布时间：2019-02-05</span><a href="#">项目专盯</a><a href="#">收藏</a>
+			</div>
+			<div class="t_table">
+				<table>
+					<tr>
+						<td style="width: 20%;">发布时间:</td>
+						<td>2019-02-05</td>
+						<td>公告类型:</td>
+						<td>招标预告</td>
+					</tr>
+					<tr>
+						<td>项目编号:</td>
+						<td>ZG21252202355787</td>
+						<td>招标地区:</td>
+						<td>北京</td>
+					</tr>
+
+					<tr>
+						<td>招标产品:</td>
+						<td>管道</td>
+						<td>所属行业:</td>
+						<td>机械</td>
+					</tr>
+
+					<tr>
+						<td>联系人:</td>
+						<td class="blue"><a href="./personal/p-payment.html">会员可见</a></td>
+						<td>联系方式:</td>
+						<td class="blue"><a href="#">会员可见</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="arc_arc">
+				<p> 　
+					*、投标人资格要求
+					投标人应具备的资格或业绩:*）投标人必须是所投报货物的最终制造厂家，或是由最终制造厂家书面授权参与本项目投标的唯一指定代理商。制造厂商在中国大陆有原厂销售与维修分支机构。
+					<p> *)具有良好的信誉和相应产品的销售业绩；具有完善的售后服务制度和良好的售后服务记录。</p>
+					<p> *）投标人应自觉遵守国家法律法规，三年内无利用不正当竞争手段，骗取中标，无重大经济刑事案件。</p>
+					<p> *）本次招标不接受联合体投标。</p>
+					<p> 是否接受联合体投标:不接受</p>
+					<p>未领购招标文件是否可以参加投标:不可以</p>
+					<p> *、招标文件的获取</p>
+					<p> 招标文件领购开始时间:****-**-**</p>
+					<p> 招标文件领购结束时间:****-**-**</p>
+					<p> 是否在线售卖标书:否</p>
+					<p> 获取招标文件方式:现场领购</p>
+					<p> 招标文件领购地点：长寿路***号**楼</p>
+					<p> 招标文件售价:￥***/$**</p>
+					<p> *、投标文件的递交</p>
+					<p> 投标截止时间（开标时间）:****-**-** **:**</p>
+					<p>投标文件送达地点:长寿路***号**楼</p>
+					<p>开标地点:长寿路***号**楼</p>
+					<p> *、投标人在投标前应（****://***.*****.***）或机电产品招标投标电子交易平台（****://***.************.***）完成注册及信息核验。</p>
+					<p> *、联系方式</p>
+					<p> 招标人:华域视觉科技（上海）有限公司</p>
+					<p>地址:上海嘉定叶城路***号</p>
+					<p>联系人:朱佳</p>
+					<p>联系方式:********</p>
+					<p>招标代理机构:上海机电设备招标有限公司</p>
+					<p>地址:上海市长寿路***号</p>
+					<p> 联系人:邓澍</p>
+					<p> 联系方式:********</p>
+					<p> *、汇款方式:</p>
+					<p> 招标代理机构开户银行(人民币):</p>
+					<div class="arc_vip">
+						<img src="../img/arc_vip.jpg" />
+					</div>
+			</div>
+		</div>
+		<div class="sidebar_right fl fl10">
+			<div class="new_did">
+				<div class="new_did_title">
+					独家招标信息
+					<a class="new_did_title_more">更多</a>
+				</div>
+				<ul class="new_did_l">
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+					<li><a href="#">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></li>
+				</ul>
+			</div>
+			<div class="did_city t10">
+				<div class="list_city">
+					<div class="did_reg_title ">
+						地区选择
+					</div>
+					<div class="reg">
+						<h3>华北地区</h3>
+						<span><a href="#">北京</a></span><span><a href="#">天津</a></span><span><a
+								href="#">河北</a></span><span><a href="#">山西</a></span><span><a href="#">内蒙古</a></span>
+					</div>
+					<div class="reg">
+						<h3>华东地区</h3>
+						<span><a href="#">上海</a></span><span><a href="#">江苏</a></span><span><a
+								href="#">浙江</a></span><span><a href="#">安徽</a></span><span><a
+								href="#">江西</a></span><span><a href="#">山东</a></span><span><a href="#">福建</a></span>
+					</div>
+					<div class="reg">
+						<h3>华南地区</h3>
+						<span><a href="#">广东</a></span><span><a href="#">广西</a></span><span><a href="#">海南</a></span>
+					</div>
+					<div class="reg">
+						<h3>华中地区</h3>
+						<span><a href="#">湖南</a></span><span><a href="#">湖北</a></span><span><a href="#">河南</a></span>
+					</div>
+					<div class="reg">
+						<h3>东北地区</h3>
+						<span><a href="#">辽宁</a></span><span><a href="#">吉林</a></span><span><a href="#">黑龙江</a></span>
+					</div>
+					<div class="reg">
+						<h3>西北地区</h3>
+						<span><a href="#">陕西</a></span><span><a href="#">甘肃</a></span><span><a
+								href="#">青海</a></span><span><a href="#">宁夏</a></span><span><a href="#">新疆</a></span>
+					</div>
+					<div class="border_bottom_none reg">
+						<h3>西南地区</h3>
+						<span><a href="#">重庆</a></span><span><a href="#">四川</a></span><span><a
+								href="#">贵州</a></span><span><a href="#">云南</a></span><span><a href="#">西藏</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cl"></div>
+	</div>
+	<!-- 公共底部 -->
+	<div class="footer t10">
+
+	</div>
+
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/search.js"></script>
+	<script>
+
+		$(function () {
+			// 引入公共头部和底部
+			$('.header').load('../slide/header.html');
+			$('.footer').load('../slide/footer.html');
+		})
+	</script>
+</body>
+
+</html>

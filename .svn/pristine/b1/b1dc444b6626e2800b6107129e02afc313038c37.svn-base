@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>新闻列表</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<style type="text/css">
+		.head_nav .nav ul li:nth-child(6) a {
+			background-color: #505050;
+			color: #fff;
+		}
+		.news_content {
+			width: 1200px;
+			margin: 0 auto;
+		}
+		.news_l {
+			width: 888px;
+			border: 1px solid #e6e6e6;
+		}
+		.news_sidebar_r {
+			width: 300px;
+		}
+		.news_l_l {
+			padding: 0px;
+		}
+		.news_l_l li {
+			height: 140px;
+		}
+		.news_l_l li a:hover {}
+		.news_title {
+			font-size: 18px;
+			font-weight: 600;
+			text-overflow: ellipsis;
+		}
+		.classify {
+			padding: 0px 8px;
+			color: #008FED;
+			font-size: 16px;
+		}
+		.classify a {
+			color: #008FED;
+			font-size: 16px;
+		}
+		.news_title_abstract {
+			line-height: 22px;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 3;
+			overflow: hidden;
+			color: #9a9a9a;
+			margin-top: 10px;
+			height: 70px;
+			overflow: hidden;
+		}
+		.news_l_r a:hover {
+			color: #9a9a9a;
+		}
+		.news_l_border {
+			display: flex;
+			padding: 20px 30px;
+			border-bottom: 1px dashed #e6e6e6;
+		}
+		.news_l_r {
+			margin-left: 20px;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+		}
+		.news_l_border:hover {
+			background: #f5f5f5;
+		}
+		/*热门文章*/
+		.hot_news {
+			border: 1px solid #e6e6e6;
+		}
+		.hot_news_title {
+			font-size: 14px;
+			height: 40px;
+			background: #f4f4f4;
+			text-align: left;
+			padding-left: 10px;
+			line-height: 40px;
+			color: #646464;
+		}
+		.hot_news_l {
+			overflow: hidden;
+			padding: 10px;
+		}
+		.hot_news_l li {
+			height: 34px;
+			line-height: 34px;
+			font-size: 14px;
+		}
+		.hot_news_l li a {
+			color: #323232;
+			font-size: 14px;
+		}
+		.hot_news_l li a:hover {
+			color: #008FED;
+		}
+		.news_item {
+			display: flex;
+			align-items: center;
+			margin-top: auto;
+			font-size: 13px;
+			justify-content: space-between;
+		}
+		.news_item .abstract {
+			padding: 2px 5px;
+			border: 1px solid #008FED;
+			border-radius: 3px;
+			margin-right: 8px;
+			color: #008FED;
+		}
+		.new_ad {
+			width: 300px;
+		}
+		.new_ad img {
+			margin-bottom: 10px;
+			width: 300px;
+			height: 180px;
+		}
+		.page {
+			margin: 30px auto;
+			width: 600px;
+			height: 50px;
+		}
+		.page li {
+			height: 30px;
+			width: 30px;
+
+			line-height: 30px;
+			text-align: center;
+			border: 1px solid #e6e6e6;
+			float: left;
+			margin-left: 5px;
+		}
+		.page li a {
+			display: block;
+			color: #505050;
+		}
+		.page .act {
+			background: #008FED;
+			border: none;
+
+		}
+		.page .act a {
+			color: #ffffff;
+
+		}
+		/* 分页部分 */
+		#demo1 {
+			margin: 10px auto;
+			width: 600px;
+			height: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 公共头部 -->
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="#">首页</a>><a href="#">行业资讯</a>
+	</div>
+	<div class="news_content">
+		<div class="news_l fl">
+
+			<ul class="news_l_l">
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+				</li>
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">政策解读</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">近期展会</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+
+
+				<li class="news_l_border">
+					<a href="#"><img src="../img/123.jpg" width="180px" height="140px"></a>
+					<div class="news_l_r">
+						<a class="news_title" herf="#">全球第三大黄金储备国欲抛售黄金，多头应该感到担忧吗？</a>
+						<a class="news_title_abstract"
+							href="#">尧柏集团墨玉水泥熟料产能置换建设项目总承包签约仪式于1月23日在南京举行。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。这是继2018年12月21日尧柏集团与新疆墨玉县人民政府产能置换项目投资签约仪式后与中材国际(南京)正式签定的总承包合同，标志着尧柏集团投资新疆墨玉项目的正式启动。
+						</a>
+						<div class="news_item">
+							<a class="abstract" href="#" target="_blank">行业资讯</a> <span>发布于：2019-02-05 13:34</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!-- 分页 -->
+			<div id="demo1"></div>
+		</div>
+		<div class="news_sidebar_r fl fl10">
+			<div class="hot_news">
+				<div class="hot_news_title">热门新闻</div>
+				<ul class="hot_news_l">
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+					<li><a href="#">绿卡手动阀阿三地方</a></li>
+				</ul>
+			</div>
+			<div class="new_ad t10">
+				<img src="../img/1111.jpg">
+				<img src="../img/1500.jpg">
+			</div>
+		</div>
+
+	</div>
+	<div class="cl">
+
+	</div>
+	<!-- 公共底部 -->
+	<div class="footer t10">
+
+	</div>
+
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/search.js"></script>
+	<script>
+
+		$(function () {
+			// 引入公共头部和底部
+			$.get('../slide/header.html', function (result) {
+				$result = $(result);
+				$result.find('.top').appendTo('.header');
+				$result.find('.logo').appendTo('.header');
+			}, 'html');
+			$.get('../slide/footer.html', function (result) {
+				$result = $(result);
+				$result.find('.footer_content').appendTo('.footer');
+			}, 'html');
+			// 分页
+			layui.use(['laypage', 'layer'], function () {
+				var laypage = layui.laypage, layer = layui.layer;
+				//总页数大于页码总数
+				laypage.render({
+					elem: 'demo1',
+					count: 70, //数据总数,
+					jump: function (obj) {
+						console.log(obj)
+					}
+				});
+			}
+			);
+		})
+	</script>
+</body>
+
+</html>

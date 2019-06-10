@@ -1,0 +1,31 @@
+/*底部*/
+			.footer {
+				width: 100%;
+				height: 180px;
+				background: #3c3c3c;
+			}
+
+			.footer_content {
+				width: 1200px;
+				margin: 0 auto;
+				text-align: center;
+				color: #c0c0c0;
+			}
+
+			.footer_info {
+				color: #c0c0c0;
+				padding-top: 20px;
+				text-align: center;
+			}
+
+			.footer_info li a {
+				color: #c0c0c0;
+				padding: 0px 10px;
+			}
+
+			.footer_p {
+				color: #c0c0c0;
+				height: 40px;
+				line-height: 40px;
+				font-size: 12px;
+			}

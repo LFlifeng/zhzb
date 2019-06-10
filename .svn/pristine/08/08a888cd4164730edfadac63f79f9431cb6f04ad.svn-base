@@ -1,0 +1,61 @@
+<div>
+	<div class="top">
+		<div class="top_content">
+			<span>欢迎来到中汇招标网站</span>
+			<!-- <div class="city top_info">[切换城市：<a href="#" class="oBtn_link">北京</a>&nbsp;] </div> -->
+			<div class="top_info r">
+				<span class="r10">客服电话：400-888-1234</span>
+				<span class="web_map r10"><a href="#" class="">地图导航</a>
+				</span>
+				<span><a href="#" class="">帮助中心</a></span>
+				<span style="display: none">
+					<a href="" style="display:inline-block;width:127px; text-align:center;">北京中汇恒升互联网</a>
+					<i class="fa fa-angle-down"></i>
+					<div class="info" style="none">
+						<div class="user_info_head clearfix">
+							<img src="../img/per.jpg" class="l">
+							<div class="user_jj l">
+								<div class="user_level">会员级别：<span>普通会员</span></div>
+								<div class="user_date">有效期至2019年10月22日</div>
+							</div>
+						</div>
+						<div class="user_info_footer">
+							<a href="">个人中心</a>
+							<a href="">退出登录</a>
+						</div>
+					</div>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="logo">
+		<div class="logo_icon fl">
+			<a href="../index.html"><img src="../img/logo.png" alt=""></a>
+		</div>
+		<div class="search fl">
+			<div class="search_box">
+				<div id="search">
+					<div id="search_box" class="l">
+						<span class="select_txt">招标信息</span>
+						<span class="select-icon"></span>
+						<ul class="option">
+							<li>项目名称</li>
+							<li>项目产品</li>
+							<li>企业名称</li>
+						</ul>
+					</div>
+				</div>
+				<input type="hidden" name="" value="招标信息" id="select_value">
+				<input class="search-border" type="text" name="search_name" placeholder="请输入项目名称" />
+				<input class="search_btn" type="button" value="搜索" />
+			</div>
+			<div class="hot"><label style="color:#ccc;">热门项目：</label><label class="r10"><a href="#">医疗</a></label><label
+					class="r10"><a href="#">建筑</a></label><label class="r10"><a href="#">绿化</a></label></div>
+		</div>
+		<div class="wachat fl">
+			<div class="app fl">二维码</div>
+			<div class="weixin fl">APP小程序</div>
+		</div>
+	</div>
+	<div class="cl"></div>
+</div>

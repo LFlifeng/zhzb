@@ -1,0 +1,56 @@
+.top .nav li:first-child a {
+    border:none;
+}
+.middle h4 a {
+    color: #646464;
+}
+.parentWrap .menuGroup>div {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    display: block;
+    cursor: pointer;
+}
+.parentWrap .menuGroup>div:nth-child(4)>a {
+    color: #0090ec;
+ }
+.t_right {
+    height: 750px;
+}
+.layui-form-item .title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#636363;
+}
+.layui-form-item .layui-form-label {
+    width: 114px;
+    text-align: left;
+}
+.layui-form .layui-form-item:nth-child(2) .layui-input {
+    background-color: #fff;
+}
+.layui-form .layui-form-item:nth-child(2) span a {
+    color: #0090ec;
+}
+.layui-form .layui-form-item:nth-child(3) span:last-child {
+    color: #ccc;
+}
+.layui-form-item .layui-input {
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+    display: inline-block;
+}
+.layui-form-item button {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,234 @@
+body {
+    background-color: #fff;
+}
+.zh_topBar {
+    display: flex;
+    background-color: #fff;
+}
+.zh_topBar a {
+    color: #348eea;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.zh_topBar img {
+    width: 15px;
+}
+.zh_topBar input {
+    font-size: 14px;
+    border: none;
+    margin-top: 6px;
+    background-color: #f0f0f0;
+}
+/* 选项 */
+.tabs {
+    margin-top: 50px;
+    background-color: #fff;
+}
+.zh_container .tabs>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.zh_container .tabs>ul li {
+    margin: 0 30px;
+}
+.zh_container .tabs>ul li a {
+    font-size: 15px;
+    color: #646464;
+}
+.tabs>ul li i:nth-child(3) {
+    display: none;
+}
+.zh_container .tabs>ul li.active a,
+.zh_container .tabs>ul li.active i {
+    color: #348eea;
+}
+.zh_container .tabs>ul li.active i:nth-child(2) {
+    display: none;
+}
+.zh_container .tabs>ul li.active i:nth-child(3) {
+    display: inline;
+}
+/* 时间选项 */
+.tab.active{
+    display: block;
+}
+.tab {
+    display: none;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.time p {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #b4b4b4;
+    color: #b4b4b4;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.time p.active {
+    background-color: #348eea;
+    color: #fff;
+    border: #348eea;
+}
+/* 类型选项 */
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.type:nth-child(2) {
+    margin-bottom: 15px;
+}
+.type p {
+    width: 90px;
+    height: 30px;
+    border: 1px solid #b4b4b4;
+    color: #b4b4b4;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+.type p.active {
+    background-color: #348eea;
+    color: #fff;
+    border: #348eea;
+}
+/* 地区选项 */
+.address_slide {
+    margin-top: 10px;
+}
+/* 省 */
+.address_slide .province {
+    /* height: 445px; */
+    overflow: auto;
+    background-color: #f1f1f1;
+}
+.address_slide .province p,
+.address_slide .province li {
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    width: 80px;
+}
+.address_slide .province p {
+    margin-bottom: 0;
+}
+.address_slide .province li.active {
+    background-color: #348eea;
+    color: #fff;
+}
+/* 市 */
+.address_slide .city {
+    /* height: 445px; */
+    overflow: auto;
+    background-color: #fff;
+}
+.address_slide .city li {
+    margin-left: 20px;
+}
+.address_slide .city li>div {
+    /* width: 250px; */
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+}
+.address_slide .city li>div input {
+    height: 17px;
+    margin-right: 22px;
+}
+.c_city.active {
+    display: block;
+}
+.c_city {
+    display: none;
+}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before {
+    font-size: 25px;
+}
+/*  */
+.affirm {
+    position: fixed;
+    left: 0;
+    z-index: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.affirm>div {
+    width: 50%;
+    height: 41px;
+    text-align: center;
+    line-height: 41px;
+    color: #969696;
+    background-color: #fff;
+    font-size: 16px;
+    border-top: 1px solid #ccc;
+}
+.affirm>div:last-child {
+    background-color: #348eea;
+    color: #fff; 
+}
+/* 相关信息 */
+.info {
+    margin-top: 15px;
+}
+.info .info_title {
+    padding-left: 10px;
+    color: #adadad;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f0f0f0;
+}
+.info .info_title span {
+    color: #f12727;
+    margin: 0 5px;
+}
+.mui-media-body {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.item_flex {
+	display: flex;
+	color: #c9c9c9;
+	align-items: center;
+}
+.item_flex>.flex {
+	height: 30px;
+	font-size: 15px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+.item_flex img {
+	height: 14px;
+	width: 14px;
+	margin: 0px 3px;
+}
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,.3);
+}

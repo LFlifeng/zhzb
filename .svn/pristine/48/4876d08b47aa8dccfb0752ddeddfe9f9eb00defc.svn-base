@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>中汇招标----行业分类</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" href="../css/industry.css">
+</head>
+
+<body>
+	<!-- 公共头部 -->
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="#">首页</a>><a href="#">行业导航</a>
+	</div>
+	<div class="nav_content">
+		<ul class="nav_content_l">
+			<label class="industry_class">工程机械</label>
+			<li><a href="#">数控机床</a><a href="#"> 包装机械</a><a href="#">干燥设备</a><a href="#"> 食品机械</a><a href="#">水泵</a><a
+					href="#">泵</a></li>
+			<label class="industry_class">水利水电</label>
+			<li><a href="#">发电机组</a><a href="#">水利设备</a><a href="#">电源</a><a href="#">铁塔</a><a href="#">管道</a><a
+					href="#"> 阀门</a><a href="#">风力发电</a><a href="#"> 节水</a></li>
+		</ul>
+	</div>
+	<!-- 公共底部 -->
+	<div class="footer">
+
+	</div>
+
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/search.js"></script>
+	<script>
+		$(function () {
+			// 引入公共头部和底部
+			$('.header').load('../slide/header.html');
+			$('.footer').load('../slide/footer.html');
+		})
+	</script>
+</body>
+
+</html>

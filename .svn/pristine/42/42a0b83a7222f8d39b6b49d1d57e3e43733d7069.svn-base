@@ -1,0 +1,423 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>中汇招标----搜索</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="res/mui/css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="res/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/search.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="zh_layout">
+        <header class="zh_topBar mui-bar mui-bar-nav">
+            <a href="javascript:history.back()"><img src="img/back.png" alt=""></a>
+            <input type="text" placeholder="请输入名称或关键字">
+            <a href="#">搜索</a>
+        </header>
+        <div class="zh_container">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <!-- 条件筛选 -->
+                    <div class="tabs">
+                        <ul>
+                            <li class="active" id="1">
+                                <a href="#">时间</a>
+                                <i class="fa fa-caret-down"></i>
+                                <i class="fa fa-caret-up"></i>
+                            </li>
+                            <li id="2">
+                                <a href="#">类型</a>
+                                <i class="fa fa-caret-down"></i>
+                                <i class="fa fa-caret-up"></i>
+                            </li>
+                            <li id="3">
+                                <a href="#">地区</a>
+                                <i class="fa fa-caret-down"></i>
+                                <i class="fa fa-caret-up"></i>
+                            </li>
+                        </ul>
+                        <div class="tab active">
+                            <div class="time">
+                                <p class="active">全部</p>
+                                <p>近一周</p>
+                                <p>近一月</p>
+                                <p>近半年</p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <div class="type">
+                                <p class="active">招标公告</p>
+                                <p>招标预告</p>
+                                <p>中标公告</p>
+                            </div>
+                            <div class="type">
+                                <p>变更公告</p>
+                                <p>拟在建项目</p>
+                                <p>VIP项目</p>
+                            </div>
+                        </div>
+                        <div class="tab">
+                            <div class="address_slide clearfix">
+                                <ul class="province l">
+                                    <p>全国</p>
+                                    <li class="active">北京</li>
+                                    <li>天津</li>
+                                    <li>河北</li>
+                                    <li>山西</li>
+                                    <li>内蒙古</li>
+                                </ul>
+                                <ul class="city l">
+                                    <li class="c_city active">
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox" class="j_cbAll">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox" class="j_tb">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox" class="j_tb">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox" class="j_tb">
+                                        </div>
+                                    </li>
+                                    <li class="c_city">
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                    </li>
+                                    <li class="c_city">
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                    </li>
+                                    <li class="c_city">
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                    </li>
+                                    <li class="c_city">
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            全选
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            太原
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            大同
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                        <div class="mui-input-row mui-checkbox">
+                                            阳泉
+                                            <input name="checkbox1" value="Item 1" type="checkbox">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="affirm">
+                                <div>重置</div>
+                                <div>确定</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 相关信息 -->
+                    <div class="info">
+                        <div class="info_title">
+                            找到相关信息<span>56266</span>条
+                        </div>
+                        <ul class="mui-table-view">
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)11111111111111111
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+
+                                    <div class="mui-media-body">
+                                        自动封点银胶机固化塔 国际招标公告(1)
+                                        <div class="item_flex">
+                                            <div class="flex"><i><img src="img/icon6.png"></i>北京</div>
+                                            <div class="flex"><i><img src="img/icon7.png"></i>招标信息</div>
+                                            <div class="flex"><i><img src="img/icon8.png"></i>2018-05-12 15:21</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="res/mui/js/mui.min.js"></script>
+    <script src="js/common.js"></script>
+    <script type="text/javascript">
+        // $('.j_cbAll').on('tap',function(){
+        //     console.log($('.j_tb'))
+        //     $('input[type].j_tb').prop('checked',$(this).prop('checked'))
+        // })
+        // $('input[type].j_tb').on('tap',function(){
+        //     var length = $('input[type=checkbox].j_tb').length;
+        //     console.log(length)
+        //     var ckLength = $('input[type=checkbox]:checked.j_tb').length;
+        //     console.log(ckLength)
+        //     $('.j_cbAll').prop('checked',length===ckLength)
+        // })
+        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+        $(".affirm").css({
+            'top': h-40 + 'px'
+        })
+        $('.address_slide .province,.address_slide .city').css({
+            'height': h-118 + 'px'
+        })
+        $('.address_slide .city li>div').css({
+            'width': w-134 + 'px'
+        })
+        $('.tabs .tab:nth-child(4) .affirm>div:nth-child(2)').on('tap', function () {
+            $(this).parent().parent().removeClass('active');
+            $(this).parent().parent().siblings('ul').children('li').removeClass('active');
+            $('.info').show();
+        })
+        $('.tabs>ul #3').on('tap',function(){
+            $('.info').hide();
+        })
+        $(".tabs>ul>li:not('#3')").on('tap',function(){
+            $('.info').show();
+        })
+        // 条件筛选
+        // 1. 获取一组li
+        var lis = document.querySelectorAll('.zh_container .tabs>ul>li');
+        // 2. 获取一组div显示项
+        var divs = document.querySelectorAll('.tab');
+        // 3. for循环遍历给每一个li注册一个点击事件，给每一个li添加一个index属性，表示li的下标
+        for (var i = 0; i < lis.length; i++) {
+            // 3.1 给每一个li添加一个index属性
+            lis[i].index = i;
+            // 3.2 注册事件
+            lis[i].addEventListener('tap', function () {
+                // 4. 在事件处理程序中，① 切换li  ② 切换div
+                // 4.1 循环遍历去掉所有li 和 所有div的类名active
+                for (var j = 0; j < lis.length; j++) {
+                    lis[j].className = '';
+                    divs[j].className = 'tab';
+                }
+                // 4.2 给当前点击的li添加类名active
+                this.className = 'active';
+                // 4.3 获取当前点击的li的下标
+                var num = this.index;
+                // 找到对应的div项，显示
+                divs[num].className = 'tab active';
+            });
+        }
+        // 地区tab
+        var li = document.querySelectorAll('.province>li');
+        var div = document.querySelectorAll('.c_city');
+        for (var i = 0; i < li.length; i++) {
+            li[i].index = i;
+            li[i].addEventListener('tap', function () {
+                for (var j = 0; j < li.length; j++) {
+                    li[j].className = '';
+                    div[j].className = 'c_city';
+                }
+                this.className = 'active';
+                var num = this.index;
+                div[num].className = 'c_city active';
+            });
+        }
+
+        mui.init()
+    </script>
+</body>
+
+</html>

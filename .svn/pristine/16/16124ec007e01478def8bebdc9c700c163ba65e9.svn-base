@@ -1,0 +1,13 @@
+$(function(){
+    $('.head_nav .nav ul li a').click(function(){
+        $(this).css({
+            "background-color":"#d0d0d0",
+            "color":"#646464"
+        });
+        $(this).parent().siblings().children('a').css({
+            "background-color":"#c8302e",
+            "color":"#fff"
+        })
+
+    })
+});

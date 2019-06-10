@@ -1,0 +1,16 @@
+.t_right {
+    height: 750px;
+}
+.t_right h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.t_right ul {
+    margin-top: 20px;
+}
+.t_right li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dotted #ccc;
+}

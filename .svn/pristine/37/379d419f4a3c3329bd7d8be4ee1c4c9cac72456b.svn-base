@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>中汇招标----我的</title>
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link href="../res/mui/css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../res/fontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/user.css">
+</head>
+
+<body>
+	<div class="zh_layout">
+		<header class="zh_topBar clearfix">
+			<a href="javascript:history.back()" class="icon_back fa fa-chevron-left l"></a>
+			<a href="set.html" class="fa fa-gear r"></a>
+		</header>
+		<div class="zh_container">
+			<div class="user clearfix" style="display:block;">
+				<img src="../img/per.jpg" alt="" class="l">
+				<div class="user_info l">
+					<h4>张三</h4>
+					<span>会员等级：<i>普通会员</i></span>
+				</div>
+			</div>
+			<div class="user clearfix" style="display:none;">
+				<img src="../img/pczw.png" alt="" class="l">
+				<div class="user_info l">
+					<h4 style="margin-top: 20px;">未登录</h4>
+				</div>
+			</div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="buy.html" class="mui-navigate-right">
+						<img src="../img/wxicon1.png" alt="">
+						我的购买
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="collection.html" class="mui-navigate-right">
+						<img src="../img/wxicon6.png" alt="">
+						我的专盯
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="collection.html" class="mui-navigate-right">
+						<img src="../img/wxicon2.png" alt="">
+						我的收藏
+					</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="help.html" class="mui-navigate-right">
+						<img src="../img/wxicon3.png" alt="">
+						帮忙与反馈
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="service.html" class="mui-navigate-right">
+						<img src="../img/wxicon4.png" alt="">
+						客服中心
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="about.html" class="mui-navigate-right">
+						<img src="../img/wxicon5.png" alt="">
+						关于我们
+					</a>
+				</li>
+			</ul>
+			<button type="button" class="mui-btn" style="display:block;">退出</button>
+			<button type="button" class="mui-btn" style="display:none;">去登录</button>
+		</div>
+		<!-- 底部工具栏 -->
+		<footer class="zh_tabs">
+			<a href="../index.html" class="tab_home fa fa-home"><span>首页</span></a>
+			<a href="../subscribe.html" class="tab_bookmark fa fa-bookmark"><span>订阅</span></a>
+			<a href="user.html" class="tab_user fa fa-user now"><span class="now">我的</span></a>
+		</footer>
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../res/mui/js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init()
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>行业分类</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<style>
+			.position_nav {
+				width: 1200px;
+				height: 50px;
+				line-height: 50px;
+				margin: 0 auto;
+			}
+			.position_nav p {
+				text-align: left;
+				font-size: 14px;
+				color: #505050;
+			}
+			.position_nav a {
+				padding: 1px 8px;
+				
+			}
+			/* 行业导航样式*/
+			
+			.nav_content {
+				width:1178px;
+				margin: 0 auto 20px;
+				padding: 20px;
+				border: 1px solid #e6e6e6;
+			}
+			.nav_content_l {
+				padding: 0px 0px;
+			}
+			.industry_class {
+				font-weight: 600;
+				padding-left: 6px;
+				font-size:14px;
+				height: 34px;
+				border-left:3px solid #008FED;
+			}
+			.nav_content_l li {
+				padding: 20px 0px;
+			}
+			.nav_content_l li a {
+				padding: 10px;
+				color:#505050;
+			}
+			.nav_content_l li a:hover {
+				color:#008FED;
+				}
+			
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="top_content">
+					<span>欢迎来到中汇招标网站</span>
+					<!-- <div class="city top_info">[切换城市：<a href="#" class="oBtn_link">北京</a>&nbsp;] </div> -->
+					<div class="login top_info l10"><a href="#">注册</a>&nbsp;&nbsp;<a href="login.html">登录</a></div>
+					<div class="top_info r">
+						<span class="r10 p12">客服电话：400-888-1234</span>
+						<span class="web_map r10"><a href="#" class="p12">地图导航</a>
+							<div class="top_nav_submenu">asdf</div>
+						</span>
+						<span><a href="#" class="p12">帮助中心</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="logo">
+				<div class="logo_icon fl">logo</div>
+				<div class="search fl">
+					<div class="search_box">
+						<div id="search_box">
+							<select name="" id="">
+								<option value="">招标信息</option>
+								<option value="">招标信息</option>
+								<option value="">招标信息</option>
+								<option value="">招标信息</option>
+							</select>
+							<div></div>
+						</div>
+						<input class="search-border" type="text" name="search_name" placeholder="请输入项目名称、产品或者企业名称" />
+						<input class="search_btn" type="button" value="搜索" />
+					</div>
+					<div class="hot"><label style="color:#ccc;">热门项目：</label><label class="r10"><a href="#">医疗</a></label><label class="r10"><a
+							 href="#">建筑</a></label><label class="r10"><a href="#">绿化</a></label></div>
+				</div>
+				<div class="wachat fl">
+					<div class="app fl">二维码</div>
+					<div class="weixin fl">APP小程序</div>
+				</div>
+			</div>
+			<div class="cl"></div>
+			<div class="head_nav">
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="html/list.html">招标信息</a></li>
+						<li><a href="list.html">采购信息</a></li>
+						<li><a href="list.html">项目中心</a></li>
+						<li><a href="news.html">行业资讯</a></li>
+						<li><a href="list.html">服务大厅</a></li>
+					</ul>
+					<div class="send"><input class="send_btn" type="button" value="发布招标信息"></div>
+				</div>
+			</div>
+		</div>
+		<div class="position_nav">
+			当前位置：<a href="#">首页</a>><a href="#">行业导航</a>
+		</div>
+		<div class="nav_content">
+			<ul class="nav_content_l">
+				<label class="industry_class">工程机械</label>
+				<li><a href="#">数控机床</a><a href="#"> 包装机械</a><a href="#">干燥设备</a><a href="#"> 食品机械</a><a href="#">水泵</a><a href="#">泵</a></li>
+				<label class="industry_class">水利水电</label>
+				<li><a href="#">发电机组</a><a href="#">水利设备</a><a href="#">电源</a><a href="#">铁塔</a><a href="#">管道</a><a href="#"> 阀门</a><a
+					 href="#">风力发电</a><a href="#"> 节水</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer">
+			<div class="footer_content">
+				<div class="footer_info">
+					<ul>
+						<li><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">免责声明</a>|<a href="#">隐私政策</a>|<a href="#">友情链接</a>|<a href="#">法律声明</a>|<a
+							 href="#">广告服务</a>
+						</li>
+					</ul>
+				</div>
+				<p class="footer_p"> 版权所有 北京中汇恒升互联网有限公司 Powered by LingJiang tech 京ICP备18005946号-7</p>
+			</div>
+		</div>
+		
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script>
+			
+			// 引入公共头部和底部
+			// $(document).ready(function(){
+			// 	$('.header').load('../slide/header.html');
+			// 	$('.footer').load('../slide/footer.html');
+			// });
+		</script>
+	</body>
+</html>

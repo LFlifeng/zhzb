@@ -1,0 +1,25 @@
+.agreement {
+    margin-left: 20px;
+    width: 600px;
+}
+.agreement h1 {
+    font-size: 20px;
+    margin-top: 50px;
+    color: #ba3f44;
+}
+.agreement h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ba3f44;
+}
+.agreement p {
+    text-indent:35px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.agreement span {
+    display: block;
+    text-indent:70px;
+    margin-top: 5px;
+    font-size: 14px;
+}

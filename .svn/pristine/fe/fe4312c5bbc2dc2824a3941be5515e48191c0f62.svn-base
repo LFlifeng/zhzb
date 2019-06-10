@@ -1,0 +1,89 @@
+body {
+    background-color: #fff;
+}
+.zh_topBar {
+    background-color: #fff;
+}
+.zh_topBar a {
+    color: #348eea;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.zh_topBar img {
+    width: 15px;
+}
+.mui-bar-nav.mui-bar .mui-icon {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+.mui-table-view {
+    margin-top: 50px;
+}
+.mui-table-view:before,
+.mui-table-view:after {
+    background-color: #fff;
+}
+.mui-media-body {
+    color: #505050;
+    font-size: 18px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.item_flex {
+	display: flex;
+    color: #c9c9c9;
+    justify-items: center;
+	align-items: center;
+}
+.item_flex>.flex {
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	margin-right: 8px;
+}
+.item_flex img {
+	height: 14px;
+	width: 14px;
+	margin: 0px 3px;
+}
+/* 表格部分 */
+.zh_content {
+    margin: 0 10px;
+}
+table {
+    margin: 0 auto;
+}
+table td {
+    background-color: #f3f3f3;
+    border: 1px solid #e2e2e2;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 5px;
+    overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+table tr td:nth-of-type(even) {
+    color: #505050;
+}
+table:first-child tr td {
+    width: 11%;
+}
+table:nth-child(2) tr td:first-child {
+    width: 15%;
+}
+table:nth-child(2) tr td:last-child {
+    width: 66%;
+}
+table:nth-child(2) tr:first-child td {
+    border-top: none;
+}
+.arc_arc p {
+    line-height: 24px;
+    color: #323232;
+}

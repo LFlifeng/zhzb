@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----基本信息</title>
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-basicInformation.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="header w clearfix">
+            <!-- logo区域 -->
+            <div class="logo l">
+                <img src="../../img/logo.png" alt="">
+            </div>
+            <!-- 导航部分 -->
+            <div class="nav l">
+              <ul class="clearfix">
+                    <li class="l"><a href="./p-basicInformation.html">首页</a></li>
+                    <li class="l"><a href="./p-tenderserver.html">标书服务</a></li>
+                    <li class="l"><a href="./p-membership.html">会员服务</a></li>
+                    <li class="l"><a href="./p-promotionserver.html">推广服务</a></li>
+                    <li class="l"><a href="./p-applyinvoice.html">发票申请</a></li>
+              </ul>
+            </div>
+            <!-- 个人中心部分 -->
+            <div class="personal r">
+              <div class="detail clearfix">
+                <div class="l">
+                    <img src="../../img/icon-email.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../../img/icon-rang.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../../img/per.jpg" alt="">
+                    <span>steven &nbsp; jone</span>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+                <ul class="ul">
+                    <li>
+                      <a href="./p-accountinformation.html">账号信息</a>
+                    </li>
+                    <li>
+                      <a href="#">安全设置</a>
+                    </li>
+                    <li>
+                      <a href="../login.html">退出登录</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+              <h4><a href="./p-basicInformation.html">基本信息</a></h4>
+              <!-- 手风琴效果 -->
+              <ul class="parentWrap">
+                  <li class="menuGroup">
+                    <span class="groupTitle"><a href="#">招标服务</a></span>
+                    <div><a href="./p-trackInformation.html">跟踪信息</a></div>
+                    <div><a href="#">项目专盯</a></div>
+                    <div><a href="#">委托项目</a></div>
+                  </li>
+                  <li class="menuGroup">
+                    <span class="groupTitle"><a href="#">供应商库</a></span>
+                    <div><a href="./p-application.html">申请入驻</a></div>
+                    <div><a href="./p-productdisplay.html">产品展示</a></div>
+                  </li>
+                  <li class="menuGroup">
+                    <span class="groupTitle"><a href="#">发布信息</a></span>
+                    <div><a href="./p-publishInformation.html">发布信息</a></div>
+                    <div><a href="./p-mangerelease.html">管理发布</a></div>
+                  </li>
+                  <li class="menuGroup">
+                    <span class="groupTitle"><a href="#">我的收藏</a></span>
+                    <div>我是弹出来的div4</div>
+                  </li>
+                  <li class="menuGroup">
+                      <span class="groupTitle"><a href="#">浏览历史</a></span>
+                      <div>我是弹出来的div4</div>
+                  </li>
+              </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <div class="title">基本信息</div>
+                        </div>
+                        <div class="layui-form-item clearfix">
+                          <div class="l">
+                            <label class="layui-form-label">企业名称</label>
+                              <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="北京中汇恒升互联网信息服务有限公司" class="layui-input">
+                            
+                          </div>
+                          <div class="l">
+                            <label class="layui-form-label">法定代表人</label>
+                              <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入法定代表人" class="layui-input">
+                            
+                          </div>
+                        </div>
+                        <div class="layui-form-item clearfix">
+                          <div class="l">
+                            <label class="layui-form-label">统一信用代码</label>
+                              <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入统一信用代码" class="layui-input">
+                          </div>
+                          <div class="l">
+                            <label class="layui-form-label">法人身份证号</label>
+                            
+                            <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入法人身份证号码" class="layui-input">
+                            
+                          </div>
+                        </div>
+                        <!-- 所在地区 -->
+                        <div class="layui-form-item">
+                          <label class="layui-form-label">所在地区</label>
+                          <div class="layui-input-inline">
+                            <select name="quiz1">
+                              <option value="">请选择</option>
+                              <option value="浙江">浙江省</option>
+                              <option value="你的工号">江西省</option>
+                              <option value="你最喜欢的老师">福建省</option>
+                            </select>
+                          </div>
+                          <div class="layui-input-inline">
+                            <select name="quiz2">
+                              <option value="">请选择</option>
+                              <option value="杭州">杭州</option>
+                              <option value="宁波" disabled="">宁波</option>
+                              <option value="温州">温州</option>
+                              <option value="温州">台州</option>
+                              <option value="温州">绍兴</option>
+                            </select>
+                          </div>
+                          <div class="layui-input-inline">
+                            <select name="quiz3">
+                              <option value="">请选择</option>
+                              <option value="西湖区">西湖区</option>
+                              <option value="余杭区">余杭区</option>
+                              <option value="拱墅区">临安市</option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- 所属行业 -->
+                        <div class="layui-form-item">
+                          <label class="layui-form-label">所属行业</label>
+                          <div class="layui-input-inline">
+                            <select name="quiz1">
+                              <option value="">请选择</option>
+                              <option value="浙江">浙江省</option>
+                              <option value="你的工号">江西省</option>
+                              <option value="你最喜欢的老师">福建省</option>
+                            </select>
+                          </div>
+                          <div class="layui-input-inline">
+                            <select name="quiz2">
+                              <option value="">请选择</option>
+                              <option value="杭州">杭州</option>
+                              <option value="宁波" disabled="">宁波</option>
+                              <option value="温州">温州</option>
+                              <option value="温州">台州</option>
+                              <option value="温州">绍兴</option>
+                            </select>
+                          </div>
+                          <div class="layui-input-inline">
+                            <select name="quiz3">
+                              <option value="">请选择</option>
+                              <option value="西湖区">西湖区</option>
+                              <option value="余杭区">余杭区</option>
+                              <option value="拱墅区">临安市</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="layui-form-item clearfix">
+                          <div class="l">
+                            <label class="layui-form-label">详情地址</label>
+                            <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入公司详情地址" class="layui-input">
+                          </div>
+                          <div class="l">
+                            <label class="layui-form-label">邮政编码</label>
+                            
+                            <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入邮政编码" class="layui-input">
+                            
+                          </div>
+                        </div>
+                        <div class="layui-form-item clearfix">
+                          <div class="l">
+                            <label class="layui-form-label">联系人</label>
+                            <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入联系人姓名" class="layui-input">
+                          </div>
+                          <div class="l">
+                            <label class="layui-form-label">手机号码</label>
+                            <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" placeholder="请输入联系人手机号码" class="layui-input">
+                          </div>
+                        </div>
+                        <div class="layui-form-item">
+                          <div class="email">
+                            <label class="layui-form-label">邮箱地址</label>
+                            <input type="text" name="email" lay-verify="email" autocomplete="off" placeholder="请输入邮箱地址" class="layui-input">
+                          </div>
+                        </div>
+                        <div class="layui-form-item">
+                          <div class="title">企业资质</div>
+                        </div>
+                        <div class="layui-form-item">
+                          <div class="license">
+                            <label class="layui-form-label">上传营业执照</label>
+                          </div>
+                          <div class="picture">
+                            <img src="../../img/add.jpg" alt="">
+                            <div class="photo"></div>
+                          </div>
+                        </div>
+                        <div class="layui-form-item l">
+                          <div class="license">
+                            上传法人手持身份证
+                          </div>
+                          <div class="idcard clearfix">
+                            <div class="picture l">
+                              <img src="../../img/add.jpg" alt="">
+                              <div class="photo"></div>
+                              <p>上传法人手持身份证正面照</p>
+                            </div>
+                            <div class="picture l">
+                              <img src="../../img/add.jpg" alt="">
+                              <div class="photo"></div>
+                              <p>上传法人手持身份证反面照</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- 保存上传 -->
+                        <div class="layui-form-item">
+                          <div class="layui-input-block">
+                            <button class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo">点击上传审核</button>
+                          </div>
+                        </div>  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script>
+        
+        //入口函数
+    $(function(){
+        // 引入公共底部
+        // $.get('../../slide/footer.html',function (result) {
+			  //   $result = $(result);
+			  //   $result.find('.footer_content').appendTo('.footer');
+        // },'html');
+        $('.footer').load('../../slide/footer.html');
+        // 手风琴导航
+        $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+            $(this).css({
+                "background-color":"#e8f5fc",
+                "color":"#0090ec",
+                "border-left":"4px solid #0090ec"
+            });
+            $(this).siblings().show();
+            $(this).parent().siblings().children('div').hide();
+            $(this).parent().siblings().children('span').css({
+                "background-color":"",
+                "color":"",
+                "border-left": ""
+            });
+        });
+        // 下拉菜单部分
+        // 1.鼠标进入一级菜单后，显示二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseover(function(){
+            $(this).siblings('ul').show();
+        });
+        // 2.鼠标离开一级菜单后，隐藏二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseout(function(){
+            $(this).next().hide();
+        });
+        // 3.鼠标进入二级菜单，显示二级菜单
+        $('.detail>.ul').mouseover(function(){
+            $(this).show();
+        });
+        // 4.鼠标离开二级菜单，隐藏二级菜单
+        $('.detail>.ul').mouseout(function(){
+            $(this).hide();
+        });
+      });
+    </script>
+</body>
+</html>

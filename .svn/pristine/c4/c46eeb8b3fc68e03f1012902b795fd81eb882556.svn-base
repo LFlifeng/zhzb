@@ -1,0 +1,50 @@
+.head_nav .nav ul li:nth-child(7) a {
+    background-color: #505050;
+    color: #fff;
+}
+/* banner */
+.banner img {
+    width: 100%;
+}
+/* 产品核心优势 */
+.advantage .w {
+    margin-top: 50px;
+}
+.w>h3 {
+    margin-left: 490px;
+    font-size: 28px;
+    color: black;
+}
+hr{
+    width: 50px;
+    height: 4px;
+    border: none;
+    text-align: center;
+    background-color: #7748f3;
+    margin-left: 550px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.advantage_content {
+}
+.advantage_content>div {
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+.advantage_content>div:last-child {
+    margin-right: 0;
+}
+.advantage_content>div>div.l>img {
+    margin-right: 20px;
+} 
+.advantage_content>div>div.r>h4 {
+    font-size: 28px;
+    color: #41a2ee;
+    margin-bottom: 20px;
+}
+.advantage_content>div>div.r>p {
+    font-size: 16px;
+    color: #646464;
+    margin-bottom: 5px;
+    width: 300px;
+}

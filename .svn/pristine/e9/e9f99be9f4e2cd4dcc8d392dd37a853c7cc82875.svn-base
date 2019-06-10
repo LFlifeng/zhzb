@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>产品列表</title>
+	<link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<style>
+		.position_nav {
+			width: 1200px;
+			height: 50px;
+			line-height: 50px;
+			margin: 0 auto;
+		}
+
+		.position_nav p {
+			text-align: left;
+			font-size: 14px;
+			color: #505050;
+		}
+
+		.position_nav a {
+			padding: 1px 8px;
+
+		}
+
+		/* 主体部分 */
+		.list_content {
+			width: 1200px;
+			margin: 0 auto;
+		}
+
+		.list_search {
+			padding: 20px;
+			border: 1px solid #e6e6e6;
+			align-items: center;
+			text-align: left;
+			background: #f9f9f9;
+
+		}
+
+		.pr {
+			margin-top: 8px;
+			height: 34px;
+			line-height: 34px;
+			float: left;
+			width: 100px;
+			text-align: center;
+		}
+
+		.category {
+			margin-top: 8px;
+			width: 1040px;
+			float: left;
+		}
+
+		.category li {
+			padding: 3px 8px;
+			height: 24px;
+			line-height: 24px;
+			display: inline-block;
+			margin-top: 6px;
+		}
+
+		.category li:first-child {
+			background: #008FED;
+		}
+
+		.category li:first-child a {
+			color: #fff;
+		}
+
+		.category li a {
+			display: inline-block;
+		}
+
+		.category li:hover {
+			background-color: #008FED;
+		}
+
+		.category li a:hover {
+			color: #fff;
+		}
+
+		.title_search {
+			margin-top: 8px;
+			width: 280px;
+			height: 36px;
+			line-height: 36px;
+			padding-left: 5px;
+			color: #323232;
+			border: 1px solid #e6e6e6;
+			border-radius: 3px;
+		}
+
+		.list_btn {
+			margin-left: 20px;
+			width: 120px;
+			height: 38px;
+			line-height: 38px;
+			background: #008FED;
+			color: #ffffff;
+			text-align: center;
+			border-radius: 3px;
+			border: none;
+		}
+
+		.list_list_content {
+			width: 1200px;
+			margin: 20px auto;
+		}
+
+		.list_l {
+			width: 886px;
+			border: 1px solid #e6e6e6;
+		}
+
+		.sidebar_right {
+			width: 300px;
+		}
+
+		.t_top {
+			width: 100%;
+			height: 40px;
+			line-height: 40px;
+			background: #f8f8f8;
+		}
+
+		.list_l table {
+			width: 100%;
+		}
+
+		.t_top tr th {
+			text-align: center;
+		}
+
+		.t_t {
+			text-align: center;
+			height: 34px;
+			line-height: 34px;
+			color: #505050;
+			border-bottom: 1px dashed #e6e6e6;
+		}
+
+		.list_ad {
+			width: 300px;
+			height: 240px;
+		}
+
+		.list_city {
+			margin-top: 10px;
+			width: 300px;
+			border: 1px solid #e6e6e6;
+		}
+
+		.page {
+			margin: 30px auto;
+			width: 600px;
+			height: 50px;
+		}
+
+		.page li {
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			text-align: center;
+			border: 1px solid #e6e6e6;
+			float: left;
+			margin-left: 5px;
+		}
+
+		.page li a {
+			display: block;
+			color: #505050;
+		}
+
+		.page .act {
+			background: #008FED;
+			border: none;
+		}
+
+		.page .act a {
+			color: #ffffff;
+		}
+
+		/* 分页部分 */
+		#demo1 {
+			margin: 10px auto;
+			width: 600px;
+			height: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 公共头部 -->
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="list.html">采购信息</a></li>
+				<li><a href="list.html">项目中心</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="list.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main_content">
+			<div class="main_box fl">
+				<h3>招标</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">招标公告</a></li>
+						<li><a href="#">招标预告</a></li>
+						<li><a href="#">变更公告</a></li>
+						<li><a href="#">中标结果</a></li>
+						<li><a href="#">变更公告</a></li>
+						<li><a href="#">政府招标</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>采购</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">中标采购</a></li>
+						<li><a href="#">政府采购</a></li>
+						<li><a href="#">名企采购</a></li>
+						<li><a href="#">业主采购</a></li>
+						<li><a href="#">在线询价</a></li>
+						<li><a href="#">海外采购</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>项目</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">VIP项目</a></li>
+						<li><a href="#">拟建项目</a></li>
+						<li><a href="#">审批项目</a></li>
+						<li><a href="#">政府项目</a></li>
+						<li><a href="#">商业项目</a></li>
+						<li><a href="#">业主项目</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>资讯</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="#">行业资讯</a></li>
+						<li><a href="#">新规解读</a></li>
+						<li><a href="#">近期展会</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>服务</h3>
+				<div class="main_list" style="border:none;">
+					<ul>
+						<li><a href="#">信息定制</a></li>
+						<li><a href="#">代理招标</a></li>
+						<li><a href="#">服务介绍</a></li>
+						<li><a href="#">标书代写</a></li>
+						<li><a href="#">实地考察</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="#">首页</a>><a href="#">行业导航</a>
+	</div>
+	<div class="list_content">
+		<div class="list_search">
+			<div class="pr">地区选择：</div>
+			<ul class="category">
+				<li class="active"><a href="#">全部</a></li>
+				<li><a href="#">北京</a></li>
+				<li><a href="#">天津</a></li>
+				<li><a href="#">河北</a></li>
+				<li><a href="#">山西</a></li>
+				<li><a href="#">内蒙古</a></li>
+				<li><a href="#">上海</a></li>
+				<li><a href="#">江苏</a></li>
+				<li><a href="#">浙江</a></li>
+				<li><a href="#">安徽</a></li>
+				<li><a href="#">江西</a></li>
+				<li><a href="#">山东</a></li>
+				<li><a href="#">福建</a></li>
+				<li><a href="#">广东</a></li>
+				<li><a href="#">广西</a></li>
+				<li><a href="#">海南</a></li>
+				<li><a href="#">湖南</a></li>
+				<li><a href="#">湖北</a></li>
+				<li><a href="#">河南</a></li>
+				<li><a href="#">辽宁</a></li>
+				<li><a href="#">吉林</a></li>
+				<li><a href="#">黑龙江</a></li>
+				<li><a href="#">陕西</a></li>
+				<li><a href="#">甘肃</a></li>
+				<li><a href="#">青海</a></li>
+				<li><a href="#">宁夏</a></li>
+				<li><a href="#">新疆</a></li>
+				<li><a href="#">重庆</a></li>
+				<li><a href="#">四川</a></li>
+				<li><a href="#">贵州</a></li>
+				<li><a href="#">云南</a></li>
+				<li><a href="#">西藏</a></li>
+			</ul>
+			<div class="pr">项目类型：</div>
+			<ul class="category">
+				<li class="active"><a href="#">全部</a></li>
+				<li><a href="#">公告</a></li>
+				<li><a href="#">预告</a></li>
+				<li><a href="#">变更</a></li>
+				<li><a href="#">中标</a></li>
+				<li><a href="#">拟在建项目</a></li>
+				<li><a href="#">vip项目</a></li>
+			</ul>
+			<div class="pr">时间范围：</div>
+			<ul class="category">
+				<li class="active"><a href="#">一周</a></li>
+				<li><a href="#">一个月</a></li>
+				<li><a href="#">三个月</a></li>
+				<li><a href="#">半年</a></li>
+				<li><a href="#">一年</a></li>
+			</ul>
+			<div class="pr">标题搜索：</div>
+			<form>
+				<input type="text" class="title_search" placeholder="输入关键词" />
+				<input type="button" value="提交" class="list_btn" />
+			</form>
+			</ul>
+			<div class="cl">
+			</div>
+		</div>
+		<div class="list_list_content">
+			<div class="list_l fl">
+				<table>
+					<tbody>
+						<tr class="t_top">
+							<th style="width:10%;">项目类别</th>
+							<th style="width:70%;">项目名称</th>
+							<th style="width:10%;">所在地区</th>
+							<th style="width:10%;">发布时期</th>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="#" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td>2019-02-05</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+
+			<div class="sidebar_right fl10 fl">
+				<div class="list_ad">
+					<a href="#"><img src="../img/listad.jpg"></a>
+				</div>
+				<div class="list_city t10">
+					<div class="did_reg_title">
+						地区选择
+					</div>
+					<div class="reg">
+						<h3>华北地区</h3>
+						<span><a href="#">北京</a></span><span><a href="#">天津</a></span><span><a
+								href="#">河北</a></span><span><a href="#">山西</a></span><span><a href="#">内蒙古</a></span>
+					</div>
+					<div class="reg">
+						<h3>华东地区</h3>
+						<span><a href="#">上海</a></span><span><a href="#">江苏</a></span><span><a
+								href="#">浙江</a></span><span><a href="#">安徽</a></span><span><a
+								href="#">江西</a></span><span><a href="#">山东</a></span><span><a href="#">福建</a></span>
+					</div>
+					<div class="reg">
+						<h3>华南地区</h3>
+						<span><a href="#">广东</a></span><span><a href="#">广西</a></span><span><a href="#">海南</a></span>
+					</div>
+					<div class="reg">
+						<h3>华中地区</h3>
+						<span><a href="#">湖南</a></span><span><a href="#">湖北</a></span><span><a href="#">河南</a></span>
+					</div>
+					<div class="reg">
+						<h3>东北地区</h3>
+						<span><a href="#">辽宁</a></span><span><a href="#">吉林</a></span><span><a href="#">黑龙江</a></span>
+					</div>
+					<div class="reg">
+						<h3>西北地区</h3>
+						<span><a href="#">陕西</a></span><span><a href="#">甘肃</a></span><span><a
+								href="#">青海</a></span><span><a href="#">宁夏</a></span><span><a href="#">新疆</a></span>
+					</div>
+					<div class="border_bottom_none reg">
+						<h3>西南地区</h3>
+						<span><a href="#">重庆</a></span><span><a href="#">四川</a></span><span><a
+								href="#">贵州</a></span><span><a href="#">云南</a></span><span><a href="#">西藏</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="cl">
+			</div>
+			<!-- 分页 -->
+			<div id="demo1"></div>
+		</div>
+	</div>
+	<div class="cl">
+	</div>
+	<!-- 公共底部 -->
+	<div class="footer">
+
+	</div>
+
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		$(function () {
+			// 引入公共头部和底部
+			$.get('../slide/header.html', function (result) {
+				$result = $(result);
+				$result.find('.top').appendTo('.header');
+				$result.find('.logo').appendTo('.header');
+			}, 'html');
+			$.get('../slide/footer.html', function (result) {
+				$result = $(result);
+				$result.find('.footer_content').appendTo('.footer');
+			}, 'html');
+			// 分页
+			layui.use(['laypage', 'layer'], function () {
+				var laypage = layui.laypage, layer = layui.layer;
+				//总页数大于页码总数
+				laypage.render({
+					elem: 'demo1',
+					count: 70, //数据总数,
+					jump: function (obj) {
+						console.log(obj)
+					}
+				});
+			}
+			);
+		})
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>中汇招标----帮助与反馈</title>
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link href="../res/mui/css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../res/fontAwesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/help.css">
+</head>
+
+<body>
+	<div class="zh_layout">
+		<header class="zh_topBar clearfix">
+            <a href="javascript:history.back()" class="icon_back fa fa-chevron-left l"></a>
+            <span>帮助与反馈</span>
+		</header>
+		<div class="zh_container">
+            <div class="row mui-input-row">
+                <textarea class="mui-input-clear question" id="question" placeholder="意见反馈"></textarea>
+            </div>
+            <div class="mui-btn r">提交</div>
+		</div>
+		<!-- 底部工具栏 -->
+		<footer class="zh_tabs">
+			<a href="../index.html" class="tab_home fa fa-home"><span>首页</span></a>
+			<a href="../subscribe.html" class="tab_bookmark fa fa-bookmark"><span>订阅</span></a>
+			<a href="user.html" class="tab_user fa fa-user now"><span class="now">我的</span></a>
+		</footer>
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../res/mui/js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init()
+	</script>
+</body>
+
+</html>

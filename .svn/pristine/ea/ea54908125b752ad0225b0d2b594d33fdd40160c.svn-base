@@ -1,0 +1,102 @@
+label {
+    font-weight: 400;
+}
+.position_nav {
+    width: 1200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.position_nav p {
+    text-align: left;
+    font-size: 14px;
+    color: #505050;
+}
+
+.position_nav a {
+    padding: 1px 8px;
+}
+
+.about_content {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.sidebar_nav {
+    
+    border: 1px solid #eee;
+}
+
+.about_r {
+    width: 940px;
+    margin-left: 16px;
+    border: 1px solid #eee;
+    min-height: 500px;
+}
+
+.sidebar_nav_l li {
+    text-align: center;
+}
+
+.sidebar_nav_l li a {
+    height: 45px;
+    width: 240px;
+    line-height: 45px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    background: #ba3f44;
+    color: #fff;
+}
+.about_content {
+    width: 1200px;
+}
+.t_right h3 {
+    margin-left: 20px; 
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #505050;
+}
+/* 表格部分 */
+.t_right .table-responsive {
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.t_right .table-responsive th,
+.t_right .table-responsive td {
+    text-align: center;
+    border: none;
+}
+.t_right .table-responsive td span {
+    display: inline-block;
+    width: 400px;
+    line-height: 30px;
+    text-align: left;
+}
+.t_right .table-responsive th {
+    font-size: 14px;
+    background-color: #ba3f44;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.t_right .table-responsive tr td:not(.word) {
+    line-height: 60px;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fff;
+    
+}
+.table-striped>tbody>tr:nth-of-type(odd) td {
+    /* color: #fff; */
+}
+.table-striped>tbody>tr:nth-of-type(odd) td span {
+    /* color: #fff; */
+}
+.t_right .table-responsive tr td:first-child {
+    font-weight: 700;
+}

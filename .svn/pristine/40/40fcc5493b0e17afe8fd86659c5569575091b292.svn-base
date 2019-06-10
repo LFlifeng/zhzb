@@ -1,0 +1,13 @@
+$(function(){
+    $('.head_nav .nav ul li a').onclick(function(){
+        $(this).css({
+            "background-color":"#d0d0d0",
+            "color":"#646464"
+        });
+        $(this).parent().siblings().childen('a').css({
+            "background-color":"#c8302e",
+            "color":"#fff"
+        })
+
+    })
+});

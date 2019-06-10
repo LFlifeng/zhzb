@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----我的收藏</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-collection.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <h4><a href="./p-basicInformation.html">基本信息</a></h4>
+                <!-- 手风琴效果 -->
+                <ul class="parentWrap">
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">招标服务</a></span>
+                        <div><a href="./p-trackInformation.html">跟踪信息</a></div>
+                        <div><a href="./p-projectdesigned.html">项目专盯</a></div>
+                        <!-- <div><a href="#">委托项目</a></div> -->
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">供应商库</a></span>
+                        <div><a href="./p-application.html">申请入驻</a></div>
+                        <div><a href="./p-productdisplay.html">产品展示</a></div>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">发布信息</a></span>
+                        <div><a href="./p-publishInformation.html">发布信息</a></div>
+                        <div><a href="./p-mangerelease.html">管理发布</a></div>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="./p-collection.html">我的收藏</a></span>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="./p-history.html">浏览历史</a></span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <div class="t_top">
+                        <h3>我的收藏</h3>
+                    </div>
+                    <ul>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">氧化铁皮、切头切尾等运输作业招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">生产综合楼及象牙山宝海商务楼人仿设施招标变更</a>
+                            <span class="r">删除</span>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="l">浙江杭金衢、黄渠男高速公路养护转向工程实施监工服务招标公告</a>
+                            <span class="r">删除</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../../js/wangEditor-3.1.1/wangEditor-3.1.1/release/wangEditor.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <script>
+
+        //入口函数
+        $(function () {
+            // 引入公共底部
+            $('.footer').load('../../slide/footer.html');
+            $('.top').load('./p-top.html');
+            // 手风琴导航
+            $('.parentWrap>.menuGroup:nth-child(4)>.groupTitle').css({
+                "background-color": "#e8f5fc",
+                "color": "#ba3f44",
+                "border-left": "4px solid #ba3f44"
+            });
+            $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+                $(this).css({
+                    "background-color": "#e8f5fc",
+                    "color": "#ba3f44",
+                    "border-left": "4px solid #ba3f44"
+                });
+                $(this).siblings().show();
+                $(this).parent().siblings().children('div').hide();
+                $(this).parent().siblings().children('span').css({
+                    "background-color": "",
+                    "color": "",
+                    "border-left": ""
+                });
+            });
+            // 鼠标移入显示移除隐藏删除按钮
+            $('.t_right li').mouseenter(function () {
+                $(this).children('span').show();
+            });
+            $('.t_right li').mouseleave(function () {
+                $(this).children('span').hide();
+            });
+        });
+    </script>
+</body>
+
+</html>

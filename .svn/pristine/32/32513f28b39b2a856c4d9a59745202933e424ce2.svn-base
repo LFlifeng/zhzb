@@ -1,0 +1,168 @@
+.footer {
+    width: 100%;
+    height: 180px;
+    background: #fff;
+}
+
+.footer_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+.footer_info {
+    color: #c0c0c0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer_info li a {
+    color: #000;
+    padding: 0px 10px;
+}
+
+.footer_p {
+    color: #c0c0c0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.registe_top {
+    width: 1200px;
+    margin: 0 auto;
+}
+.registe_logo {
+    text-align: left;
+    width: 300px;
+    height: 80px;
+    padding: 20px 0px;
+}
+.registe_content {
+    width: 100%;
+    background: linear-gradient(to right,#d04f4e 30%,#a92a2e 70%);
+    height: 650px;
+    border-top: 1px solid #fff;
+}
+.content {
+    background: url(../img/loginbg.jpg) no-repeat center;
+    margin-top: 50px;
+    width: 800px;
+    height: 470px;
+}
+.content .title {
+    margin: 100px 0 40px 0;
+}
+.content .title h1 {
+    font-size: 45px;
+    color: #aa2b2f;
+    font-weight: 700;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.content .text {
+    margin-left: 35px;
+}
+.content .text p {
+    margin-right: 30px;
+}
+.content .text p span {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 16px;
+}
+.content .text p span i {
+    font-size: 18px;
+    color: #000;
+    margin-right: 5px;
+}
+/* 注册部分 */
+.registe_center {
+    margin-right: 300px;
+}
+.registe_registe {
+    margin-top: 50px;
+    width: 320px;
+    height: 430px;
+    float: right;
+    background: #ffffff;
+    z-index: 999;
+    padding: 20px;
+}
+.registe_registe h2 {
+    text-align: center;
+    color: #c8302e;
+    height: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    margin-left: 30px;
+    font-weight: 700;
+    letter-spacing: 30px;
+}
+.registe_registe div {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+}
+.registe_registe div input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+}
+.registe_registe .contacts input,
+.registe_registe .pwd input {
+    width: 245px;
+}
+
+.pwd>span {
+    letter-spacing: 21px;
+}
+.contacts span,
+.phone span:first-child,
+.i_code span {
+    letter-spacing: 9px;
+}
+.registe_registe .i_code input {
+    width: 110px;
+}
+.registe_registe .phone input {
+    width: 150px;
+}
+.registe_registe div span {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+}
+.registe_registe .phone span:last-child {
+    width: 86px;
+    line-height: 40px;
+    text-align: center;
+    color: #c8302e;
+    border: 1px solid #c8302e;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.registe_registe .clause {
+    margin-left: 10px;
+}
+.registe_registe .clause input {
+    margin-right: 20px;
+}
+.registe_registe .clause a {
+    color: #c8302e;
+}
+.registe_registe .registe {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: #c8302e;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    letter-spacing: 22px;
+    color: #fff;
+    cursor: pointer;
+}

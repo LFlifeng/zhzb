@@ -1,0 +1,47 @@
+.layui-form-item .title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#636363;
+}
+.layui-form-item .editer {
+    background-color: #0090ec;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.layui-form-item .layui-form-label {
+    width: 114px;
+    text-align: left;
+}
+.layui-form .layui-form-item:nth-child(2) .layui-input {
+    background-color: #fff;
+}
+.layui-form-item .layui-input {
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+    display: inline-block;
+}
+.layui-form-item button {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.layui-form-item span {
+    display: inline-block;
+    height: 40px;
+    width: 450px;
+    margin-left: 20px;
+    color: #ccc;
+}

@@ -1,0 +1,274 @@
+/* 左侧 */
+.middle h4 a {
+    color: #646464;
+}
+.parentWrap .menuGroup:first-child>div {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    display: block;
+    cursor: pointer;
+}
+.parentWrap .menuGroup:first-child>div:nth-child(2)>a {
+   color: #0090ec;
+}
+/* 右侧 */
+.t_right .t_top {
+    margin-top: 30px;
+}
+.t_right .t_top h3 {
+    font-size: 18px;
+    color: #646464;
+}
+.t_right .t_top div {
+    margin-left: 10px;
+    color: #b1abaa;
+}
+.t_right .t_top button {
+    background-color: #0090ec;
+    border: none;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+/* 表格部分 */
+.table-responsive tbody td span {
+    display: inline-block;
+    width: 150px;
+    overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/* 遮罩层 */
+.mask {
+    display: none;
+}
+/* 弹出内容 */
+.layui-layer .layui-layer-title {
+    border-bottom: none;
+}
+.layui-form-item {
+    margin-bottom: 10px;
+}
+.layui-form-item .layui-form-label {
+    width: 100px;
+}
+.layui-form-item:nth-child(5) span img {
+    margin-left: 5px;
+}
+.layui-form-item:nth-child(5) .layui-input-block {
+    margin-bottom: 20px;
+}
+.layui-form-item .layui-input-block input {
+    background-color: #f1f1f1;
+    width: 200px;
+    border-radius: 4px;
+}
+.layui-form-item:nth-child(4) .layui-input-block input {
+    width: 80px;
+    margin-right: 10px;
+}
+.layui-form-item:nth-child(9) .layui-input-block div.l {
+    margin-right: 10px;
+}
+.layui-form-item:last-child .layui-input-block button {
+    margin-left: 150px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+/* 弹出框地址三级联动部分 */
+.layui-input-block span {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 14px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #008FED;
+}
+.layui-input-block span a,
+.layui-input-block span i {
+    color: #fff;
+}
+.layui-input-block span a i {
+    margin-left: 10px;
+}
+/* 地区分类部分 */
+.layui-input-block dd,
+.layui-input-block dt {
+    margin-top: 10px;
+}
+.layui-input-block dd a,
+.layui-input-block dt a {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #777;
+    font-weight: 400;
+}
+.layui-input-block dd a::after{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url("../img/icon02.jpg") no-repeat;
+    position: absolute;
+    top: 5px;
+    right: -6px;
+}
+
+.layui-input-block dl:first-child dd:nth-child(3) a::after {
+    background-image: none;
+}.layui-input-block dl:first-child dd:nth-child(2) a::after {
+    background-image: none;
+}
+.layui-input-block dl:nth-child(3) dd:nth-child(2) a::after {
+    background-image: none;
+}
+.layui-input-block dl:last-child dd:nth-child(2) a::after {
+    background-image: none;
+}
+.layui-form-item .layui-form-checkbox[lay-skin=primary] {
+    vertical-align: middle;
+    margin-top: 0;
+}
+.layui-form-item .layui-input-block dt dd:nth-child(2) {
+    margin-top: 20px;
+}
+/* 城市选项 */
+.layui-form-checkbox[lay-skin=primary] {
+    padding-left: 0;
+}
+.layui-input-block dl {
+    margin-top: -30px;
+}
+.layui-input-block dd {
+    position: relative;
+}
+.layui-input-block dd>a,
+.layui-input-block dt>a {
+    width: 60px;
+}
+.layui-input-block dl dd>.city {
+    position: absolute;
+    top: -61px;
+    right:-78px;
+    background-color: #fff;
+    z-index: 60;
+}
+.layui-input-block dl dd>.city>div {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-top: none;
+}
+.layui-input-block dl dd>.city>div .layui-form-checkbox[lay-skin=primary] {
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: 15px;
+}
+.layui-input-block dl dd>.city>div>a {
+    display: inline-block;
+    width: 80px;
+    overflow: hidden;
+	text-overflow:ellipsis;
+    white-space: nowrap;
+    height: 25px;
+    line-height: 25px;
+}
+.layui-input-block dl dd>.city>div>input {
+    vertical-align: top;
+}
+.layui-input-block dl dd>.city>div>a::after {
+    background-image: none;
+}
+.layui-input-block dl dd>.city>div:first-child {
+    border-top: 1px solid #ccc;
+}
+.layui-input-block dl dd>.city>div:last-child {
+    border-bottom:1px solid #ccc;
+}
+/* 信息类型 */
+.layui-form .layui-form-item:nth-child(7) .layui-input-block div.l {
+    width: 120px;
+}
+.layui-form .layui-form-item:nth-child(7) .layui-input-block div.clearfix:last-child div.l:first-child a {
+    color: #c8302e;
+}
+/* 搜索模式 */
+.layui-form-radio>i {
+    font-size: 20px;
+}
+/* 订阅方式 */
+.layui-form .layui-form-item:nth-child(9) .layui-form-label {
+    margin-top: -10px;
+}
+/* 表格部分 */
+.t_right .table-responsive {
+    margin-top: 20px;
+}
+.t_right .table-responsive th,
+.t_right .table-responsive td {
+    text-align: center;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+}
+.t_right .table-responsive th {
+    font-size: 18px;
+    background-color: #f5f5f5;
+    font-weight: 400;
+}
+/* tab栏切换 */
+.tab-control{
+    overflow:hidden;
+    margin-top: 20px;
+}
+.tab-control li{
+    width:110px;
+    height: 40px;
+    float:left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    border:1px solid #aaa;
+    border-bottom: none;
+    text-align:center;
+    margin-right: 5px;
+    cursor:pointer;
+    color:#ccc;
+}
+.tab-control li.active{
+    border-top:4px solid #0090ec;
+    background-color:#fff;
+    color:#0090ec;
+}
+.tab-control li+li{
+    border-left:1px solid #aaa;
+}
+.tab-content{
+    width:920px;
+    margin-top: -20px;
+}
+.tab-content .tab-content-item {
+    display:none;
+}
+.tab-content .tab-content-item.active {
+    display:block;
+}
+/* 分页 */
+#demo1 {
+	margin: 30px auto;
+	width: 600px;
+	height: 50px;
+}

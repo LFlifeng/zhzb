@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----管理发布</title>
+    <link rel="stylesheet" href="../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/personal.css">
+    <link rel="stylesheet" href="../css/p-mangerelease.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="header w clearfix">
+            <!-- logo区域 -->
+            <div class="logo l">
+                <img src="../img/logo.jpg" alt="">
+            </div>
+            <!-- 导航部分 -->
+            <div class="nav l">
+                <ul class="clearfix">
+                    <li class="l"><a herf="#">首页</a></li>
+                    <li class="l"><a herf="#">标书服务</a></li>
+                    <li class="l"><a herf="./p-server.html">会员服务</a></li>
+                    <li class="l"><a herf="#">推广服务</a></li>
+                </ul>
+            </div>
+            <!-- 个人中心部分 -->
+            <div class="personal r">
+              <div class="detail clearfix">
+                <div class="l">
+                    <img src="../img/icon-email.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../img/icon-rang.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../img/per.jpg" alt="">
+                    <span>steven &nbsp jone</span>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+                <ul class="ul">
+                    <li>
+                      <a href="#">二级菜单11</a>
+                    </li>
+                    <li>
+                      <a href="#">二级菜单12</a>
+                    </li>
+                    <li>
+                      <a href="#">二级菜单13</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <h4><a href="./p-basicInformation.html">基本信息</a></h4>
+                <!-- 手风琴效果 -->
+                <ul class="parentWrap">
+                    <li class="menuGroup">
+                      <span class="groupTitle"><a href="./p-server.html">招标服务</a></span>
+                      <div><a href="./p-trackInformation.html">跟踪信息</a></div>
+                      <div><a href="#">项目专盯</a></div>
+                      <div><a href="#">委托项目</a></div>
+                    </li>
+                    <li class="menuGroup">
+                      <span class="groupTitle"><a href="#">供应商库</a></span>
+                      <div><a href="#">申请入驻</a></div>
+                      <div><a href="#">产品展示</a></div>
+                    </li>
+                    <li class="menuGroup">
+                      <span class="groupTitle"><a href="#">发布信息</a></span>
+                      <div><a href="./p-publishInformation.html">发布信息</a></div>
+                      <div><a href="./p-mangerelease.html">管理发布</a></div>
+                    </li>
+                    <li class="menuGroup">
+                      <span class="groupTitle"><a href="#">我的收藏</a></span>
+                      <div>我是弹出来的div4</div>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">浏览历史</a></span>
+                        <div>我是弹出来的div4</div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <div class="t_top clearfix">
+                        <h3 class="l">管理发布</h3>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>序号</th>
+                                  <th>项目类型</th>
+                                  <th>项目名称</th>
+                                  <th>所属地区</th>
+                                  <th>所属企业</th>
+                                  <th>截止日期</th>
+                                  <th>状态</th>
+                                  <th>编辑</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>招标项目</td>
+                                  <td>江西放假撒敌后方师傅大姐大奖赛迪</td>
+                                  <td>上海</td>
+                                  <td>金融类</td>
+                                  <td>2019-11-21 12:00</td>
+                                  <td>已发布</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">修改</button>
+                                    <button type="button" class="btn del btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>招标项目</td>
+                                  <td>江西放假撒敌后方师傅大姐大奖赛迪</td>
+                                  <td>上海</td>
+                                  <td>金融类</td>
+                                  <td>2019-11-21 12:00</td>
+                                  <td>已发布</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">修改</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>招标项目</td>
+                                  <td>江西放假撒敌后方师傅大姐大奖赛迪</td>
+                                  <td>上海</td>
+                                  <td>金融类</td>
+                                  <td>2019-11-21 12:00</td>
+                                  <td>已发布</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">修改</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>招标项目</td>
+                                  <td>江西放假撒敌后方师傅大姐大奖赛迪</td>
+                                  <td>上海</td>
+                                  <td>金融类</td>
+                                  <td>2019-11-21 12:00</td>
+                                  <td>已发布</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">修改</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>招标项目</td>
+                                  <td>江西放假撒敌后方师傅大姐大奖赛迪</td>
+                                  <td>上海</td>
+                                  <td>金融类</td>
+                                  <td>2019-11-21 12:00</td>
+                                  <td>已发布</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">修改</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>1</td>
+                                  <td>招标项目</td>
+                                  <td>江西放假撒敌后方师傅大姐大奖赛迪</td>
+                                  <td>上海</td>
+                                  <td>金融类</td>
+                                  <td>2019-11-21 12:00</td>
+                                  <td>已发布</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">修改</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- 分页 -->
+                    <div id="demo1"></div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <!-- 遮罩层--修改信息 -->
+    <div class="mask">
+            <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <div class="title">修改信息</div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">项目名称</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入项目名称" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item clearfix">
+                      <div class="l">
+                        <label class="layui-form-label">项目编码</label>
+                          <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入项目编码" class="layui-input">
+                      </div>
+                      <div class="l">
+                        <label class="layui-form-label">项目类型</label>
+                        <div class="layui-input-inline">
+                            <select name="quiz1">
+                                <option value="">请选择</option>
+                                <option value="浙江">浙江省</option>
+                                <option value="你的工号">江西省</option>
+                                <option value="你最喜欢的老师">福建省</option>
+                            </select>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 所在地区 -->
+                    <div class="layui-form-item">
+                      <label class="layui-form-label">所在地区</label>
+                      <div class="layui-input-inline">
+                        <select name="quiz1">
+                          <option value="">请选择</option>
+                          <option value="浙江">浙江省</option>
+                          <option value="你的工号">江西省</option>
+                          <option value="你最喜欢的老师">福建省</option>
+                        </select>
+                      </div>
+                      <div class="layui-input-inline">
+                        <select name="quiz2">
+                          <option value="">请选择</option>
+                          <option value="杭州">杭州</option>
+                          <option value="宁波" disabled="">宁波</option>
+                          <option value="温州">温州</option>
+                          <option value="温州">台州</option>
+                          <option value="温州">绍兴</option>
+                        </select>
+                      </div>
+                      <div class="layui-input-inline">
+                        <select name="quiz3">
+                          <option value="">请选择</option>
+                          <option value="西湖区">西湖区</option>
+                          <option value="余杭区">余杭区</option>
+                          <option value="拱墅区">临安市</option>
+                        </select>
+                      </div>
+                    </div>
+                    <!-- 所属行业 -->
+                    <div class="layui-form-item">
+                      <label class="layui-form-label">所属行业</label>
+                      <div class="layui-input-inline">
+                        <select name="quiz1">
+                          <option value="">请选择</option>
+                          <option value="浙江">浙江省</option>
+                          <option value="你的工号">江西省</option>
+                          <option value="你最喜欢的老师">福建省</option>
+                        </select>
+                      </div>
+                      <div class="layui-input-inline">
+                        <select name="quiz2">
+                          <option value="">请选择</option>
+                          <option value="杭州">杭州</option>
+                          <option value="宁波" disabled="">宁波</option>
+                          <option value="温州">温州</option>
+                          <option value="温州">台州</option>
+                          <option value="温州">绍兴</option>
+                        </select>
+                      </div>
+                      <div class="layui-input-inline">
+                        <select name="quiz3">
+                          <option value="">请选择</option>
+                          <option value="西湖区">西湖区</option>
+                          <option value="余杭区">余杭区</option>
+                          <option value="拱墅区">临安市</option>
+                        </select>
+                      </div>
+                    </div>
+                    <!-- 日期 -->
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">投标截止</label>
+                        <div class="layui-input-inline">
+                            <div class="layui-input-inline">
+                                <input type="text" class="layui-input" id="test5" placeholder="2019-03-12 09:00:00">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 富文本编辑器 -->
+                    <div class="layui-form-item">
+                        <label for="" class="layui-form-label">发布内容</label>
+                        
+                    </div>
+                    <div id="editor">
+                        <p>欢迎使用 <b>wangEditor</b> 富文本编辑器</p>
+                    </div>
+                    <!-- 发布人 -->
+                    <div class="layui-form-item clearfix">
+                      <div class="l">
+                        <label class="layui-form-label">发布人</label>
+                        <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入姓名" class="layui-input">
+                      </div>
+                      <div class="l">
+                        <label class="layui-form-label">发布人电话</label>
+                        <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" placeholder="请输入电话号码" class="layui-input">
+                      </div>
+                    </div>
+                    <!-- 上传附件 -->
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">重新上传</label>
+                        <button type="button" class="layui-btn layui-btn-danger" id="test7"><i class="fa fa-paperclip"></i>上传附件</button>
+                        <div class="layui-inline layui-word-aux">这里以限制 2MB</div>
+                    </div>
+                    <!-- 保存上传 -->
+                    <div class="layui-form-item">
+                      <div class="layui-input-block">
+                        <button class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo">完成修改并发布</button>
+                      </div>
+                    </div>  
+                </form>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../js/wangEditor-3.1.1/wangEditor-3.1.1/release/wangEditor.min.js"></script>
+    <script>
+        
+        //入口函数
+    $(function(){
+        // 引入公共底部
+        $.get('../slide/footer.html',function (result) {
+			    $result = $(result);
+			    $result.find('.footer_content').appendTo('.footer');
+		    },'html');
+        // 手风琴导航
+        $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+            $(this).css({
+                "background-color":"#e8f5fc",
+                "color":"#0090ec",
+                "border-left":"4px solid #0090ec"
+            });
+            $(this).siblings().show();
+            $(this).parent().siblings().children('div').hide();
+            $(this).parent().siblings().children('span').css({
+                "background-color":"",
+                "color":"",
+                "border-left": ""
+            });
+        });
+        // 下拉菜单部分
+        // 1.鼠标进入一级菜单后，显示二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseover(function(){
+            $(this).siblings('ul').show();
+        });
+        // 2.鼠标离开一级菜单后，隐藏二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseout(function(){
+            $(this).next().hide();
+        });
+        // 3.鼠标进入二级菜单，显示二级菜单
+        $('.detail>.ul').mouseover(function(){
+            $(this).show();
+        });
+        // 4.鼠标离开二级菜单，隐藏二级菜单
+        $('.detail>.ul').mouseout(function(){
+            $(this).hide();
+        });
+        //控制遮罩层----修改信息
+        $('.t_right .table-responsive .btn-success').click(function(){
+            layui.use('layer', function(){
+                var layer = layui.layer;
+                layer.open({
+                    title: [''],
+                    type: 1,
+                    content: $('.mask'),
+                    offset: 'auto',
+                    area: ['1000px', '800px'],
+                    shadeClose: true, //开启遮罩关闭
+                    end:function(){
+                        $(".mask").hide();
+                    },
+                });
+            }); 
+        });
+        // 弹出框----删除信息 事件委托
+        $('tbody').on('click','.del',function(){
+            // 将删除按钮转存
+            _this = $(this);
+            layer.confirm("您确定删除该信息吗？",{
+                title:['提示信息'],
+                closeBtn:0,
+                // btn: ['取消','确定']
+            },function(){
+
+            });
+        })
+        // $('.t_right .table-responsive .btn-danger').click(function(){
+        //     layui.use('layer', function(){
+        //         var layer = layui.layer;
+        //         layer.open({
+        //             title: [''],
+        //             type: 1,
+        //             content: $('.mask'),
+        //             offset: 'auto',
+        //             area: ['390px', '260px'],
+        //             shadeClose: true, //开启遮罩关闭
+        //             end:function(){
+        //                 $(".mask").hide();
+        //             },
+        //         });
+        //     }); 
+        // });
+        // 日期设置
+        layui.use('laydate',function(){
+            var laydate = layui.laydate;
+            //初始赋值
+            laydate.render({
+                elem: '#test5',
+                type: 'datetime'
+            });
+        });
+        // 上传附件
+        layui.use('upload',function(){
+            var $ = layui.jquery,upload = layui.upload;
+            //设定文件大小限制
+            upload.render({
+                elem: '#test7'
+                ,url: '/upload/'
+                ,size: 2048 //限制文件大小，单位 KB
+                ,done: function(res){
+                    console.log(res)
+                }
+            });
+        });
+        // 富文本编辑器
+        var E = window.wangEditor;
+        var editor = new E('#editor');
+        // 或者 var editor = new E( document.getElementById('editor') )
+        editor.create();
+        // 分页
+        layui.use(['laypage', 'layer'], function(){
+            var laypage = layui.laypage,layer = layui.layer;
+            //总页数大于页码总数
+            laypage.render({
+              elem: 'demo1',
+              count: 70, //数据总数,
+              jump: function(obj){
+                console.log(obj)
+              }
+            });
+          }
+        );
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* 左侧 */
+.middle h4 a {
+    color: #646464;
+}
+.parentWrap .menuGroup:nth-child(1)>div {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    display: block;
+    cursor: pointer;
+}
+.parentWrap .menuGroup:nth-child(1)>div:nth-child(2)>a {
+    color: #0090ec;
+ }
+ .t_right {
+    height: 750px;
+}
+.t_right h3,
+.t_right .title {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.t_right .title span {
+    margin-left: 20px;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 400;
+}
+.t_right .title span a {
+    color: #0090ec;
+}
+/* 表格部分 */
+.t_right .table-responsive {
+    margin-top: 20px;
+}
+.t_right .table-responsive th,
+.t_right .table-responsive td {
+    text-align: center;
+    border: none;
+}
+.t_right .table-responsive th {
+    font-size: 18px;
+    background-color: #f5f5f5;
+    font-weight: 400;
+}
+.t_right .table-responsive tbody tr td:nth-child(2) span {
+    display: inline-block;
+    width: 420px;
+    overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}

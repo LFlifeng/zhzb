@@ -1,0 +1,46 @@
+.top .nav li:first-child a {
+    border:none;
+}
+.top .nav li:nth-child(4) a {
+    border-bottom: 4px solid #ba3f44;
+}
+.t_right {
+    height: 750px;
+}
+.t_right h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* 表格部分 */
+.t_right span {
+    display: inline-block;
+    margin: 30px 0;
+    color: #ba3f44;
+    font-weight: 700;
+    font-size: 16px;
+}
+.t_right>div.clearfix>div.l>img {
+    width: 450px;
+}
+.table-responsive {
+    width: 370px;
+}
+.table>thead>tr>th {
+    border-bottom: none;
+    background-color:#b55;
+    color: #fff;
+    text-align: center;
+}
+.table-responsive table {
+    border: 1px solid #e2e2e2;
+}
+.table-responsive table tbody tr td {
+    text-align: center;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #b6d8d7;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f2ccb0;
+}

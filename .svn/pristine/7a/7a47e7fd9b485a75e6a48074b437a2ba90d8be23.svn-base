@@ -1,0 +1,58 @@
+.top .nav li:first-child a {
+    border:none;
+}
+.top .nav li:nth-child(3) a {
+    border-bottom: 4px solid #ba3f44;
+}
+.t_right {
+    /* height: 750px; */
+}
+.t_right h3 {
+    margin-left: 20px; 
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #505050;
+}
+/* 表格部分 */
+.t_right .table-responsive {
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.t_right .table-responsive th,
+.t_right .table-responsive td {
+    text-align: center;
+    border: none;
+}
+.t_right .table-responsive td span {
+    display: inline-block;
+    width: 400px;
+    line-height: 30px;
+    text-align: left;
+}
+.t_right .table-responsive th {
+    font-size: 14px;
+    background-color: #ba3f44;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.t_right .table-responsive tr td:not(.word) {
+    line-height: 60px;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fff;
+    
+}
+.table-striped>tbody>tr:nth-of-type(odd) td {
+    /* color: #fff; */
+}
+.table-striped>tbody>tr:nth-of-type(odd) td span {
+    /* color: #fff; */
+}
+.t_right .table-responsive tr td:first-child {
+    font-weight: 700;
+}

@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----跟踪信息</title>
+    <link rel="stylesheet" href="../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/personal.css">
+    <link rel="stylesheet" href="../css/p-trackInformation.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="header w clearfix">
+            <!-- logo区域 -->
+            <div class="logo l">
+                <img src="../img/logo.jpg" alt="">
+            </div>
+            <!-- 导航部分 -->
+            <div class="nav l">
+                <ul class="clearfix">
+                    <li class="l"><a herf="#">首页</a></li>
+                    <li class="l"><a herf="#">标书服务</a></li>
+                    <li class="l"><a herf="./p-server.html">会员服务</a></li>
+                    <li class="l"><a herf="#">推广服务</a></li>
+                </ul>
+            </div>
+            <!-- 个人中心部分 -->
+            <div class="personal r">
+              <div class="detail clearfix">
+                <div class="l">
+                    <img src="../img/icon-email.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../img/icon-rang.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../img/per.jpg" alt="">
+                    <span>steven &nbsp jone</span>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+                <ul class="ul">
+                    <li>
+                      <a href="#">二级菜单11</a>
+                    </li>
+                    <li>
+                      <a href="#">二级菜单12</a>
+                    </li>
+                    <li>
+                      <a href="#">二级菜单13</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <h4><a href="./p-basicInformation.html">基本信息</a></h4>
+                <!-- 手风琴效果 -->
+                <ul class="parentWrap">
+                    <li class="menuGroup">
+                      <span class="groupTitle">招标服务</span>
+                      <div><a href="./p-trackInformation.html">跟踪信息</a></div>
+                      <div><a href="#">项目专盯</a></div>
+                      <div><a href="#">委托项目</a></div>
+                    </li>
+                    <li class="menuGroup">
+                      <span class="groupTitle">供应商库</span>
+                      <div><a href="#">申请入驻</a></div>
+                      <div><a href="#">产品展示</a></div>
+                    </li>
+                    <li class="menuGroup">
+                      <span class="groupTitle">发布信息</span>
+                      <div><a href="./p-publishInformation.html">发布信息</a></div>
+                      <div><a href="./p-mangerelease.html">管理发布</a></div>
+                    </li>
+                    <li class="menuGroup">
+                      <span class="groupTitle">我的收藏</span>
+                      <div>我是弹出来的div4</div>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle">浏览历史</span>
+                        <div>我是弹出来的div4</div>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <div class="t_top clearfix">
+                        <h3 class="l">跟踪信息</h3>
+                        <div class="l">可新建六组跟踪数据</div>
+                        <button class="r">+新建跟踪</button>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>序号</th>
+                                  <th>追踪器名称</th>
+                                  <th>所属地区</th>
+                                  <th>关键词</th>
+                                  <th>检索模式</th>
+                                  <th>订阅方式</th>
+                                  <th>修改</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>4</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>5</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>6</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="right r">
+                <div class="t_right">
+                    <div class="t_top">
+                        <h3>列表信息</h3>
+                    </div>
+                <!--tab切换模块-->
+                <div class="tab">
+                    <!--切换按钮-->
+                    <ul class="tab-control clearfix">
+                        <li class="active">追踪器一</li>
+                        <li>追踪器二</li>
+                        <li>追踪器三</li>
+                        <li>追踪器四</li>
+                        <li>追踪器五</li>
+                    </ul>
+                    <!--切换项-->
+                    <div class="tab-content" id="tab_content">
+                            <div class="tab-content-item active">
+                                    <div class="table-responsive" id="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                      <th>项目类别</th>
+                                                      <th>项目名称</th>
+                                                      <th>所在地区</th>
+                                                      <th>日期</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                            </div>
+                            <div class="tab-content-item">
+                                <div class="table-responsive" id="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                      <th>项目类别</th>
+                                                      <th>项目名称</th>
+                                                      <th>所在地区</th>
+                                                      <th>日期</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                            </div>
+                            <div class="tab-content-item">
+                                    <div class="table-responsive" id="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                      <th>项目类别</th>
+                                                      <th>项目名称</th>
+                                                      <th>所在地区</th>
+                                                      <th>日期</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                            </div>
+                            <div class="tab-content-item">
+                                    <div class="table-responsive" id="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                      <th>项目类别</th>
+                                                      <th>项目名称</th>
+                                                      <th>所在地区</th>
+                                                      <th>日期</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                            </div>
+                            <div class="tab-content-item">
+                                    <div class="table-responsive" id="table-responsive">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                      <th>项目类别</th>
+                                                      <th>项目名称</th>
+                                                      <th>所在地区</th>
+                                                      <th>日期</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                    <tr>
+                                                      <td>企业采购</td>
+                                                      <td>阅和政府前期物业项目公开招标</td>
+                                                      <td>安徽省</td>
+                                                      <td>2019-01-23</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+          <!-- 分页 -->
+          <div id="demo1"></div>
+        </div>
+    </div>
+    <!-- 遮罩层--新建跟踪 -->
+    <div class="mask">
+        <form class="layui-form" action="">
+            <div class="layui-form-item clearfix">
+                <label class="layui-form-label l">新建跟踪器</label>
+                <div class="r">
+                    <a href="#">重置设置</a>
+                </div>
+            </div>
+            <!-- 跟踪器名称 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label">跟踪器名称</label>
+              <div class="layui-input-block">
+                <input type="text" name="title" required  lay-verify="required" placeholder="输入跟踪器名称" autocomplete="off" class="layui-input">
+              </div>
+            </div>
+            <!-- 设置关键词 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label">设置关键字</label>
+              <div class="layui-form-mid layui-word-aux">输入您关注的行业关键字，至少填写一个</div>
+            </div>
+            <!-- 关键词 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label"></label>
+              <div class="layui-input-block clearfix">
+                <input type="text" name="title" required  lay-verify="required" placeholder="关键词一" autocomplete="off" class="layui-input l">
+                <input type="text" name="title" required  lay-verify="required" placeholder="关键词二" autocomplete="off" class="layui-input l">
+                <input type="text" name="title" required  lay-verify="required" placeholder="关键词三" autocomplete="off" class="layui-input l">
+                <input type="text" name="title" required  lay-verify="required" placeholder="关键词四" autocomplete="off" class="layui-input l">
+                <input type="text" name="title" required  lay-verify="required" placeholder="关键词五" autocomplete="off" class="layui-input l">
+              </div>
+            </div>
+            <!-- 地区选择 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label">地区选择</label>
+              <div class="layui-input-block">
+                  <span><a href="#">北京<i>X</i></a></span>
+                  <span><a href="#">吉林<i>X</i></a></span>
+                  <span><a href="#">湖北<i>X</i></a></span>
+              </div>
+            </div>
+            <!-- 地区分类 -->
+            <div class="layui-form-item">
+              <label for="" class="layui-form-label"></label>
+              <div class="layui-input-block clearfix">
+                <dl class="l">
+                    <dd>
+                      <a href="#">华北</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">北京</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">天津</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">山西</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">内蒙古</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">河北</a>
+                      <input type="checkbox" lay-skin="primary">
+                      <div class="city" style="display: none;">
+                        <div>
+                          <a href="#">保定市</a>
+                          <input type="checkbox" lay-skin="primary">
+                        </div>
+                        <div>
+                          <a href="#">沧州市</a>
+                          <input type="checkbox" lay-skin="primary">
+                        </div>
+                        <div>
+                          <a href="#">承德市</a>
+                          <input type="checkbox" lay-skin="primary">
+                        </div>
+                        <div>
+                          <a href="#">邯郸市</a>
+                          <input type="checkbox" lay-skin="primary">
+                        </div>
+                        <div>
+                          <a href="#">秦皇岛市</a>
+                          <input type="checkbox" lay-skin="primary">
+                        </div>
+                      </div>
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dd>
+                      <a href="#">东北</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">辽宁</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">吉林</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">黑龙江</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dd>
+                      <a href="#">华东</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">上海</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">江苏</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">浙江</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">安徽</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">福建</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">江西</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">山东</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dd>
+                      <a href="#">华中</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">河南</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">湖南</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">湖北</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dd>
+                      <a href="#">华南</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">广东</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">广西</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">海南</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dd>
+                      <a href="#">西北</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">重庆</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">陕西</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">甘肃</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">青海</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">宁夏</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                    <dd>
+                      <a href="#">新疆</a>
+                      <input type="checkbox" lay-skin="primary" name="" id="">
+                    </dd>
+                </dl>
+              </div>
+            </div>
+            <!-- 信息类型 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label">信息类型</label>
+              <div class="layui-input-block">
+                <div class="clearfix">
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">招标公告</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">招标预告</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">招标变更</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">中标结果</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">拟在建项目</a>
+                  </div> 
+                </div>
+                <div class="cleafix">
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">VIP独家项目</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">政府采购</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">企业采购</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">业主委托项目</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 搜索模式 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label">搜索模式</label>
+              <div class="layui-input-block">
+                    <input type="radio" name="name" title="模糊搜索" lay-skin="primary">
+                    <input type="radio" name="name" title="精准搜索" lay-skin="primary">
+              </div>
+            </div>
+            <!-- 订阅方式 -->
+            <div class="layui-form-item">
+              <label class="layui-form-label">订阅方式</label>
+              <div class="layui-input-block clearfix">
+                <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">邮件订阅</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">短信订阅</a>
+                  </div>
+                  <div class="l">
+                    <input type="checkbox" lay-skin="primary">
+                    <a href="#">公众号</a>
+                  </div>
+              </div>
+            </div>
+            <!-- 保存 -->
+            <div class="layui-form-item">
+              <div class="layui-input-block">
+                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="formDemo">保存完成</button>
+              </div>
+            </div>
+        </form>    
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script>
+        
+        //入口函数
+    $(function(){
+        // 引入公共底部
+        $.get('../slide/footer.html',function (result) {
+			    $result = $(result);
+			    $result.find('.footer_content').appendTo('.footer');
+		    },'html');
+        // 手风琴导航
+        $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+            $(this).css({
+                "background-color":"#e8f5fc",
+                "color":"#0090ec",
+                "border-left":"4px solid #0090ec"
+            });
+            $(this).siblings().show();
+            $(this).parent().siblings().children('div').hide();
+            $(this).parent().siblings().children('span').css({
+                "background-color":"",
+                "color":"",
+                "border-left": ""
+            });
+        });
+        // 下拉菜单部分
+        // 1.鼠标进入一级菜单后，显示二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseover(function(){
+            $(this).siblings('ul').show();
+        });
+        // 2.鼠标离开一级菜单后，隐藏二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseout(function(){
+            $(this).next().hide();
+        });
+        // 3.鼠标进入二级菜单，显示二级菜单
+        $('.detail>.ul').mouseover(function(){
+            $(this).show();
+        });
+        // 4.鼠标离开二级菜单，隐藏二级菜单
+        $('.detail>.ul').mouseout(function(){
+            $(this).hide();
+        });
+        //tab栏切换
+        // 1. 获取一组li
+        var lis = document.querySelectorAll('.tab-control li');
+        // 2. 获取一组div显示项
+        var divs = document.querySelectorAll('.tab-content-item');
+        // 3. for循环遍历给每一个li注册一个点击事件，给每一个li添加一个index属性，表示li的下标
+        for (var i = 0; i < lis.length; i++) {
+            // 3.1 给每一个li添加一个index属性
+            lis[i].index = i;
+            // 3.2 注册事件
+            lis[i].onclick = function () {
+                // 4. 在事件处理程序中，① 切换li  ② 切换div
+                // 4.1 循环遍历去掉所有li 和 所有div的类名active
+                for (var j = 0; j < lis.length; j++) {
+                    lis[j].className = '';
+                    divs[j].className = 'tab-content-item';
+                }
+                // 4.2 给当前点击的li添加类名active
+                this.className = 'active';
+                // 4.3 获取当前点击的li的下标
+                var num = this.index;
+                // 找到对应的div项，显示
+                divs[num].className = 'tab-content-item active';
+            };
+        }
+        //控制遮罩层----新建跟踪
+        $('.t_right .t_top button').click(function(){
+            layui.use('layer', function(){
+                var layer = layui.layer;
+                layer.open({
+                    title: [''],
+                    type: 1,
+                    content: $('.mask'),
+                    offset: 'auto',
+                    area: ['800px', '800px'],
+                    shadeClose: true, //开启遮罩关闭
+                    end:function(){
+                        $(".mask").hide();
+                    },
+                  });
+              }); 
+          });
+        // 分页
+        layui.use(['laypage', 'layer'], function(){
+            var laypage = layui.laypage,layer = layui.layer;
+            //总页数大于页码总数
+            laypage.render({
+              elem: 'demo1',
+              count: 70, //数据总数,
+              jump: function(obj){
+                console.log(obj)
+              }
+            });
+          }
+        );
+        // 城市显示
+        $('.layui-input-block dl dd:eq(5)>a').mouseenter(function(){
+          $('.layui-input-block dl dd>.city').show();
+          $(this).css({
+            "border":"1px solid #ccc",
+            "border-right":"none"
+          });
+          $('.layui-input-block dl dd>.city>div:eq(2)').css({
+            "border-left":"none"
+          })
+        });
+    });
+    </script>
+</body>
+</html>

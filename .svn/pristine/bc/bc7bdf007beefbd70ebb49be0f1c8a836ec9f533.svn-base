@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----推广服务</title>
+    <link rel="stylesheet" href="../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/personal.css">
+    <link rel="stylesheet" href="../css/p-promotionserver.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="header w clearfix">
+            <!-- logo区域 -->
+            <div class="logo l">
+                <img src="../img/logo.png" alt="">
+            </div>
+            <!-- 导航部分 -->
+            <div class="nav l">
+                <ul class="clearfix">
+                    <li class="l"><a herf="#">首页</a></li>
+                    <li class="l"><a herf="#">标书服务</a></li>
+                    <li class="l"><a herf="./p-server.html">会员服务</a></li>
+                    <li class="l"><a herf="./p-promotionserver.html">推广服务</a></li>
+                    <li class="l"><a herf="./p-applyinvoice.html">发票申请</a></li>
+                </ul>
+            </div>
+            <!-- 个人中心部分 -->
+            <div class="personal r">
+              <div class="detail clearfix">
+                <div class="l">
+                    <img src="../img/icon-email.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../img/icon-rang.jpg" alt="">
+                </div>
+                <div class="l">
+                    <img src="../img/per.jpg" alt="">
+                    <span>steven &nbsp jone</span>
+                    <i class="fa fa-angle-down"></i>
+                </div>
+                <ul class="ul">
+                    <li>
+                      <a href="#">账号信息</a>
+                    </li>
+                    <li>
+                      <a href="#">安全设置</a>
+                    </li>
+                    <li>
+                      <a href="#">退出登录</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <!-- 手风琴效果 -->
+                <ul class="parentWrap">
+                    <li class="menuGroup">
+                      <span class="groupTitle"><a href="./p-promotionserver.html">推广服务</a></span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <div class="t_top clearfix">
+                        <h3 class="l">推广服务</h3>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>序号</th>
+                                  <th>广告位置</th>
+                                  <th>收费标准</th>
+                                  <th>查看位置</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>首页A类</td>
+                                  <td>
+                                      <div class="clearfix">
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                      </div>
+                                      <div class="clearfix">
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                      </div>
+                                  </td>
+                                  <td>
+                                    <p>
+                                        <i class="fa fa-search-plus"></i>
+                                        点击查看</p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>频道页B类</td>
+                                  <td>
+                                      <div class="clearfix">
+                                        <p class="l">
+                                          <span>B1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                      </div>
+                                  </td>
+                                  <td>
+                                    <p>
+                                        <i class="fa fa-search-plus"></i>
+                                        点击查看</p>
+                                  </td>
+                                </tr>
+                                 <tr>
+                                  <td>3</td>
+                                  <td>频道页C类</td>
+                                  <td>
+                                      <div class="clearfix">
+                                        <p class="l">
+                                          <span>C1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                        <p class="l">
+                                          <span>A1:</span>
+                                          <span>3000元/月</span>
+                                        </p>
+                                      </div>
+                                  </td>
+                                  <td>
+                                    <p>
+                                        <i class="fa fa-search-plus"></i>
+                                        点击查看</p>
+                                  </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script>
+        
+        //入口函数
+    $(function(){
+        // 引入公共底部
+        $.get('../slide/footer.html',function (result) {
+			    $result = $(result);
+			    $result.find('.footer_content').appendTo('.footer');
+		    },'html');
+        // 手风琴导航
+        $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+            $(this).css({
+                "background-color":"#e8f5fc",
+                "color":"#0090ec",
+                "border-left":"4px solid #0090ec"
+            });
+            $(this).siblings().show();
+            $(this).parent().siblings().children('div').hide();
+            $(this).parent().siblings().children('span').css({
+                "background-color":"",
+                "color":"",
+                "border-left": ""
+            });
+        });
+        // 下拉菜单部分
+        // 1.鼠标进入一级菜单后，显示二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseover(function(){
+            $(this).siblings('ul').show();
+        });
+        // 2.鼠标离开一级菜单后，隐藏二级菜单
+        $('.top .personal .detail div:nth-child(3)').mouseout(function(){
+            $(this).next().hide();
+        });
+        // 3.鼠标进入二级菜单，显示二级菜单
+        $('.detail>.ul').mouseover(function(){
+            $(this).show();
+        });
+        // 4.鼠标离开二级菜单，隐藏二级菜单
+        $('.detail>.ul').mouseout(function(){
+            $(this).hide();
+        });
+        //控制遮罩层----修改信息
+        $('.t_right .table-responsive .btn-success').click(function(){
+            layui.use('layer', function(){
+                var layer = layui.layer;
+                layer.open({
+                    title: [''],
+                    type: 1,
+                    content: $('.mask'),
+                    offset: 'auto',
+                    area: ['1000px', '800px'],
+                    shadeClose: true, //开启遮罩关闭
+                    end:function(){
+                        $(".mask").hide();
+                    },
+                });
+            }); 
+        });
+        // 弹出框----删除信息 事件委托
+        $('tbody').on('click','.del',function(){
+            // 将删除按钮转存
+            _this = $(this);
+            layer.confirm("您确定删除该信息吗？",{
+                title:['提示信息'],
+                closeBtn:0,
+                // btn: ['取消','确定']
+            },function(){
+
+            });
+        });
+        // 日期设置
+        layui.use('laydate',function(){
+            var laydate = layui.laydate;
+            //初始赋值
+            laydate.render({
+                elem: '#test5',
+                type: 'datetime'
+            });
+        });
+        // 上传附件
+        layui.use('upload',function(){
+            var $ = layui.jquery,upload = layui.upload;
+            //设定文件大小限制
+            upload.render({
+                elem: '#test7'
+                ,url: '/upload/'
+                ,size: 2048 //限制文件大小，单位 KB
+                ,done: function(res){
+                    console.log(res)
+                }
+            });
+        });
+        // 分页
+        layui.use(['laypage', 'layer'], function(){
+            var laypage = layui.laypage,layer = layui.layer;
+            //总页数大于页码总数
+            laypage.render({
+              elem: 'demo1',
+              count: 70, //数据总数,
+              jump: function(obj){
+                console.log(obj)
+              }
+            });
+          }
+        );
+    });
+    </script>
+</body>
+</html>

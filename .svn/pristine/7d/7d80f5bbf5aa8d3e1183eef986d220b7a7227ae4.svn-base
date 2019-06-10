@@ -1,0 +1,64 @@
+.top .nav li:first-child a {
+    border:none;
+}
+.top .nav li:nth-child(3) a {
+    border-bottom: 4px solid #0090ec;
+}
+/* 左侧 */
+.parentWrap .menuGroup>div {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    display: block;
+    cursor: pointer;
+}
+.parentWrap .menuGroup>div:nth-child(3)>a {
+   color: #0090ec;
+}
+.t_right .title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#636363;
+}
+.t_right form,
+.t_right .word,
+.t_right .pay {
+    margin-left: 90px;
+}
+.t_right .pay .wechat {
+    text-align: center;
+    margin: 0 50px;
+}
+.t_right .pay .wechat div {
+    margin: 10px 0;
+}
+.t_right .pay .wechat div:last-child {
+    font-size: 16px;
+    color: #646464;
+}
+.t_right .word {
+    margin-bottom: 50px;
+}
+.layui-form-item {
+    margin: 0;
+}
+.layui-form-item .title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#636363;
+}
+.layui-form-item .layui-form-label {
+    width: 114px;
+    text-align: left;
+}
+.layui-form-item .layui-input {
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #fff;
+}

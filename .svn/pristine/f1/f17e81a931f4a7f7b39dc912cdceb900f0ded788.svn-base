@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+}
+.zh_topBar {
+    background-color: #fff;
+}
+.zh_topBar a {
+    color: #ba3f44;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.zh_topBar img {
+    width: 15px;
+}
+.zh_topBar span {
+    color: #505050;
+    font-size: 17px;
+}
+.mui-bar-nav.mui-bar .mui-icon {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+/*  */
+.zh_content {
+    /* border-top: 1px solid #fff;  */
+}
+.zh_content .mui-table-view {
+    margin-top: 45px;
+}
+.zh_content .mui-table-view p {
+    margin-left: 5%;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.mui-table-view-cell div {
+    font-size: 17px;
+    color: #505050;
+}
+.mui-table-view-cell .edit {
+    font-size: 15px;
+    color: #c8c8c8;
+}
+.zh_content .mui-table-view>div p:nth-child(2) {
+    margin-right: 4%;
+    color: #ba3f44;
+}

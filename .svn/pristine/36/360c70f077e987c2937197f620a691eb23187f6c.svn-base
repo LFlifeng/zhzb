@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>中汇招标----关于我们</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" href="../css/about.css">
+</head>
+
+<body>
+	<!-- 公共头部 -->
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="#">首页</a>><a href="#">关于我们</a>
+	</div>
+	<div class="about_content">
+		<div class="sidebar_nav fl">
+			<ul class="sidebar_nav_l">
+				<li class="active"><a href="javascript:;">关于我们</a></li>
+				<li><a href="javascript:;">联系我们</a></li>
+				<li><a href="javascript:;">商务合作</a></li>
+				<li><a href="javascript:;">法律声明</a></li>
+				<li><a href="javascript:;">隐私声明</a></li>
+				<li><a href="javascript:;">诚聘英才</a></li>
+			</ul>
+		</div>
+		<div class="about_r fl fl10">
+			<div class="about_content_arc active">
+				<h4>关于我们</h4>
+				<p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+				<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+				<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+				<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+				<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+			</div>
+			<div class="about_content_arc">
+				<h4>联系我们</h4>
+				<p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+				<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+				<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+				<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+				<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+			</div>
+			<div class="about_content_arc">
+				<h4>商务合作</h4>
+				<p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+				<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+				<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+				<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+				<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+			</div>
+			<div class="about_content_arc">
+				<h4>法律声明</h4>
+				<p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+				<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+				<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+				<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+				<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+			</div>
+			<div class="about_content_arc">
+				<h4>隐私声明</h4>
+				<p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+				<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+				<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+				<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+				<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+			</div>
+			<div class="about_content_arc">
+				<h4>诚聘英才</h4>
+				<p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+				<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+				<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+				<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+				<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+			</div>
+		</div>
+	</div>
+	<div class="cl">
+	</div>
+	<!-- 公共底部 -->
+	<div class="footer t10">
+
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/search.js"></script>
+	<script>
+
+		$(function () {
+			// 引入公共头部和底部
+			$('.header').load('../slide/header.html');
+			$('.footer').load('../slide/footer.html');
+			//切换栏
+			// 1. 获取一组li
+			var lis = document.querySelectorAll('.sidebar_nav_l li');
+			// 2. 获取一组div显示项
+			var divs = document.querySelectorAll('.about_content_arc');
+			// 3. for循环遍历给每一个li注册一个点击事件，给每一个li添加一个index属性，表示li的下标
+			for (var i = 0; i < lis.length; i++) {
+				// 3.1 给每一个li添加一个index属性
+				lis[i].index = i;
+				// 3.2 注册事件
+				lis[i].onclick = function () {
+					// 4. 在事件处理程序中，① 切换li  ② 切换div
+					// 4.1 循环遍历去掉所有li 和 所有div的类名active
+					for (var j = 0; j < lis.length; j++) {
+						lis[j].className = '';
+						divs[j].className = 'about_content_arc';
+					}
+					// 4.2 给当前点击的li添加类名active
+					this.className = 'active';
+					// 4.3 获取当前点击的li的下标
+					var num = this.index;
+					// 找到对应的div项，显示
+					divs[num].className = 'about_content_arc active';
+				};
+			}
+		});
+
+	</script>
+</body>
+
+</html>

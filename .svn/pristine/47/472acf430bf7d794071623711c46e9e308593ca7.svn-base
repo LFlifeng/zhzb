@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/personal.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        <div class="header w clearfix">
+            <!-- logo区域 -->
+            <div class="logo l">
+                <img src="../img/logo.jpg" alt="">
+            </div>
+            <!-- 导航部分 -->
+            <div class="nav l">
+                <ul class="clearfix">
+                    <li class="l"><a herf="#">首页</a></li>
+                    <li class="l"><a herf="#">标书服务</a></li>
+                    <li class="l"><a herf="#">会员服务</a></li>
+                    <li class="l"><a herf="#">推广服务</a></li>
+                </ul>
+            </div>
+            <!-- 个人中心部分 -->
+            <div class="personal r">
+                <div class="detail clearfix">
+                    <div class="l">
+                        <img src="../img/icon-email.jpg" alt="">
+                    </div>
+                    <div class="l">
+                        <img src="../img/icon-rang.jpg" alt="">
+                    </div>
+                    <div class="l">
+                        <img src="../img/per.jpg" alt="">
+                        <span>steven &nbsp jone</span>
+                    </div>
+                    <div class="l">
+                        <img src="../img/icon01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <h4>基本信息</h4>
+                <!-- 手风琴效果 -->
+                <div>
+
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <div class="t_top clearfix">
+                        <h3 class="l">跟踪信息</h3>
+                        <div class="l">可新建六组跟踪数据</div>
+                        <button class="r">+新建跟踪</button>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                  <th>序号</th>
+                                  <th>追踪器名称</th>
+                                  <th>所属地区</th>
+                                  <th>关键词</th>
+                                  <th>检索模式</th>
+                                  <th>订阅方式</th>
+                                  <th>修改</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>4</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>5</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>6</td>
+                                  <td>名称一</td>
+                                  <td>全国</td>
+                                  <td>水泥、钢筋</td>
+                                  <td>模糊</td>
+                                  <td>邮件订阅</td>
+                                  <td>
+                                    <button type="button" class="btn btn-sm btn-success">编辑</button>
+                                    <button type="button" class="btn btn-sm btn-danger">删除</button>
+                                  </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="right r">
+                    <div class="t_right">
+                        <div class="t_top">
+                            <h3>列表信息</h3>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script>
+        //入口函数
+    $(function(){
+        // 引入公共底部
+        $.get('../slide/footer.html',function (result) {
+			$result = $(result);
+			$result.find('.footer_content').appendTo('.footer');
+		},'html');
+    });
+    </script>
+</body>
+</html>

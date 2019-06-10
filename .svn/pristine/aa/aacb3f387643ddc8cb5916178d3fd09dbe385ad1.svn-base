@@ -1,0 +1,136 @@
+.head_nav .nav ul li:nth-child(5) a {
+    background-color: #505050;
+    color: #fff;
+}
+/* 最新消息 */
+.new_infos {
+    margin-top: 30px;
+}
+.release {
+    border: 1px solid #e2e2e2;
+    height: 360px;
+    margin-right: 10px;
+	overflow: hidden;
+}
+.release .release_title {
+    font-size: 16px;
+	height: 40px;
+	background: #f4f4f4;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 40px;
+	color: #646464;
+}
+.release .release_title_content {
+    padding: 10px;
+	height: 320px;
+}
+.release .release_title_content li a {
+    display: inline-block;
+	width: 230px;
+	color: #646464;
+	line-height: 34px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-align: left;
+}
+.img {
+    margin-right: 10px;
+}
+/* 优秀供应商 */
+.supplier {
+    margin-top: 30px;
+}
+.supplier_info {
+    border: 1px solid #e2e2e2;
+    width: 795px;
+    margin-right: 10px;
+}
+.supplier_info .supplier_info_title {
+    font-size: 16px;
+	height: 40px;
+	background: #f4f4f4;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 40px;
+	color: #646464;
+}
+.supplier_info_list {
+    border-bottom: 1px solid #e2e2e2;
+}
+.supplier_info_list:last-child {
+    border: none;
+}
+.supplier_info_list .supplier_img,
+.supplier_info_list .supplier_info_business{
+    margin: 30px 0px 30px 20px;
+}
+.supplier_info_list .supplier_img img {
+    width: 80px;
+}
+.supplier_info_business h3 {
+    font-size: 18px;
+    color: #646464;
+}
+.supplier_info_business .supplier_address {
+    margin-top: 5px;
+}
+.supplier_info_business .supplier_address span:nth-child(3) {
+    margin-left: 30px;
+}
+.supplier_info_business .business {
+    margin-top: 5px;
+}
+.supplier_info_business .business span:nth-child(2) {
+    display: inline-block;
+    width: 500px;
+    overflow: hidden;
+	text-overflow:ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+.supplier_info_list>div.r {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.supplier_info_list>div.r a {
+    color: #35a0ee;
+}
+.ranking {
+    border: 1px solid #e2e2e2;
+    height: 460px;
+}
+.ranking .ranking_title {
+    font-size: 16px;
+	height: 40px;
+	background: #f4f4f4;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 40px;
+	color: #646464;
+}
+.ranking .ranking_mc li div {
+    display: inline-block;
+    width: 40px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: top;
+}
+.ranking .ranking_mc li a {
+    display: inline-block;
+    width: 200px;
+    height: 34px;
+	color: #646464;
+	line-height: 34px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	text-align: left;
+}
+.mc .c1 img {
+    width: 339px;
+    margin-top: 20px;
+}
+/* 遮罩层 */

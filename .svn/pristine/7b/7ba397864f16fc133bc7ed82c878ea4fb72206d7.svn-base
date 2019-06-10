@@ -1,0 +1,66 @@
+
+/* 头部搜索 */
+.flex {
+	height: 45px;
+	line-height: 45px;
+}
+.flex img {
+	height: 18px;
+}
+.flex_content {
+	flex: 1;
+	text-align: center;
+}
+/* 轮播部分 */
+.mui-content {
+	margin-top: 45px;
+}
+/* 服务分类 */
+.index_menu {
+	justify-content: space-around;
+	display: flex;
+	background: #ffffff;
+	height: 100px;
+}
+.index_menu li img {
+	width: 34px;
+	height: 34px;
+}
+.index_menu li {
+	font-size: 14px;
+	display: block;
+	padding: 20px 0px;
+	text-align: center;
+}
+/* 热门推荐 */
+.index_title {
+	padding: 14px 10px;
+	height: 50px;
+	color: #323232;
+	font-size: 17px;
+	text-align: left;
+	font-weight: 600;
+	border-bottom: 1px solid #eeeeee;
+	margin-top: 10px;
+}
+.mui-media-body {
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.item_flex {
+	display: flex;
+	color: #c9c9c9;
+	align-items: center;
+}
+.item_flex>.flex {
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	margin-right: 8px;
+}
+.item_flex img {
+	height: 14px;
+	width: 14px;
+	margin: 0px 3px;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于我们</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css">
+		<link rel="stylesheet" type="text/css" href="../css/header.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<style type="text/css">
+			.position_nav {
+				width: 1200px;
+				height: 50px;
+				line-height: 50px;
+				margin: 0 auto;
+			}
+
+			.position_nav p {
+				text-align: left;
+				font-size: 14px;
+				color: #505050;
+			}
+
+			.position_nav a {
+				padding: 1px 8px;
+
+			}
+
+			.about_content {
+				width: 1200px;
+				margin: 0px auto;
+			}
+
+			.sidebar_nav {
+
+				width: 200px;
+				border: 1px solid #e6e6e6;
+			}
+
+			.about_r {
+				width: 986px;
+				border: 1px solid #e6e6e6;
+				min-height: 500px;
+
+
+			}
+
+			.sidebar_nav_l {}
+
+			.sidebar_nav_l li {
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+			}
+
+			.sidebar_nav_l li a {
+				height: 40px;
+				width: 200px;
+				display: block;
+			}
+
+			.sidebar_nav_l li a:hover {
+				background: #008FED;
+				color: #ffffff;
+				height: 40px;
+				width: 200px;
+				display: block;
+
+			}
+
+			.active {
+				background: #008FED;
+				width: 200px;
+				height: 40px;
+				display: block;
+
+			}
+
+			.active a {
+				color: #ffffff;
+			}
+
+			.about_content {
+				width: 1200px;
+			}
+			.about_content_arc {
+				padding: 30px;
+			}
+			.about_content p {
+				line-height: 34px;
+				color: #323232;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<div class="top_content">
+					<span>欢迎来到中汇招标网站</span>
+					<!-- <div class="city top_info">[切换城市：<a href="#" class="oBtn_link">北京</a>&nbsp;] </div> -->
+					<div class="login top_info l10"><a href="#">注册</a>&nbsp;&nbsp;<a href="login.html">登录</a></div>
+					<div class="top_info r">
+						<span class="r10 p12">客服电话：400-888-1234</span>
+						<span class="web_map r10"><a href="#" class="p12">地图导航</a>
+							<div class="top_nav_submenu">asdf</div>
+						</span>
+						<span><a href="#" class="p12">帮助中心</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="logo">
+				<div class="logo_icon fl">logo</div>
+				<div class="search fl">
+					<div class="search_box">
+						<div id="search_box">
+							<select name="" id="">
+								<option value="">招标信息</option>
+								<option value="">招标信息</option>
+								<option value="">招标信息</option>
+								<option value="">招标信息</option>
+							</select>
+							<div></div>
+						</div>
+						<input class="search-border" type="text" name="search_name" placeholder="请输入项目名称、产品或者企业名称" />
+						<input class="search_btn" type="button" value="搜索" />
+					</div>
+					<div class="hot"><label style="color:#ccc;">热门项目：</label><label class="r10"><a href="#">医疗</a></label><label class="r10"><a
+							 href="#">建筑</a></label><label class="r10"><a href="#">绿化</a></label></div>
+				</div>
+				<div class="wachat fl">
+					<div class="app fl">二维码</div>
+					<div class="weixin fl">APP小程序</div>
+				</div>
+			</div>
+			<div class="cl"></div>
+			<div class="head_nav">
+				<div class="nav">
+					<ul>
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="list.html">招标信息</a></li>
+						<li><a href="list.html">采购信息</a></li>
+						<li><a href="list.html">项目中心</a></li>
+						<li><a href="news.html">行业资讯</a></li>
+						<li><a href="list.html">服务大厅</a></li>
+					</ul>
+					<div class="send"><input class="send_btn" type="button" value="发布招标信息"></div>
+				</div>
+			</div>
+		</div>
+		<div class="position_nav">
+			当前位置：<a href="#">首页</a>><a href="#">关于我们</a>
+		</div>
+		<div class="about_content">
+			<div class="sidebar_nav fl">
+				<ul class="sidebar_nav_l">
+					<li class="active"><a href="#">关于我们</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">商务合作</a></li>
+					<li><a href="#">法律声明</a></li>
+					<li><a href="#">隐私声明</a></li>
+					<li><a href="#">诚聘英才</a></li>
+				</ul>
+			</div>
+			<div class="about_r fl fl10">
+				<div class="about_content_arc">
+					<h4>关于我们</h4>
+                    <p>中汇招标网站以“全球采购、先知先行”为愿景；自成立之初，即致力于以信息技术和互联网技术服务招标投标，并视此asdfasdfasdfasdfasdfasdf为必联的使命。</p>
+						<p>中汇人深感荣幸的是，接受国家商务部的委托和授权，开发建设了“中汇招标网”( www.zhonghuizb.com )，并一直在精心运营。</p>
+						<p>“中国国际招标网”是一个集机电产品国际招标行政监督和公共服务为一体的在线平台，严格依照国家相关法律法规构建并提供服务的公益性平台。</p>
+						<p>“中国国际招标网”的主要用户为机电产品国际招标业务相关监管部门、招标代理机构、招标人（采购单位）、投标人、以及关心招投标的社会公众。</p>
+						<p>“中国国际招标网”不仅是依法招标的机电设备招标采购项目公示公告，还被授权公布世界银行、亚洲开发银行在华项目的招标投标信息。</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="cl">
+		</div>
+		<div class="footer t10">
+			<div class="footer_content">
+				<div class="footer_info">
+					<ul>
+						<li><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">免责声明</a>|<a href="#">隐私政策</a>|<a href="#">友情链接</a>|<a href="#">法律声明</a>|<a
+							 href="#">广告服务</a>
+						</li>
+					</ul>
+				</div>
+				<p class="footer_p"> 版权所有 北京中汇恒升互联网有限公司 Powered by LingJiang tech 京ICP备18005946号-7</p>
+			</div>
+		</div>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script>
+			
+			// 引入公共头部和底部
+			// $(document).ready(function(){
+			// 	$('.header').load('../slide/header.html');
+			// 	$('.footer').load('../slide/footer.html');
+			// });
+		</script>
+	</body>
+</html>

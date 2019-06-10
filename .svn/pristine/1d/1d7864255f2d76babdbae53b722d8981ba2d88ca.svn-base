@@ -1,0 +1,54 @@
+.t_right {
+    height: 750px;
+}
+.t_right h3 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.tender>.l {
+    width: 400px;
+    height: 120px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.tender .t_top {
+    height: 90px;
+    border-bottom: 1px solid #ccc; 
+}
+.tender .t_top img {
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.tender .t_top i {
+    font-size: 18px;
+    margin-top: 10px;
+    color:  #dfa93a;
+}
+.tender .t_top .online p:first-child {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.tender .t_top .consult {
+    background-color: #0090ec;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.tender .t_bottom span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 30px;
+}

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>中汇招标----招标信息</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../js/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../js/layui-v2.4.5/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/header.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" href="../css/list.css">
+</head>
+<body>
+	<!-- 公共头部 -->
+	<div class="header">
+
+	</div>
+	<!-- 头部导航 -->
+	<div class="head_nav">
+		<div class="nav">
+			<ul>
+				<li><a href="../index.html">首页</a></li>
+				<li><a href="list.html">招标信息</a></li>
+				<li><a href="purchasing.html">采购信息</a></li>
+				<li><a href="center.html">项目中心</a></li>
+				<li><a href="supplier.html">供应商</a></li>
+				<li><a href="news.html">行业资讯</a></li>
+				<li><a href="servicehall.html">服务大厅</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="main_content">
+			<div class="main_box fl">
+				<h3>招标</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="javascript:;">招标公告</a></li>
+						<li><a href="javascript:;">招标预告</a></li>
+						<li><a href="javascript:;">变更公告</a></li>
+						<li><a href="javascript:;">中标结果</a></li>
+						<li><a href="javascript:;">变更公告</a></li>
+						<li><a href="javascript:;">政府招标</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>采购</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="javascript:;">中标采购</a></li>
+						<li><a href="javascript:;">政府采购</a></li>
+						<li><a href="javascript:;">名企采购</a></li>
+						<li><a href="javascript:;">业主采购</a></li>
+						<li><a href="javascript:;">在线询价</a></li>
+						<li><a href="javascript:;">海外采购</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>项目</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="javascript:;">VIP项目</a></li>
+						<li><a href="javascript:;">拟建项目</a></li>
+						<li><a href="javascript:;">审批项目</a></li>
+						<li><a href="javascript:;">政府项目</a></li>
+						<li><a href="javascript:;">商业项目</a></li>
+						<li><a href="javascript:;">业主项目</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>资讯</h3>
+				<div class="main_list">
+					<ul>
+						<li><a href="javascript:;">行业资讯</a></li>
+						<li><a href="javascript:;">新规解读</a></li>
+						<li><a href="javascript:;">近期展会</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_box fl">
+				<h3>服务</h3>
+				<div class="main_list" style="border:none;">
+					<ul>
+						<li><a href="javascript:;">信息定制</a></li>
+						<li><a href="javascript:;">代理招标</a></li>
+						<li><a href="javascript:;">服务介绍</a></li>
+						<li><a href="javascript:;">标书代写</a></li>
+						<li><a href="javascript:;">实地考察</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="position_nav">
+		当前位置：<a href="javascript:;">首页</a>><a href="javascript:;">行业导航</a>
+	</div>
+	<div class="list_content">
+		<div class="list_search">
+			<div class="pr">地区选择：</div>
+			<ul class="category">
+				<li class="active"><a href="javascript:;">全部</a></li>
+				<li><a href="javascript:;">北京</a></li>
+				<li><a href="javascript:;">天津</a></li>
+				<li><a href="javascript:;">河北</a></li>
+				<li><a href="javascript:;">山西</a></li>
+				<li><a href="javascript:;">内蒙古</a></li>
+				<li><a href="javascript:;">上海</a></li>
+				<li><a href="javascript:;">江苏</a></li>
+				<li><a href="javascript:;">浙江</a></li>
+				<li><a href="javascript:;">安徽</a></li>
+				<li><a href="javascript:;">江西</a></li>
+				<li><a href="javascript:;">山东</a></li>
+				<li><a href="javascript:;">福建</a></li>
+				<li><a href="javascript:;">广东</a></li>
+				<li><a href="javascript:;">广西</a></li>
+				<li><a href="javascript:;">海南</a></li>
+				<li><a href="javascript:;">湖南</a></li>
+				<li><a href="javascript:;">湖北</a></li>
+				<li><a href="javascript:;">河南</a></li>
+				<li><a href="javascript:;">辽宁</a></li>
+				<li><a href="javascript:;">吉林</a></li>
+				<li><a href="javascript:;">黑龙江</a></li>
+				<li><a href="javascript:;">陕西</a></li>
+				<li><a href="javascript:;">甘肃</a></li>
+				<li><a href="javascript:;">青海</a></li>
+				<li><a href="javascript:;">宁夏</a></li>
+				<li><a href="javascript:;">新疆</a></li>
+				<li><a href="javascript:;">重庆</a></li>
+				<li><a href="javascript:;">四川</a></li>
+				<li><a href="javascript:;">贵州</a></li>
+				<li><a href="javascript:;">云南</a></li>
+				<li><a href="javascript:;">西藏</a></li>
+			</ul>
+			<div class="pr">项目类型：</div>
+			<ul class="category">
+				<li class="active"><a href="javascript:;">全部</a></li>
+				<li><a href="javascript:;">公告</a></li>
+				<li><a href="javascript:;">预告</a></li>
+				<li><a href="javascript:;">变更</a></li>
+				<li><a href="javascript:;">中标</a></li>
+				<li><a href="javascript:;">拟在建项目</a></li>
+				<li><a href="javascript:;">vip项目</a></li>
+				<li><a href="javascript:;">标书下载</a></li>
+			</ul>
+			<div class="pr">时间范围：</div>
+			<ul class="category">
+				<li class="active"><a href="javascript:;">一周</a></li>
+				<li><a href="javascript:;">一个月</a></li>
+				<li><a href="javascript:;">三个月</a></li>
+				<li><a href="javascript:;">半年</a></li>
+				<li><a href="javascript:;">一年</a></li>
+			</ul>
+			<div class="pr">标题搜索：</div>
+			<form>
+				<input type="text" class="title_search" placeholder="输入关键词" />
+				<input type="button" value="提交" class="list_btn" />
+			</form>
+			</ul>
+			<div class="cl">
+			</div>
+		</div>
+		<div class="list_list_content">
+			<div class="list_l fl">
+				<table>
+					<tbody>
+						<tr class="t_top">
+							<th style="width:10%;">项目类别</th>
+							<th style="width:60%;">项目名称</th>
+							<th style="width:10%;">所在地区</th>
+							<th style="width:10%;display: none;">标书下载</th>
+							<th style="width:10%;">发布时期</th>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+						<tr class="t_t">
+							<td>招标公告</td>
+							<td><a href="javascript:;" target="_blank">硫酸尾洗加装喷射器及污水截流管道安装招标公告</a></td>
+							<td>北京市</td>
+							<td style="display: none"><a href="#"><img src="../img/download.png" alt=""></a></td>
+							<td>2019-02-05</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="sidebar_right fl10 fl">
+				<div class="list_ad">
+					<a href="javascript:;"><img src="../img/ad.jpg"></a>
+				</div>
+				<div class="list_city t10">
+					<div class="did_reg_title">
+						地区选择
+					</div>
+					<div class="reg">
+						<h3>华北地区</h3>
+						<span><a href="javascript:;">北京</a></span><span><a href="javascript:;">天津</a></span><span><a
+								href="javascript:;">河北</a></span><span><a href="javascript:;">山西</a></span><span><a
+								href="javascript:;">内蒙古</a></span>
+					</div>
+					<div class="reg">
+						<h3>华东地区</h3>
+						<span><a href="javascript:;">上海</a></span><span><a href="javascript:;">江苏</a></span><span><a
+								href="javascript:;">浙江</a></span><span><a href="javascript:;">安徽</a></span><span><a
+								href="javascript:;">江西</a></span><span><a href="javascript:;">山东</a></span><span><a
+								href="javascript:;">福建</a></span>
+					</div>
+					<div class="reg">
+						<h3>华南地区</h3>
+						<span><a href="javascript:;">广东</a></span><span><a href="javascript:;">广西</a></span><span><a
+								href="javascript:;">海南</a></span>
+					</div>
+					<div class="reg">
+						<h3>华中地区</h3>
+						<span><a href="javascript:;">湖南</a></span><span><a href="javascript:;">湖北</a></span><span><a
+								href="javascript:;">河南</a></span>
+					</div>
+					<div class="reg">
+						<h3>东北地区</h3>
+						<span><a href="javascript:;">辽宁</a></span><span><a href="javascript:;">吉林</a></span><span><a
+								href="javascript:;">黑龙江</a></span>
+					</div>
+					<div class="reg">
+						<h3>西北地区</h3>
+						<span><a href="javascript:;">陕西</a></span><span><a href="javascript:;">甘肃</a></span><span><a
+								href="javascript:;">青海</a></span><span><a href="javascript:;">宁夏</a></span><span><a
+								href="javascript:;">新疆</a></span>
+					</div>
+					<div class="border_bottom_none reg">
+						<h3>西南地区</h3>
+						<span><a href="javascript:;">重庆</a></span><span><a href="javascript:;">四川</a></span><span><a
+								href="javascript:;">贵州</a></span><span><a href="javascript:;">云南</a></span><span><a
+								href="javascript:;">西藏</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="cl">
+			</div>
+			<!-- 分页 -->
+			<div id="demo1"></div>
+		</div>
+	</div>
+	<div class="cl">
+	</div>
+	<!-- 公共底部 -->
+	<div class="footer">
+
+	</div>
+	<!-- 侧边服务 -->
+	<div class="suspension">
+
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/layui-v2.4.5/layui/layui.all.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/search.js"></script>
+	<script>
+		$(function () {
+			// 引入公共头部和底部
+			$('.header').load('../slide/header.html');
+			$('.footer').load('../slide/footer.html');
+			// 分页
+			layui.use(['laypage', 'layer'], function () {
+				var laypage = layui.laypage, layer = layui.layer;
+				//总页数大于页码总数
+				laypage.render({
+					elem: 'demo1',
+					count: 70, //数据总数,
+					jump: function (obj) {
+						console.log(obj)
+					}
+				});
+			}
+			);
+			// 标书下载
+			$('.category:nth-child(4) li:last-child').on('click', function () {
+				$('.t_top th:nth-child(4)').show();
+				$('.t_t td:nth-child(4)').show();
+			})
+		});
+	</script>
+</body>
+
+</html>

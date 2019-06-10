@@ -1,0 +1,133 @@
+.registe_top {
+    width: 1200px;
+    margin: 0 auto;
+}
+.registe_logo {
+    text-align: left;
+    width: 300px;
+    height: 80px;
+    padding: 20px 0px;
+}
+.registe_content {
+    width: 100%;
+    background: url(../img/login_bg.jpg) center center no-repeat;
+    height: 600px;
+}
+.content {
+    margin-left: 400px;
+}
+.content .title {
+    margin: 100px 0 40px 0;
+}
+.content .title h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.content .text p {
+    margin-right: 50px;
+}
+.content .text p span {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+/* 登陆部分 */
+.registe_center {
+    margin-right: 300px;
+}
+.registe_registe {
+    margin-top: 20px;
+    width: 320px;
+    height: 430px;
+    float: right;
+    border-radius: 3px;
+    background: #ffffff;
+    z-index: 999;
+    padding: 20px;
+}
+.registe_registe h2 {
+    text-align: center;
+    color: #008FED;
+    height: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 30px;
+}
+.registe_registe div {
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+}
+.registe_registe div input {
+    background-color: #eee;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+}
+.registe_registe .who span:nth-child(2),
+.registe_registe .who span:nth-child(3),
+.registe_registe .who span:nth-child(4) {
+    margin-right: 2px;
+}
+.registe_registe .contacts input,
+.registe_registe .company input,
+.registe_registe .pwd input {
+    width: 245px;
+}
+.who span:first-child,
+.pwd span {
+    letter-spacing: 21px;
+}
+.contacts span,
+.phone span:first-child,
+.i_code span {
+    letter-spacing: 9px;
+}
+.company span {
+    letter-spacing: 2px;
+}
+
+.registe_registe .i_code input {
+    width: 110px;
+}
+.registe_registe .phone input {
+    width: 153px;
+}
+.registe_registe div span {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+}
+.registe_registe .phone span:last-child {
+    width: 86px;
+    line-height: 40px;
+    text-align: center;
+    color: #008FED;
+    border: 1px solid #2597f0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.registe_registe .clause {
+    margin-left: 10px;
+}
+.registe_registe .clause input {
+    margin-right: 20px;
+}
+.registe_registe .clause a {
+    color: #008FED;
+}
+.registe_registe .registe {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #008FED;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 22px;
+    color: #fff;
+    cursor: pointer;
+}

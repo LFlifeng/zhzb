@@ -1,0 +1,110 @@
+.head_nav .nav ul li:nth-child(7) a {
+    background-color: #505050;
+    color: #fff;
+}
+/* banner */
+.banner img {
+    width: 100%;
+}
+/* 产品核心优势 */
+.advantage .w {
+    margin-top: 50px;
+}
+.w>h3 {
+    margin-left: 490px;
+    font-size: 28px;
+    color: black;
+}
+.w:first-child hr{
+    width: 50px;
+    height: 4px;
+    border: none;
+    text-align: center;
+    background-color: #7748f3;
+    margin-left: 550px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.advantage_content {
+    margin-top: 20px;
+}
+.advantage_content>div {
+    margin-right: 120px;
+    margin-bottom: 100px;
+}
+.advantage_content>div:last-child {
+    margin-right: 0;
+}
+.advantage_content>div>div.l>img {
+    margin-right: 20px;
+} 
+.advantage_content>div>div.r>h4 {
+    font-size: 28px;
+    color: #41a2ee;
+    margin-bottom: 20px;
+    width: 364px;
+}
+.advantage_content>div>div.r>p {
+    font-size: 16px;
+    color: #646464;
+    margin-bottom: 5px;
+    width: 380px;
+}
+/* 专业 */
+.major {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    border: 1px #fff solid;
+    background: url(../img/serverbg.jpg) no-repeat;
+}
+.major .title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+.list div.l {
+    width: 380px;
+    height: 484px;
+    background-color: #34536b;
+    opacity: .75;
+    text-align: center;
+    margin-right: 28px;
+}
+.list div.l:last-child {
+    margin: 0;
+}
+.list h3 {
+    margin-top: 50px;
+    color: #dfefff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.list img {
+    margin-top: 60px;
+}
+.list p {
+    margin: 46px auto;
+    color: #dfdfff;
+    font-size: 20px;
+    text-align: left;
+    width: 270px;
+}
+/* 及时高效服务 */
+.w:last-child hr{
+    width: 50px;
+    height: 4px;
+    border: none;
+    text-align: center;
+    background-color: #7748f3;
+    margin-left: 556px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.w:last-child .advantage_content>div>div.r>p {
+    font-size: 16px;
+    color: #646464;
+    margin-top: 20px;
+    width: 200px;
+}

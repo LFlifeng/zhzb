@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----招标服务</title>
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-server.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+        
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <h4><a href="./p-basicInformation.html">基本信息</a></h4>
+                <!-- 手风琴效果 -->
+                <ul class="parentWrap">
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">招标服务</a></span>
+                        <div><a href="./p-trackInformation.html">跟踪信息</a></div>
+                        <div><a href="./p-projectdesigned.html">项目专盯</a></div>
+                        <!-- <div><a href="#">委托项目</a></div> -->
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">供应商库</a></span>
+                        <div><a href="./p-application.html">申请入驻</a></div>
+                        <div><a href="./p-productdisplay.html">产品展示</a></div>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="#">发布信息</a></span>
+                        <div><a href="./p-publishInformation.html">发布信息</a></div>
+                        <div><a href="./p-mangerelease.html">管理发布</a></div>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="./p-collection.html">我的收藏</a></span>
+                    </li>
+                    <li class="menuGroup">
+                        <span class="groupTitle"><a href="./p-history.html">浏览历史</a></span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right clearfix">
+                    <dl class="l">
+                        <dt>基本信息</dt>
+                        <dd>登陆账号：&nbsp; 15810362156</dd>
+                        <dd>企业名称：&nbsp;北京中汇恒升互联网服务有限公司</dd>
+                        <dd>企业类型：&nbsp;供应商</dd>
+                    </dl>
+                    <dl class="l">
+                        <dt>服务信息</dt>
+                        <dd>会员等级：&nbsp; 免费会员<i class="fa fa-bell-o"><a href="#">成为会员</a></i></dd>
+                        <dd>权限地区：&nbsp;全国</dd>
+                    </dl>
+                    <dl class="l">
+                        <dt>专属客服</dt>
+                        <dd>专属客服：&nbsp; 张三</dd>
+                        <dd>联系方式：&nbsp; 15810362156</dd>
+                        <dd>客服邮箱：&nbsp;hdasdijdksa@126.com</dd>
+
+                    </dl>
+                </div>
+            </div>
+            <div class="right r">
+                <div class="t_right">
+                    <h3>会员服务</h3>
+                    <div class="members clearfix">
+                        <!-- 普通会员 -->
+                        <div class="ordinary l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                            </ul>
+                            <div class="money">
+                                <span>￥</span>
+                                <span>5880</span>
+                                <span>元/年</span>
+                            </div>
+                            <div class="buy"><a href="#">购买</a></div>
+                            <div>普通会员</div>
+                        </div>
+                        <!-- 高级会员 -->
+                        <div class="senior l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                            </ul>
+                            <div class="money">
+                                <span>￥</span>
+                                <span>5880</span>
+                                <span>元/年</span>
+                            </div>
+                            <div class="buy"><a href="#">购买</a></div>
+                            <div>高级会员</div>
+                        </div>
+                        <!-- VIP会员 -->
+                        <div class="vip l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                            </ul>
+                            <div class="money">
+                                <span>￥</span>
+                                <span>5880</span>
+                                <span>元/年</span>
+                            </div>
+                            <div class="buy"><a href="#">购买</a></div>
+                            <div>VIP会员</div>
+                        </div>
+                        <!-- 钻石会员 -->
+                        <div class="diamond l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>招标信息</a></li>
+                            </ul>
+                            <div class="money">
+                                <span>￥</span>
+                                <span>5880</span>
+                                <span>元/年</span>
+                            </div>
+                            <div class="buy"><a href="#">购买</a></div>
+                            <div>钻石会员</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right r">
+                <div class="Qrcode clearfix">
+                    <img src="../../img/code.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js" charset="utf-8"></script>
+    <script src="../../js/wangEditor-3.1.1/wangEditor-3.1.1/release/wangEditor.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <script>
+
+        //入口函数
+        $(function () {
+            // 引入公共底部
+            $.get('../../slide/footer.html', function (result) {
+                $result = $(result);
+                $result.find('.footer_content').appendTo('.footer');
+            }, 'html');
+            $('.top').load('./p-top.html');
+            // 手风琴导航
+            $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+                $(this).css({
+                    "background-color": "#e8f5fc",
+                    "color": "#0090ec",
+                    "border-left": "4px solid #0090ec"
+                });
+                $(this).siblings().show();
+                $(this).parent().siblings().children('div').hide();
+                $(this).parent().siblings().children('span').css({
+                    "background-color": "",
+                    "color": "",
+                    "border-left": ""
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

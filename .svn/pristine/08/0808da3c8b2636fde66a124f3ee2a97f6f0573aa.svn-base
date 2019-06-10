@@ -1,0 +1,197 @@
+.footer {
+    width: 100%;
+    height: 180px;
+    background: #fff;
+}
+.footer_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #c0c0c0;
+}
+.footer_info {
+    color: #c0c0c0;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer_info li a {
+    color: #000;
+    padding: 0px 10px;
+}
+.footer_p {
+    color: #c0c0c0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.login_top {
+    width: 1200px;
+    margin: 0 auto;
+}
+.login_logo {
+    text-align: left;
+    width: 300px;
+    height: 80px;
+    padding: 20px 0px;
+}
+.login_content {
+    width: 100%;
+    background: linear-gradient(to right,#d04f4e 30%,#a92a2e 70%);
+    height: 650px;
+    border-top: 1px solid #fff;
+}
+.content {
+    background: url(../img/loginbg.jpg) no-repeat center;
+    margin-top: 50px;
+    width: 800px;
+    height: 470px;
+}
+.content .title {
+    margin: 100px 0 40px 0;
+}
+.content .title h1 {
+    font-size: 45px;
+    color: #aa2b2f;
+    font-weight: 700;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.content .text {
+    margin-left: 35px;
+}
+.content .text p {
+    margin-right: 30px;
+}
+.content .text p span {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 16px;
+}
+.content .text p span i {
+    font-size: 18px;
+    color: #000;
+    margin-right: 5px;
+}
+/* 登陆部分 */
+.login_center {
+    /* margin-right: 300px; */
+}
+.login_login {
+    margin-top: 50px;
+    width: 320px;
+    height: 430px;
+    background: #ffffff;
+    padding: 20px;
+}
+.login_login h2 {
+    text-align: center;
+    color: #c8302e;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+    margin-left: 30px;
+    font-weight: 700;
+    letter-spacing: 30px;
+}
+.login_login form p {
+    margin-top: 5px;
+    color: #c8302e;
+}
+.user_number {
+    width: 94%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #e6e6e6;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #3C3C3C;
+    border: none;
+}
+.user_psd {
+    width: 94%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #e6e6e6;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #3C3C3C;
+    margin-top: 15px;
+    border: none;
+
+}
+.login_btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #c8302e;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 22px;
+}
+.check {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+
+}
+.check span {
+    height: 50px;
+    line-height: 50px;
+
+}
+.check input {
+    color: #646464;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 6px;
+
+}
+.check .fr {
+    color: #646464;
+    float: right;
+}
+.wechat {
+    margin-top: 15px;
+}
+.wechat p {
+    text-align: center;
+}
+.wechat p span {
+    display: inline-block;
+    height: 1px;
+    background-color: #c5c5c5;
+    width: 20%;
+    margin: 0 10px;
+}
+.wechat p i {
+    display: inline-block;
+}
+.wechat .img {
+    display: block;
+    text-align: center;
+    width: 70%;
+}
+.wechat .img img {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 43%;
+    width: 60px;
+}
+.reg {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.reg a {
+    color: #c8302e;
+}

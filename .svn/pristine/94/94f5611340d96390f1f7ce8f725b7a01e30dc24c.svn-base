@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>中汇招标----跟踪器</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="res/mui/css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="res/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tracker.css">
+</head>
+
+<body>
+    <div class="zh_layout">
+        <header class="zh_topBar mui-bar mui-bar-nav ">
+            <a href="javascript:history.back()" class="l"><img src="img/back.png" alt=""></a>
+            <span>跟踪器</span>
+            <a href="#" class="r">保存</a>
+        </header>
+        <div class="zh_container">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <div class="zh_content">
+                        <ul class="mui-table-view alone">
+                            <p>跟踪器名称</p>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">北京医疗器械设备</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                        </ul>
+                        <ul class="mui-table-view">
+                            <div class="clearfix">
+                                <p class="l">关键词设置（最多添加6组）</p>
+                                <p class="r">+添加</p>
+                            </div>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">器械</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">医院</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">医疗器械</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">医药</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">北京</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="word l">器械</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                        </ul>
+                        <ul class="mui-table-view">
+                            <div class="clearfix">
+                                <p class="l">选择地区</p>
+                                <p class="r">+添加</p>
+                            </div>
+                            <li class="mui-table-view-cell clearfix address">
+                                <div class="ad l">北京</div>
+                                <div class="del r">删除</div>
+                            </li>
+                            <li class="mui-table-view-cell clearfix address">
+                                <div class="ad l">江苏</div>
+                                <div class="del r">删除</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="res/mui/js/mui.min.js"></script>
+        <script src="js/common.js"></script>
+        <script type="text/javascript">
+            //删除功能  事件委托方式
+            $('.address').on('tap', '.del', function (event) {
+                // var event = event.target;
+                console.log($(this))
+                console.log($(this).parent())
+                mui.confirm('忍心删除？', ' 温馨提示', ['否', '是'], function (e) {
+                    if (e.index == 1) {
+                        $(this).parent().remove();
+                        mui.toast('删除成功');
+                    } else {
+                        mui.toast('删除失败');
+                    }
+                });
+            });
+            //编辑功能 
+            $('.keys').on('tap','.edit',function (evevt) {
+                var word = $(this).parent().children('.word');
+                // console.log(word)
+                mui.prompt(' ', ' ', '编辑', ['取消', '确定'], function (e) {
+                    if (e.index == 1) {
+                        word.text(e.value);
+                        mui.toast('编辑成功');
+                    } else {
+                        // $('.word').text(word);
+                        mui.toast('编辑失败');
+                    }
+                })
+            })
+            mui.init()
+        </script>
+</body>
+
+</html>

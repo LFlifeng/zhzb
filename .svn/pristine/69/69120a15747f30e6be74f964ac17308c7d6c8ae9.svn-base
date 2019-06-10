@@ -1,0 +1,34 @@
+$(function(){
+    $('.head_nav .nav ul li a').click(function(){
+        $(this).css({
+            "background-color":"#d0d0d0",
+            "color":"#646464"
+        });
+        $(this).parent().siblings().children('a').css({
+            "background-color":"#c8302e",
+            "color":"#fff"
+        });
+    });
+    // 右侧固定定位
+    $('.suspension .conslut,.suspension .conslut .suspension-list').mouseenter(function(){
+        $('.suspension .conslut .suspension-list').show();
+    });
+    $('.suspension .conslut,.suspension .conslut .suspension-list').mouseleave(function(){
+        $('.suspension .conslut .suspension-list').hide();
+    });
+    // 返回顶部
+    $(".back-top").hide();
+    $('.back-top').on("click",function() {
+        $('html,body').animate({
+            scrollTop:0
+        },400);
+        return false;
+    });
+    $(window).bind('scroll resize',function(){
+        if($(window).scrollTop() <= 400) {
+            $(".back-top").hide();
+        } else{
+            $(".back-top").show();
+        }
+    });
+});

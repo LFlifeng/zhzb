@@ -1,0 +1,71 @@
+body {
+    background-color: #f7f7f7;
+}
+/* 头部 */
+.zh_topBar {
+    background-color: #0090ec;
+}
+.zh_topBar a {
+    color: #fff;
+    font-size: 20px;
+}
+.zh_topBar a:first-child {
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.zh_topBar a:last-child {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+/* 个人信息 */
+.user {
+    height: 80px;
+    background-color: #0090ec;
+    display: block;
+}
+.user img {
+    width: 60px;
+    border-radius: 30px;
+    margin-left: 26px;
+    margin-right: 17px;
+}
+.user .user_info h4 {
+    color: #fff;
+    font-size: 16px;
+}
+.user .user_info span {
+    color: #fff;
+    font-size: 15px;
+}
+.user .user_info span i {
+    color: #fff;
+    font-size: 15px;
+}
+ul.mui-table-view {
+    margin-top: 10px;
+}
+.mui-table-view:before,
+.mui-table-view:after {
+    background-color: #fff;
+}
+.mui-table-view-cell>a:not(.mui-btn) {
+    height: 47px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #646464;
+}
+.mui-table-view-cell>a>img {
+    width: 22px;
+}
+.mui-btn {
+    display: block;
+    margin-top: 42px;
+    height: 40px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 23px;
+    letter-spacing: 5px;
+    background-color: #0090ec;
+    color: #fff;
+}

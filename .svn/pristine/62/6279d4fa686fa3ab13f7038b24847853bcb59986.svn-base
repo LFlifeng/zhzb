@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>个人中心----产品展示</title>
+  <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+  <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/footer.css">
+  <link rel="stylesheet" href="../../css/personal.css">
+  <link rel="stylesheet" href="../../css/p-productdisplay.css">
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="top">
+    
+  </div>
+  <!-- 主体部分 -->
+  <div class="main">
+    <div class="middle w clearfix">
+      <!-- 左侧 -->
+      <div class="left l">
+        <h4><a href="./p-basicInformation.html">基本信息</a></h4>
+        <!-- 手风琴效果 -->
+        <ul class="parentWrap">
+          <li class="menuGroup">
+            <span class="groupTitle"><a href="#">招标服务</a></span>
+            <div><a href="./p-trackInformation.html">跟踪信息</a></div>
+            <div><a href="./p-projectdesigned.html">项目专盯</a></div>
+            <!-- <div><a href="#">委托项目</a></div> -->
+          </li>
+          <li class="menuGroup">
+            <span class="groupTitle"><a href="#">供应商库</a></span>
+            <div><a href="./p-application.html">申请入驻</a></div>
+            <div><a href="./p-productdisplay.html">产品展示</a></div>
+          </li>
+          <li class="menuGroup">
+            <span class="groupTitle"><a href="#">发布信息</a></span>
+            <div><a href="./p-publishInformation.html">发布信息</a></div>
+            <div><a href="./p-mangerelease.html">管理发布</a></div>
+          </li>
+          <li class="menuGroup">
+            <span class="groupTitle"><a href="./p-collection.html">我的收藏</a></span>
+          </li>
+          <li class="menuGroup">
+            <span class="groupTitle"><a href="./p-history.html">浏览历史</a></span>
+          </li>
+        </ul>
+      </div>
+      <!-- 右侧 -->
+      <div class="right r">
+        <div class="t_right">
+          <form class="layui-form" action="">
+            <div class="business company">
+              <div class="t_top clearfix">
+                <h3 class="l">产品展示</h3>
+                <div class="l">(每个产品最多上传3张图片，单张大小5MB以内)</div>
+                <button class="r">+新建产品</button>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>序号</th>
+                      <th>产品名称</th>
+                      <th>产品描述</th>
+                      <th>添加图片</th>
+                      <th>修改</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>鼓风机</td>
+                      <td>电机、空气过滤器、鼓风机本体、空气室...</td>
+                      <td>
+                        <p style="display:none;"><a href="#">3</a>张</p>
+                        <button type="button" class="layui-btn layui-btn-danger" id="test7">上传</button>
+                        <span style="display:none;">已完成</span>
+                      </td>
+                      <td>
+                        <div class="edit">
+                          <button type="button" class="btn btn-sm btn-success">编辑</button>
+                          <button type="button" class="btn btn-sm btn-danger">删除</button>
+                        </div>
+                        <p style="display:none;">完成</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>鼓风机</td>
+                      <td>电机、空气过滤器、鼓风机本体、空气室...</td>
+                      <td>
+                        <p><a href="#">3</a>张</p>
+                        <button type="button" class="layui-btn layui-btn-danger" id="test7"
+                          style="display:none;">上传</button>
+                        <span style="display:none;">已完成</span>
+                      </td>
+                      <td>
+                        <div class="edit">
+                          <button type="button" class="btn btn-sm btn-success">编辑</button>
+                          <button type="button" class="btn btn-sm btn-danger">删除</button>
+                        </div>
+                        <p style="display:none;">完成</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>
+                        <input type="text" name="title" required lay-verify="required" placeholder="输入产品名称"
+                          autocomplete="off" class="layui-input">
+                      </td>
+                      <td>
+                        <textarea name="" required lay-verify="required" placeholder="请输入产品描述"
+                          class="layui-textarea"></textarea>
+                      </td>
+                      <td>
+                        <p style="display:none;"><a href="#">3</a>张</p>
+                        <button type="button" class="layui-btn layui-btn-danger" id="test7"
+                          style="display:none;">上传</button>
+                        <span>已完成</span>
+                      </td>
+                      <td>
+                        <div class="edit" style="display:none;">
+                          <button type="button" class="btn btn-sm btn-success">编辑</button>
+                          <button type="button" class="btn btn-sm btn-danger">删除</button>
+                        </div>
+                        <p>完成</p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+
+  </div>
+  <script src="../../js/jquery-3.3.1.min.js"></script>
+  <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+  <script src="../../js/common.js"></script>
+  <script>
+
+    //入口函数
+    $(function () {
+      // 引入公共底部
+      $.get('../../slide/footer.html', function (result) {
+        $result = $(result);
+        $result.find('.footer_content').appendTo('.footer');
+      }, 'html');
+      $('.top').load('./p-top.html');
+      // 手风琴导航
+      $('.parentWrap>.menuGroup:nth-child(2)>.groupTitle').css({
+        "background-color": "#e8f5fc",
+        "color": "#0090ec",
+        "border-left": "4px solid #0090ec"
+      });
+      $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+        $(this).css({
+          "background-color": "#e8f5fc",
+          "color": "#0090ec",
+          "border-left": "4px solid #0090ec"
+        });
+        $(this).siblings().show();
+        $(this).parent().siblings().children('div').hide();
+        $(this).parent().siblings().children('span').css({
+          "background-color": "",
+          "color": "",
+          "border-left": ""
+        });
+      });
+      // 上传附件
+      layui.use('upload', function () {
+        var $ = layui.jquery, upload = layui.upload;
+        //设定文件大小限制
+        upload.render({
+          elem: '#test7'
+          , url: '/upload/'
+          , size: 5120 //限制文件大小，单位 KB
+          , done: function (res) {
+            console.log(res)
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
