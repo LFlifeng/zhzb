@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----付费指导</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-payment.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <!-- 手风琴效果 -->
+                <ul class="layui-nav layui-nav-tree layui-inline" lay-filter="demo" style="margin-right: 10px;">
+                    <li class="layui-nav-item"><a href="./p-membership.html">服务标准</a></li>
+                    <li class="layui-nav-item"><a href="./p-server.html">会员服务</a></li>
+                    <li class="layui-nav-item"><a href="./p-payment.html">付费指导</a></li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right">
+                    <div class="title">付费指导</div>
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">对公账号:</label>
+                            <input type="text" name="tel" lay-verify="tel" autocomplete="off" placeholder="银行电汇汇款方式"
+                                class="layui-input" readonly>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">账户名称:</label>
+                            <input type="text" name="title" lay-verify="title" autocomplete="off"
+                                placeholder="中汇恒升（北京）信息咨询有限公司" class="layui-input" readonly>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">银行账户:</label>
+                            <input type="text" name="title" lay-verify="title" autocomplete="off"
+                                placeholder="321030100101505944" class="layui-input" readonly>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">开户银行:</label>
+                            <input type="text" name="title" lay-verify="title" autocomplete="off"
+                                placeholder="兴业银行北京分行朝外支行" class="layui-input" readonly>
+                        </div>
+                    </form>
+                    
+                    <div class="title">客服电话</div>
+                    <form class="layui-form" action="">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">客服电话:</label>
+                            <input type="text" name="tel" lay-verify="tel" autocomplete="off" placeholder="010-58566666"
+                                class="layui-input" readonly>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">邮箱地址:</label>
+                            <input type="text" name="email" lay-verify="email" autocomplete="off"
+                                placeholder="zhonghuizb@126.com" class="layui-input" readonly>
+                        </div>
+                    </form>
+                    <div class="title">特别提示</div>
+                    <div class="word">
+                        <p>1、通过线下转账请您务必完整填写我公司名称、开户行和账户等信息，请不要随意删减信息内容，以免造成退汇、错汇而耽误您的信息服务。</p>
+                        <p>2、完成会员服务费支付，若需提供发票，请您通过客服专员或网站平台申请发票，我们将需要提供发票抬头等信息用于发票开具。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="../../js/common.js"></script>
+    <script>
+
+        //入口函数
+        $(function () {
+            // 引入公共底部
+            $('.footer').load('../../slide/footer.html');
+            $('.top').load('./p-top.html');
+            // 手风琴导航
+            $('.parentWrap>.menuGroup:nth-child(3)>.groupTitle').css({
+                "background-color": "#e8f5fc",
+                "color": "#ba3f44",
+                "border-left": "4px solid #ba3f44"
+            });
+            $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+                $(this).css({
+                    "background-color": "#e8f5fc",
+                    "color": "#ba3f44",
+                    "border-left": "4px solid #ba3f44"
+                });
+                $(this).siblings().show();
+                $(this).parent().siblings().children('div').hide();
+                $(this).parent().siblings().children('span').css({
+                    "background-color": "",
+                    "color": "",
+                    "border-left": ""
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

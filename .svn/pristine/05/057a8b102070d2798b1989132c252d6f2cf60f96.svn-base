@@ -1,0 +1,57 @@
+.layui-form-item .title {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#636363;
+}
+.layui-form-item .layui-form-label {
+    width: 114px;
+    text-align: left;
+}
+.layui-form-item .l .layui-input {
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+    display: inline-block;
+}
+.layui-form-item .email .layui-input {
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    vertical-align: middle;
+    display: inline-block;
+}
+.layui-form-item .license {
+    height: 60px;
+}
+.layui-form-item .picture {
+    margin-left: 145px;
+}
+.layui-form-item .picture img {
+    border-radius: 8px;
+}
+.layui-form-item .picture .photo {
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+.layui-form-item .picture .photo img {
+    width: 104px;
+}
+.layui-form-item .picture p {
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.layui-form-item button {
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ba3f44;
+}

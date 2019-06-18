@@ -1,0 +1,166 @@
+/* 顶部 */
+.top {
+    height: 80px;
+    background-color: #fff;
+}
+/* logo */
+.top .logo img{
+    height: 50px;
+    margin: 20px -10px;
+}
+/* <!-- 导航部分 --> */
+.top .nav {
+    margin-left: 40px;
+}
+.top .nav li {
+    height: 80px;
+    margin: 0 10px;
+}
+.top .nav li a {
+    display: block;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #646464;
+    cursor: pointer;
+}
+.top .nav li:first-child a {
+    border-bottom: 4px solid #ba3f44;
+}
+.top .nav li a:hover {
+    border-bottom: 4px solid #ba3f44;
+}
+/* <!-- 个人中心部分 --> */
+.top .personal .detail {
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.top .personal .detail div {
+    margin-right: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.top .personal .detail div:nth-child(3) img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.top .personal .detail div:nth-child(3) span {
+    margin-left: 8px;
+}
+.top .personal .detail div:nth-child(3) i {
+    font-size: 20px;
+}
+.top .personal .detail div:nth-child(1),
+.top .personal .detail div:nth-child(2) {
+    position: relative;
+}
+.top .personal .detail div:nth-child(1) div,
+.top .personal .detail div:nth-child(2) div {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ddaa3e;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: -25px;
+} 
+/* 下拉菜单部分 */
+.detail .ul {
+    display: none;
+    position: absolute;
+    bottom: -90px;
+    right: 48px;
+    width: 158px;
+    background-color: #fff;
+    box-shadow: #c8c8c8 0 0 10px;
+    z-index: 60;
+}
+.detail .ul a {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+/* 主体部分 */
+.main {
+    background-color: #f0f0f0;
+}
+.middle {
+    padding-top: 20px;
+}
+/* 左侧 */
+.middle .left {
+    width: 200px;
+    background-color: #fff;
+}
+.middle h4 a {
+    display: block;
+    margin-top: 5px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ba3f44;
+}
+/* 手风琴效果 */
+.parentWrap {
+    width: 200px;
+    text-align: center;
+  }
+  .menuGroup {
+      margin-top: 10px;
+  }
+  .groupTitle {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .groupTitle a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .menuGroup>div {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    display: none;
+    cursor: pointer;
+  }
+  .menuGroup div:nth-child(2),.menuGroup>div:nth-child(3) {
+      margin-bottom: 1px;
+  }
+/* 右侧 */
+.middle .right {
+    width: 980px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.middle .right .t_right {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fff;
+}

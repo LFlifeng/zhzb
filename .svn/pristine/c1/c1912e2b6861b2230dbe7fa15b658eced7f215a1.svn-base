@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----发票列表</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-invoicelists.css">
+</head>
+
+<body>
+    <div class="xiangqing">
+        <form class="layui-form clearfix" action="">
+            <div class="l" style="margin-left:30px;">
+                <div class="layui-form-item">
+                    <div class="title">开票信息</div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">发票抬头</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off"
+                        placeholder="xxxxxxxxxxxxxxxxxxx" class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">发票类型</label>
+                    <input type="radio" name="name" value="" title="企业增值税普通发票">
+                    <input type="radio" name="name" value="" title="增值税专用发票" checked readonly>
+                </div>
+                <div class="layui-form-item">
+                    <div class="clearfix">
+                        <label class="layui-form-label">税务登记证号</label>
+                        <input type="text" name="title" lay-verify="title" autocomplete="off"
+                            placeholder="xxxxxxxxxxxxxxxxxxxxx" class="layui-input" disabled>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">开户行名称</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxxxxxxxxxxxxxx"
+                        class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">开户行账号</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off"
+                        placeholder="xxxxxxxxxxxxxxxxxxxx" class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">注册场所地址</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off"
+                        placeholder="xxxxxxxxxxxxxxxxx" class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">注册固定电话</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off"
+                        placeholder="xxxxxxxxxxxxxxxxx" class="layui-input" disabled>
+                </div>
+            </div>
+            <div class="r" style="margin-right: 40px;">
+                <div class="layui-form-item">
+                    <div class="title">收票信息</div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">取票人</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxx"
+                        class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">取票人电话</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxxxxxxx"
+                        class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">收取发票地址</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxxxxxxxxxxxx"
+                        class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <div class="title" style="margin-top: 36px">快递信息</div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">快递名字</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxxxxxxxxxxxx"
+                        class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">快递编号</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxxxxxxxxxxxx"
+                        class="layui-input" disabled>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">发货时间</label>
+                    <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="xxxxxxxxxxxxxx"
+                        class="layui-input" disabled>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

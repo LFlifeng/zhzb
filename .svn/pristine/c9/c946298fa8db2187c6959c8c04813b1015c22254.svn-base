@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心----服务标准</title>
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../js/layui-v2.4.5/layui/css/layui.css">
+    <link rel="stylesheet" href="../../js/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/personal.css">
+    <link rel="stylesheet" href="../../css/p-server.css">
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+
+    </div>
+    <!-- 主体部分 -->
+    <div class="main">
+        <div class="middle w clearfix">
+            <!-- 左侧 -->
+            <div class="left l">
+                <ul class="layui-nav layui-nav-tree layui-inline" lay-filter="demo" style="margin-right: 10px;">
+                    <li class="layui-nav-item"><a href="./p-membership.html">服务标准</a></li>
+                    <li class="layui-nav-item"><a href="./p-server.html">会员服务</a></li>
+                    <li class="layui-nav-item"><a href="./p-payment.html">付费指导</a></li>
+                </ul>
+            </div>
+            <!-- 右侧 -->
+            <div class="right r">
+                <div class="t_right clearfix">
+                    <dl class="l">
+                        <dt>基本信息</dt>
+                        <dd>登陆账号：&nbsp; 15810362156</dd>
+                        <dd>企业名称：&nbsp;北京中汇恒升互联网服务有限公司</dd>
+                        <dd>企业类型：&nbsp;供应商</dd>
+                    </dl>
+                    <dl class="l">
+                        <dt>服务信息</dt>
+                        <dd>会员等级：&nbsp; 免费会员<a href="#"><img src="../../img/user_usicon.jpg" alt=""></a></dd>
+                        <dd>权限地区：&nbsp;全国</dd>
+                    </dl>
+                    <dl class="l">
+                        <dt>专属客服</dt>
+                        <dd>专属客服：&nbsp; 张三</dd>
+                        <dd>联系方式：&nbsp; 15810362156</dd>
+                        <dd>客服邮箱：&nbsp;hdasdijdksa@126.com</dd>
+
+                    </dl>
+                </div>
+            </div>
+            <div class="right r">
+                <div class="t_right">
+                    <h3>会员服务</h3>
+                    <div class="members clearfix">
+                        <!-- 普通会员 -->
+                        <div class="ordinary l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/1user_zbxx.png" alt="">
+                                        招标信息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/2user_zbgz.png" alt="">
+                                        招标追踪
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/3user_ydd.png" alt="">
+                                        移动客户端
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/4user_yjdy.png" alt="">
+                                        邮件订阅
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="money">
+                                <div class="m_money">
+                                    <span>￥</span>
+                                    <span>5800</span>
+                                    <span>元/年</span>
+                                </div>
+                                <div class="buy"><a href="#"><img src="../../img/wechat.png" alt=""> 微信支付</a></div>
+                                <div class="buy"><a href="#"><img src="../../img/ali.png" alt=""> 支付宝支付</a></div>
+                            </div>
+                            <div>普通会员</div>
+                        </div>
+                        <!-- 高级会员 -->
+                        <div class="senior l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/5user_jxxx.png" alt="">
+                                        精选项目
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/6user_xmzz.png" alt="">
+                                        项目追踪
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/7user_nzjxm.png" alt="">
+                                        拟在建项目
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/8user_xmzd.png" alt="">
+                                        项目专盯
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/9user_yxgys.png" alt="">
+                                        优秀供应商认证
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="money">
+                                <div class="m_money">
+                                    <span>￥</span>
+                                    <span>15800</span>
+                                    <span>元/年</span>
+                                </div>
+                                <div class="buy"><a href="#"><img src="../../img/ali.png" alt=""> 支付宝支付</a></div>
+                                <div class="buy" style="border:none;background-color: #ba3f44;"><a href="#" style="color:#fff"> 银行支付</a></div>
+                            </div>
+                            <div>高级会员</div>
+                        </div>
+                        <!-- VIP会员 -->
+                        <div class="vip l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/10user_vip.png" alt="">
+                                        VIP独家项目
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/11user_yzwt.png" alt="">
+                                        业主委托项目
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/12user_xyztj.png" alt="">
+                                        向业主推荐
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/13user_yxxmsx.png" alt="">
+                                        优秀项目筛选
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="money" id="money">
+                                <div class="m_money">
+                                    <span>￥</span>
+                                    <span>25800</span>
+                                    <span>元/年</span>
+                                </div>
+                                <div class="buy" style="border:none;background-color: #ba3f44;"><a href="#" style="color:#fff"> 银行支付</a></div>
+                            </div>
+                            <div>VIP会员</div>
+                        </div>
+                        <!-- 钻石会员 -->
+                        <div class="diamond l">
+                            <p>招标中心</p>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/14user_qyjz.png" alt="">
+                                        向业主唯一推荐
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/15user_xyzwytj.png" alt="">
+                                        企业建站
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/16user_hybg.png" alt="">
+                                        行业报告
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../../img/17user_jprz.png" alt="">
+                                        金牌认证
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="money" id="money">
+                                <div class="m_money">
+                                    <span>￥</span>
+                                    <span>35800</span>
+                                    <span>元/年</span>
+                                </div>
+                                <div class="buy" style="border:none;background-color: #ba3f44;"><a href="#" style="color:#fff"> 银行支付</a></div>
+                            </div>
+                            <div>钻石会员</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right r">
+                <div class="Qrcode clearfix">
+                    <img src="../../img/code.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+
+    </div>
+    <script src="../../js/jquery-3.3.1.min.js"></script>
+    <script src="../../js/layui-v2.4.5/layui/layui.all.js" charset="utf-8"></script>
+    <script src="../../js/wangEditor-3.1.1/wangEditor-3.1.1/release/wangEditor.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <script>
+
+        //入口函数
+        $(function () {
+            // 引入公共底部
+            $('.footer').load('../../slide/footer.html');
+            $('.top').load('./p-top.html');
+            // 手风琴导航
+            $('.parentWrap>.menuGroup:nth-child(2)>.groupTitle').css({
+                "background-color": "#e8f5fc",
+                "color": "#ba3f44",
+                "border-left": "4px solid #ba3f44"
+            });
+            $('.parentWrap>.menuGroup>.groupTitle').click(function () {
+                $(this).css({
+                    "background-color": "#e8f5fc",
+                    "color": "#ba3f44",
+                    "border-left": "4px solid #ba3f44"
+                });
+                $(this).siblings().show();
+                $(this).parent().siblings().children('div').hide();
+                $(this).parent().siblings().children('span').css({
+                    "background-color": "",
+                    "color": "",
+                    "border-left": ""
+                });
+            });
+        });
+        //弹出层（失败）
+        // $('.buy').on('click', function () {
+        //     layer.open({
+        //         type: 1,
+        //         title: [''],
+        //         area: '600px',
+        //         shade: 0.2,
+        //         id: 'layui',
+        //         anim: 2,
+        //         resize: false,
+        //         content: `<div class="clearfix">
+        //         <img style="margin-top:20px; margin-left:40px;" src='../../img/incomplete.png' class="l">
+        //         <div class="l" style="margin-left: 20px;">
+        //             <div class="succ">支付未完成</div>
+        //             <ul class="s_succ">
+        //                 <li>请查询卡内余额或选择其他支付方式</li>
+        //                 <li>订 单 号: <i style="color: #000">2121212121215154</i></li>
+        //                 <li>联系客服：<i style="color: #000">010-57287075</i></li>
+        //             </ul>
+        //             <div class="clearfix t_succ">
+        //                 <div class="l"><a href="">查看订单</a></div>
+        //                 <div class="r"><a href="">其他支付方式</a></div>
+        //             </div>
+        //         </div>
+        //     </div>`,
+        //     })
+        // })
+        //弹出层（成功）
+        $('.buy').on('click', function () {
+            layer.open({
+                type: 1,
+                title: [''],
+                area: '600px',
+                shade: 0.2,
+                id: 'layui',
+                anim: 2,
+                resize: false,
+                content: `<div class="clearfix">
+                <img style="margin-top:20px; margin-left:40px;" src='../../img/gou.png' class="l">
+                <div class="l" style="margin-left: 20px;">
+                    <div class="succ">支付完成</div>
+                    <ul class="s_succ">
+                        <li>您已成功支付<i style="color: #ba3f44;">15800</i>元，订单处理中，成功后会自动开通服务。</li>
+                        <li>交易时间：<i style="color: #000">2019年05月21日 14:21</i></li>
+                        <li>订 单 号: <i style="color: #000">2121212121215154</i></li>
+                    </ul>
+                    <div class="clearfix t_succ">
+                        <div class="l"><a href="">查看订单</a></div>
+                        <div class="r"><a href="">返回首页</a></div>
+                    </div>
+                </div>
+            </div>`,
+            })
+        })
+    </script>
+</body>
+
+</html>

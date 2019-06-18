@@ -1,0 +1,166 @@
+.top .nav li:first-child a {
+    border:none;
+}
+.top .nav li:nth-child(3) a {
+    border-bottom: 4px solid #ba3f44;
+}
+/* 左侧 */
+.parentWrap .menuGroup>div {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #fafafa;
+    display: block;
+    cursor: pointer;
+}
+.parentWrap .menuGroup>div:nth-child(2)>a {
+   color: #ba3f44;
+}
+/* 顶部 */
+.t_right dl {
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.t_right dl dt {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.t_right dl dd {
+    margin-bottom: 10px;
+}
+.t_right dl:nth-child(2) dd:nth-child(2) a{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+}
+/* 中间 */
+.t_right h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.members .l {
+    height: 330px;
+    margin-top: 50px;
+    margin-right: 28px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+}
+.members p {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #787878;
+    border-bottom: 1px solid #ccc;
+}
+.members li {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 50px; 
+    font-size: 18px;
+}
+.members li i {
+    margin-right: 5px;
+}
+.members .money {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.members .money span:nth-child(1),
+.members .money span:nth-child(2) {
+    color: red;
+}
+.members .money span:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+}
+.members>div {
+    position: relative;
+}
+.members>div .money {
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+}
+.money .m_money {
+    margin-left: 44px;
+}
+.members .buy {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid red;
+    margin-left: 58px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.members>div>div:last-child {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #deb57d;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    left: 40px;
+    top: -28px;
+}
+.members>div:nth-child(2)>div:last-child {
+    background-color: #fbb62d;
+}
+.members>div:nth-child(3)>div:last-child {
+    background-color: #f88e24;
+}
+.members>div:nth-child(4)>div:last-child {
+    background-color: #e03f30;
+}
+/* 底部 */
+.Qrcode div:nth-child(2),
+.Qrcode div:nth-child(3) {
+    margin-right: 40px;
+}
+
+/* //支付成功弹出框 */
+.succ {
+    color:#000;
+    font-size:18px;
+    margin-top: 35px;
+}
+.s_succ {
+    margin-top: 20px;
+}
+.s_succ li {
+    width:400px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px #d1d1d1 dotted;
+}
+.s_succ li:last-child {
+    border: none;
+}
+.t_succ {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.t_succ div {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px #d1d1d1 solid;
+}
