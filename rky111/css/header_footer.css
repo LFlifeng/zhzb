@@ -1,0 +1,81 @@
+/* 头部 */
+.top {
+    width: 100%;
+}
+/* .navbar {
+    background-color: transparent !important;
+} */
+/*  */
+.navbar-nav {
+    margin: 0 !important;
+}
+.navbar-nav .nav-item {
+    line-height: 90px;
+    float: left;
+}
+.navbar-nav .nav-item .nav-link {
+    display: inline-block;
+    width: 156px;
+    height: 100%;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: antiquewhite;
+}
+.navbar-nav .nav-item .nav-link.t_phone {
+    width: 180px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.t_phone img {
+    width: 24px;
+}
+/* 底部 */
+.footer {
+    width: 100%;
+    height: 356px;
+    background-color: #2c2f2f;
+}
+.rky,
+.f_xinxi {
+    margin-top: 80px;
+}
+.rky {
+    width: 30%;
+}
+.rky .tip {
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.l_tip .tip img {
+    width: 40px;
+    height: 40px;
+}
+.l_tip .l_phone {
+    margin-top: 40px;
+    margin-left: 60px;
+    color: #fff;
+    font-size: 30px;
+}
+.f_xinxi {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.f_xinxi dt {
+    color: #fff;
+    font-size: 20px;
+}
+.f_xinxi dd {
+    color: #787878;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.f_xinxi dd:hover {
+    color: antiquewhite;
+}

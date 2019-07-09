@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>中汇招标----跟踪器</title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="res/mui/css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="res/mui/css/mui.picker.css">
+    <link rel="stylesheet" href="res/mui/css/mui.poppicker.css">
+    <link rel="stylesheet" href="res/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/tracker.css">
+</head>
+
+<body>
+    <div class="zh_layout">
+        <header class="zh_topBar mui-bar mui-bar-nav ">
+            <a href="javascript:history.back()" class="l"><img src="img/back.png" alt=""></a>
+            <span>添加跟踪器</span>
+            <a href="#" class="r save">保存</a>
+        </header>
+        <div class="zh_container">
+            <div class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <div class="zh_content">
+                        <ul class="mui-table-view alone">
+                            <p>跟踪器名称</p>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <div class="w_word l" id="word">北京医疗器械设备</div>
+                                <div class="edit r">编辑</div>
+                            </li>
+                        </ul>
+                        <ul class="mui-table-view">
+                            <div class="clearfix">
+                                <p class="l">关键词设置（最多6组）</p>
+                            </div>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <input class="word l" value="关键词一"></input>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <input class="word l" value="关键词二"></input>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <input class="word l" value="关键词三"></input>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <input class="word l" value="关键词四"></input>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <input class="word l" value="关键词五"></input>
+                            </li>
+                            <li class="mui-table-view-cell keys clearfix">
+                                <input class="word l" value="关键词六"></input>
+                            </li>
+                        </ul>
+                        <ul class="mui-table-view add">
+                            <div class="clearfix">
+                                <p class="l">选择地区</p>
+                                <div class="r addA">+添加</div>
+                            </div>
+                            <li class="mui-table-view-cell clearfix address">
+                                <div class="ad l">北京</div>
+                                <button class="del r">删除</button>
+                            </li>
+                            <li class="mui-table-view-cell clearfix address">
+                                <div class="ad l">江苏</div>
+                                <button class="del r">删除</button>
+                            </li>
+                        </ul>
+                        <ul class="mui-table-view">
+                            <div class="clearfix">
+                                <p class="l">信息类型</p>
+                            </div>
+                            <div class="type">
+                                <p class="active">招标公告</p>
+                                <p>招标预告</p>
+                                <p>中标公告</p>
+                            </div>
+                            <div class="type">
+                                <p>变更公告</p>
+                                <p>拟在建项目</p>
+                                <p>VIP项目</p>
+                            </div>
+                        </ul>
+                        <ul class="mui-table-view">
+                            <div class="clearfix">
+                                <p class="l">订阅方式</p>
+                            </div>
+                            <div class="type">
+                                <p class="active">邮件订阅</p>
+                                <p>短信订阅</p>
+                                <p>公众号</p>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="res/mui/js/mui.min.js"></script>
+        <script src="res/mui/js/mui.picker.js"></script>
+        <script src="res/mui/js/mui.poppicker.js"></script>
+        <script src="js/common.js"></script>
+        <script type="text/javascript">
+            //添加地区
+            $('.addA').on('tap', function () {
+                var picker = new mui.PopPicker();
+                picker.setData([
+                    { value: 'zz', text: '智子' },
+                    { value: 'll', text: 'lele' },
+                ]);
+                picker.show(function (selectItems) {
+                    $('.add').append("<li class='mui-table-view-cell clearfix address'>"
+                        + "<div class='ad l'>" + selectItems[0].text + "</div>"
+                        + "<button class='del r'>" + "删除" + "</button>"
+                        + "</li>");
+                });
+            });
+            // 保存功能
+            $('.save').on('tap', function () {
+                if ($('#word').text() != '') {
+                    mui.toast('保存成功');
+                } else {
+                    mui.toast('跟踪器名称是必填项！请填写');
+                }
+            });
+            //删除功能 
+            $('.address').delegate('.del', 'click', function (event) {
+                var event = $(this);
+                mui.confirm('忍心删除？', ' 温馨提示', ['否', '是'], function (e) {
+                    if (e.index == 1) {
+                        event.parent('li').remove();
+                        mui.toast('删除成功');
+                    } else {
+                        mui.toast('删除失败');
+                    }
+                });
+            });
+            //编辑功能 
+            $('.keys').on('tap', '.edit', function (evevt) {
+                var word = $(this).parent().children('.word');
+                mui.prompt(' ', ' ', '编辑', ['取消', '确定'], function (e) {
+                    if (e.index == 1) {
+                        word.text(e.value);
+                        mui.toast('编辑成功');
+                    } else {
+                        mui.toast('编辑失败');
+                    }
+                })
+            });
+            mui.init();
+        </script>
+</body>
+
+</html>

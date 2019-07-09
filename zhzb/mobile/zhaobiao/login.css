@@ -1,0 +1,51 @@
+.zh_layout {
+    width: 100%;
+    height: 100%;
+    background: url('./img/jf_bg.jpg') no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+.zh_layout .zh_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 52%;
+    margin-left: 20%;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+.zh_layout .zh_container .img img {
+    width: 218px;
+    height: 55px;
+}
+.zh_layout .zh_container .i_code {
+    margin-top: 43px;
+}
+.zh_layout .zh_container .i_code .i_text {
+    color: #a6a6a6;
+    font: 16px '黑体';
+}
+.zh_layout .zh_container .i_code .i_input {
+    width: 220px;
+    height: 36px;
+    color: #fff;
+    background-color: #187fc3;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border-width: 0;
+    margin-top: 6px;
+}
+.zh_layout .zh_container .i_code .affirm {
+    width: 220px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    background-color: #187fc3;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border-width: 0;
+    margin-top: 6px;
+}

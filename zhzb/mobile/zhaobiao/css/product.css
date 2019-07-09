@@ -1,0 +1,82 @@
+body {
+    background-color: #fff;
+}
+
+.zh_topBar {
+    background-color: #fff;
+}
+
+.zh_topBar a {
+    color: #ba3f44;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.zh_topBar img {
+    width: 15px;
+}
+
+.zh_topBar span {
+    color: #505050;
+    font-size: 17px;
+}
+
+.mui-bar-nav.mui-bar .mui-icon {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+/*  */
+
+.mui-scroll {
+    width: auto;
+}
+
+.zh_content .table {
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    text-align: center;
+    border: 1px solid #d5d5d5;
+}
+
+.table th span {
+    display: inline-block;
+    width: 80px;
+}
+
+.table td img {
+    width: 16px;
+}
+
+.table td span {
+    display: inline-block;
+    width: 400px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.table th {
+    font-size: 14px;
+    background-color: #ededed;
+    font-weight: 400;
+    color: #7a7a7a;
+    text-align: center;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.table tr td:first-child {
+    font-weight: 700;
+}

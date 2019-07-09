@@ -1,0 +1,36 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.zh_topBar {
+    
+    font-size: 17px;
+    background-color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+.zh_topBar span {
+    font-size: 17px;
+    color: #505050;
+}
+.zh_topBar a {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.zh_topBar i {
+    display: inline-block;
+    font-size: 30px;
+    color: #eb6869;
+}
+.mui-table-view {
+    margin-top: 45px;
+}
+.trackerTitle {
+    color: #000;
+    font-size: 17px;
+}
+.trackerContent {
+    margin-top: 10px;
+}
+.trackerContent span {
+    font-size: 15px;
+}

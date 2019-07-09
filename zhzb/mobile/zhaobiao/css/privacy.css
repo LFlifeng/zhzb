@@ -1,0 +1,40 @@
+body {
+    background-color: #f7f7f7;
+}
+/* 头部 */
+.zh_topBar {
+    background-color: #0090ec;
+}
+.zh_topBar a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.zh_topBar span {
+    color: #fff;
+    margin-left: -40px;
+    font-size: 16px;
+}
+.about_content {
+    width: 1200px;
+}
+
+.about_content_arc {
+    padding: 50px 10px;
+    padding-bottom: 0;
+}
+
+.about_content_arc span {
+    display: inline-block;
+    margin: 10px 0;
+    color: #ba3f44;
+    font-weight: 700;
+}
+.about_content_arc.active {
+    display: block;
+}
+.about_content p {
+    line-height: 34px;
+    color: #323232;
+}

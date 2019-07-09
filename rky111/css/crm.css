@@ -1,0 +1,139 @@
+/* 头部导航部分 */
+.top {
+    height: 460px;
+    background: url(../img/crm/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.crm_content {
+    width: 540px;
+    margin-top: 130px;
+}
+.crm_content .c_title {
+    color: #fff;
+    font-size: 40px;
+}
+.crm_content .c_content {
+    margin-top: 30px;
+    color: #787878;
+    line-height: 30px;
+}
+/* 客户管理系统 */
+.indu_solution {
+    margin-top: 80px;
+}
+.indu_solution h1,
+.indu_solution .s_title {
+    text-align: center;
+}
+.indu_solution .s_title {
+    color: #787878;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.plate {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plate .s_plate {
+    width: 220px;
+    height: 320px;
+    padding: 0 30px;
+    
+}
+.plate .s_plate .img {
+    text-align: center;
+}
+.plate .s_plate h4 {
+    margin-top: 40px;
+    color: #303030;
+    font-weight: 400;
+    text-align: center;
+}
+.plate .s_plate p {
+    margin-top: 10px;
+    color: #787878;
+    text-align: center;
+    line-height: 30px;
+}
+.indu_solution .c_free {
+    margin: 50px auto 50px;
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #fff;
+    background-image: linear-gradient(
+        to right,#6b9bfd 20%,#2a63e1 80%
+    );
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+/* 销售自定义 */
+.company_resource {
+    margin-top: 80px;
+}
+.company_resource .container {
+    text-align: center;
+}
+.company_resource .s_title {
+    color: #787878;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.company_resource .c_title {
+    font-size: 40px;
+}
+.company_resource .c_img {
+    margin-top: 50px;
+}
+.c_text .t_word {
+    width: 550px;
+    height: 120px;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: #e6efff;
+    text-align: left;
+}
+.c_text .t_word .w_title,
+.c_text .t_word .w_text {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.c_text .t_word .w_title {
+    font-size: 18px;
+}
+.c_text .t_word .w_text {
+    color: #787878;
+}
+/* 免费注册 */
+.free_regist {
+    width: 100%;
+    height: 130px;
+    margin-top: 160px;
+    padding-top: 50px;
+    text-align: center;
+    background: url(../img/crm/crmd1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.t_input input,
+.t_input span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+.t_input input {
+    width: 360px;
+    padding-left: 20px;
+    color: #787878;
+    border: none;
+}
+.t_input span {
+    width: 50px;
+    background-color: #303030;
+    color: #fff;
+    cursor: pointer;
+}
